@@ -1,5 +1,5 @@
 ---
-data: 2026-07-14
+data: 2026-08-01
 tipo: referência viva
 projeto: Portal SAC360 (afs-lake)
 fonte de verdade: MotorAnalitico/definicoes.py
@@ -94,6 +94,13 @@ As áreas 21/22/26 do razão são **despesas reais** (valuation Swiss Steel, fei
 
 ## WACC (16/07/2026 — decisão Gustavo)
 Build-up simplificado (praxe p/ empresa fechada): **Ke = SELIC 14,25% + spread 5,0% = 19,25% a.a.**; Kd = juros observados no DUO ×(1−34%); pesos do balanço mais recente → **WACC ≈ 18,7%**. ROIC anualizado 30,4% ⇒ spread **+11,7pp**. ⚠ Para valuation externo é **PISO de range** (sem prêmio de tamanho/iliquidez). Componentes em `definicoes.py`; balanços patrimoniais MENSAIS em `01_Brutos/BalancoPatrimonial/`.
+
+## Perfil e acabamento SEMPRE por extenso (27/07/2026 — regra FECHADA)
+O Softcomp manda a MESMA dimensão em duas grafias conforme a rota: export manual → nome ('Redondo'); views `BI.*` do SQL → código de 1 letra ('R'). Mapa canônico único em `definicoes.py::PERFIL_LABEL/ACABAMENTO_LABEL` + `perfil_por_extenso()`/`acabamento_por_extenso()`, consumido por pedidos e cotações:
+- **Perfil**: R=Redondo · A=Anel (NÃO 'Achatado') · T=Tubo · C=Chato (NÃO 'Chapa') · Q=Quadrado · S=Sextavado · D=Disco de Aço · L=Cantoneira (NÃO 'Lâmina') · P=Chapa
+- **Acabamento**: L=Laminado · F=Forjado · T=Trefilado · U=Usinado · D=Descascado · R=Retificado
+- Colunas do enriquecido: `perfil_legivel`/`acabamento_legivel`; as cruas `perfil`/`acabamento` guardam o que o Softcomp mandou — **nunca filtrar por elas**. Contrato no `make ci` reprova código de 1 letra nas 4 views.
+- ⚠ Pendente: em cotações o perfil ainda vem do cadastro de família (só Redondo) — ~8,9k linhas de Anel/Tubo/Chato aparecem 'Redondo'.
 
 ## Pricing — thresholds
 Stoplight %Preta por vendedor: atenção >12% · crítico >25% (R$ mínimo 50k). Piso Operacional de MC: 24%.
