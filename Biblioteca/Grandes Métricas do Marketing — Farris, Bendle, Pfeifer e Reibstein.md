@@ -7,7 +7,7 @@ ano: "2015 (3ª ed. inglesa; ano da edição portuguesa não confirmado)"
 lido_em: 2019 (destaques de 06/04, 07/04, 28/05 e 09/10/2019)
 nota: /5
 tema: [métricas, KPI, gestão por indicadores, margem, pricing, funil, estoque]
-destaques: "[[Destaques/Grandes Métricas do Marketing - Os principais indicadores que todo o gestor deve conhecer — David J. Reibstein (destaques)]]"
+destaques: "[[Biblioteca/Destaques/Grandes Métricas do Marketing - Os principais indicadores que todo o gestor deve conhecer — David J. Reibstein (destaques)]]"
 fonte: destaques+publico
 cobertura_da_fonte: "18 destaques, ~1.470 caracteres, MUITO concentrados. 15 estão no cap. 1 (Introdução), 1 no Prefácio, 1 no Prefácio sem texto capturado e 1 fragmento inútil ('um') no cap. 3. Os capítulos 2 e 4 em diante — o corpo do livro, onde vivem as ~100 métricas — não têm NENHUMA marcação. Ou seja: há leitura marcada da tese, zero leitura marcada do catálogo."
 fonte_do_framework: "Amostra oficial da Pearson (front matter completo + Capítulo 1 inteiro + sumário + Tabela 1.1 de métricas + pesquisa dos 194 gestores) da 2ª edição inglesa, lida na íntegra; complementada por busca sobre as diferenças entre 2ª, 3ª e 4ª edições. NÃO li os capítulos 2–12."
@@ -252,7 +252,7 @@ Também vale registrar: **dois dos 18 destaques não têm conteúdo aproveitáve
 
 ## Destaques que sustentam a síntese
 
-- [[Destaques/Grandes Métricas do Marketing - Os principais indicadores que todo o gestor deve conhecer — David J. Reibstein (destaques)]] — os 18 trechos (obra dos autores; não publicar, não sair do GSR)
+- [[Biblioteca/Destaques/Grandes Métricas do Marketing - Os principais indicadores que todo o gestor deve conhecer — David J. Reibstein (destaques)]] — os 18 trechos (obra dos autores; não publicar, não sair do GSR)
 
 Mapa de cobertura, capítulo a capítulo:
 

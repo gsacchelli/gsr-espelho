@@ -42,7 +42,7 @@ O export `DetalhesRAF.xlsx` do Softcomp tem **133 colunas**. Esta nota cataloga 
 | `ABCCLI_TIP` | Tipo de tabela (A/B/C) |
 | `ABCCLI_VND` | Vendedor responsável |
 
-**Atenção cidade:** aplicar override (ver [[01 Sistema de Dados/04 - Qualidade de Dados]]).
+**Atenção cidade:** aplicar override (ver [[Sistema Operacional Comercial/01 Sistema de Dados/04 - Qualidade de Dados]]).
 
 ---
 
@@ -221,5 +221,5 @@ Se falhar em qualquer item, **corrigir antes** de concluir análise.
 - [[04 - Margem Oculta (7 componentes)]]
 - [[05 - Custo Real vs Cobrado]]
 - [[08 - Consolidação por OS]]
-- [[01 Sistema de Dados/04 - Qualidade de Dados]]
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/04 - Qualidade de Dados]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]

@@ -68,6 +68,6 @@ Recebimento cliente
 ## Conexões
 
 - [[01 - Do Pedido ao RAF]]
-- [[05 Cotações/00 - Visão Geral Cotações]]
-- [[04 RAF/00 - Visão Geral RAF]]
-- [[07 Cruzamentos e Previsões/01 - Cotação x Pedido x RAF]]
+- [[Sistema Operacional Comercial/05 Cotações/00 - Visão Geral Cotações]]
+- [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]]
+- [[Sistema Operacional Comercial/07 Cruzamentos e Previsões/01 - Cotação x Pedido x RAF]]

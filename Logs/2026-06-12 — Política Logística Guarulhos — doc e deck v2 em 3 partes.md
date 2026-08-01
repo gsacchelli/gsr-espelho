@@ -42,5 +42,5 @@ Workbooks recalculados (openpyxl não cacheia fórmulas). Correções aplicadas 
 6. Brutos mensais (logistica janeiro–maio.xlsx) não foram migrados para `04_Logistica/` — necessários para a recalibração (item 1).
 
 ## Conexões
-- [[Metodologia de Custeio da Logistica]]
+- [[Sistema Operacional Comercial/04 RAF/11 - Metodologia de Custeio da Logística]]
 - [[Custo de Servir]]

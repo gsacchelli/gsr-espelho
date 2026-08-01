@@ -230,9 +230,9 @@ Dashboard automático que ninguém lê é pior que não ter dashboard.
 - [[00 - Arquitetura de Dados]]
 - [[03 - Ferramentas Analíticas - Inventário]]
 - [[05 - Padrões de Desenvolvimento]]
-- [[04 RAF/00 - Visão Geral RAF]]
-- [[05 Cotações/00 - Visão Geral Cotações]]
-- [[07 Cruzamentos e Previsões/00 - Visão Geral Cruzamentos]]
+- [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]]
+- [[Sistema Operacional Comercial/05 Cotações/00 - Visão Geral Cotações]]
+- [[Sistema Operacional Comercial/07 Cruzamentos e Previsões/00 - Visão Geral Cruzamentos]]
 
 ## Arquivo de arquitetura
 - `Motor_Analitico_v1_Arquitetura.md` (pasta raiz do projeto)

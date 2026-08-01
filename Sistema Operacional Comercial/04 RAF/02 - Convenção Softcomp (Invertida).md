@@ -161,7 +161,7 @@ Gustavo **não mexe na remuneração agora** (abr/2026 — fase de transição).
 - **Não** pagar sobre MC econômica direta (mudaria contrato psicológico)
 - **Sim** pagar sobre aderência à tabela + cobrança de serviços (proxies que movem MC econômica)
 
-Ver [[02 Precificação/07 - Tabelas e Alçadas]] para detalhes.
+Ver [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]] para detalhes.
 
 ---
 
@@ -180,5 +180,5 @@ Simulador precifica **a partir** do pricing com spreads incluídos (CF%, margem 
 - [[03 - MC Contábil vs Econômica]]
 - [[04 - Margem Oculta (7 componentes)]]
 - [[05 - Custo Real vs Cobrado]]
-- [[01 Sistema de Dados/04 - Qualidade de Dados]]
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/04 - Qualidade de Dados]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]

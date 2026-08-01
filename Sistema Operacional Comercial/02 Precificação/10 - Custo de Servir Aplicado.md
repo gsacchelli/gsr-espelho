@@ -252,6 +252,6 @@ Ceder sem condição destrói valor para todos. Give/Get é padrão de conversa,
 - [[04 - MC1 MC2 e DRE]]
 - [[08 - Simulador HTML - Arquitetura]]
 - [[12 - Modo Pacote Multi-Item]]
-- [[04 RAF/05 - Custo Real vs Cobrado]]
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/04 RAF/05 - Custo Real vs Cobrado]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]
 - Vault estratégico: [[Custo de Servir]], [[Cliente Ideal]]

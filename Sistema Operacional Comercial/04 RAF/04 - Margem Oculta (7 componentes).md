@@ -224,6 +224,6 @@ Clientes que compram **pacote completo** (aço + serviços) geram **maior valor 
 - [[03 - MC Contábil vs Econômica]]
 - [[05 - Custo Real vs Cobrado]]
 - [[10 - Margem MC PGA (Metas Anuais)]] — **fórmula oficial das metas anuais 2026** (subset desta nota: MC_Aço + FIN + COR + EXT + INT + CER; exclui REP e CML)
-- [[02 Precificação/01 - Fórmula do Lucro]]
-- [[02 Precificação/03 - Componentes de Custo]]
-- [[02 Precificação/10 - Custo de Servir Aplicado]]
+- [[Sistema Operacional Comercial/02 Precificação/01 - Fórmula do Lucro]]
+- [[Sistema Operacional Comercial/02 Precificação/03 - Componentes de Custo]]
+- [[Sistema Operacional Comercial/02 Precificação/10 - Custo de Servir Aplicado]]

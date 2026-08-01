@@ -1,3 +1,12 @@
+---
+data: {{AAAA-MM-DD}}
+tipo: decisão
+status: vigente
+# vocabulário FECHADO (01/08/2026): tipo ∈ {log, decisão, conceito, playbook, referência, livro, template}
+# status ∈ {vigente, supersedida, rascunho, arquivada} · se supersedida: substituida_por: "[[nota]]"
+# ao criar log novo: adicionar 1 linha no [[Logs/00 - Índice de Decisões]]
+---
+
 # Decisão: {{Título}}
 
 ## Contexto

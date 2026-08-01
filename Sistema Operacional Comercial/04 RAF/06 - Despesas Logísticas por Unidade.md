@@ -187,9 +187,9 @@ Estudo feito pré-pandemia, **engavetado** — pode voltar à mesa em discussão
 - [[11 - Metodologia de Custeio da Logística]]
 - [[00 - Visão Geral RAF]]
 - [[05 - Custo Real vs Cobrado]]
-- [[02 Precificação/03 - Componentes de Custo]]
-- [[02 Precificação/07 - Tabelas e Alçadas]]
-- [[03 Estoque/00 - Visão Geral Estoque]]
+- [[Sistema Operacional Comercial/02 Precificação/03 - Componentes de Custo]]
+- [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]]
+- [[Sistema Operacional Comercial/03 Estoque/00 - Visão Geral Estoque]]
 
 ## Memórias relacionadas
 - `project_afs_estrutura_logistica`

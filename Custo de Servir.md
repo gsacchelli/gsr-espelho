@@ -136,3 +136,14 @@ Quando ele muda de área, muda de tratamento: de **resultado observado** vira **
 - [[Playbook - Diagnóstico Comercial]]
 - [[Unit Economics]]
 - [[Finanças Corporativas]]
+
+## Aplicado na AFS
+
+Notas operacionais que usam este conceito (costura conceito↔aplicado, 01/08/2026):
+- [[Sistema Operacional Comercial/00 - Visão Geral do Sistema]]
+- [[Sistema Operacional Comercial/02 Precificação/00 - Visão Geral Precificação]]
+- [[Sistema Operacional Comercial/02 Precificação/01 - Fórmula do Lucro]]
+- [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]]
+- [[Sistema Operacional Comercial/02 Precificação/10 - Custo de Servir Aplicado]]
+- [[Sistema Operacional Comercial/04 RAF/11 - Metodologia de Custeio da Logística]]
+- [[Sistema Operacional Comercial/05 Cotações/00 - Visão Geral Cotações]]

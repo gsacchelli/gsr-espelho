@@ -111,5 +111,5 @@ Dados estáticos podem enganar. Tempo mostra tendências.
 - [[02 - Estoque x RAF (giro real)]]
 - [[03 - Pricing Planejado x Realizado]]
 - [[04 - Previsões e Forecasts]]
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]
 - Todos os outros domínios (convergem aqui)

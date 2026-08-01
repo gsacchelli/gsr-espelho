@@ -79,7 +79,7 @@ ESTOQUE ──► atualização por entrada/saída
 
 ### Produto
 - Código interno
-- Família: Aço + Tipo + Perfil + Acabamento + Faixa de Bitola — ver [[03 Estoque/01 - Família Canônica]]
+- Família: Aço + Tipo + Perfil + Acabamento + Faixa de Bitola — ver [[Sistema Operacional Comercial/03 Estoque/01 - Família Canônica]]
 - Tabela de preço mínimo por faixa (A/B/C)
 - Fornecedor-origem
 - Unidade de medida (kg, peça, metro)
@@ -104,7 +104,7 @@ ESTOQUE ──► atualização por entrada/saída
 | C | Vermelha | Vendedor livre até este piso | Piso normal de venda |
 | (abaixo de C) | — | **Apenas Diretor** | Exceção, requer justificativa |
 
-**Zona cega:** entre Verde e Vermelha, vendedor age sozinho. Diretor só vê o que desce abaixo da Vermelha. Essa lacuna é **onde mora vazamento de margem** — objeto de atenção em [[02 Precificação/07 - Tabelas e Alçadas]].
+**Zona cega:** entre Verde e Vermelha, vendedor age sozinho. Diretor só vê o que desce abaixo da Vermelha. Essa lacuna é **onde mora vazamento de margem** — objeto de atenção em [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]].
 
 **Campos RAF correspondentes:**
 - `ABCPRE_MIN_A` = piso Tab Verde (R$/kg)
@@ -136,7 +136,7 @@ Essa classificação **é heterogênea** e esconde 2 perfis diferentes:
 
 O Softcomp **não distingue** os dois. O vendedor encerra em 2-5 dias como "orçamento prévio" porque **o ERP não tem status adequado** para projeto em longo prazo.
 
-**Alavanca estrutural proposta (não implementada):** status novo "Em Projeto" no Softcomp — ver [[05 Cotações/03 - Orçamento Prévio vs Projeto Real]].
+**Alavanca estrutural proposta (não implementada):** status novo "Em Projeto" no Softcomp — ver [[Sistema Operacional Comercial/05 Cotações/03 - Orçamento Prévio vs Projeto Real]].
 
 ---
 
@@ -171,13 +171,13 @@ Quando tabela muda, antigo é sobrescrito. Análises retroativas de preço perde
 - **Faturamento coberto:** ~R$66M Jan-Abr/2026
 - **Frequência recomendada:** mensal (ideal semanal)
 - **Uso principal:** análise de margem real, custo de servir, calibração do simulador
-- **Nota completa:** [[04 RAF/00 - Visão Geral RAF]]
+- **Nota completa:** [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]]
 
 ### Cot_Encerradas.xlsx
 - **O que é:** cotações fechadas (ganhas + perdidas) com motivo
 - **Uso principal:** win rate, análise de perdas, intel competitiva
 - **Análise referência (mar/2026):** 29.748 cotações Jan-Fev/2026 → win rate 67,6%, 21% perdidas por preço
-- **Nota completa:** [[05 Cotações/00 - Visão Geral Cotações]]
+- **Nota completa:** [[Sistema Operacional Comercial/05 Cotações/00 - Visão Geral Cotações]]
 
 ### tabela_preco.xlsx
 - **O que é:** tabelas A/B/C vigentes
@@ -187,7 +187,7 @@ Quando tabela muda, antigo é sobrescrito. Análises retroativas de preço perde
 ### Estoque.xlsx
 - **O que é:** posição de estoque por SKU e unidade
 - **Uso:** painel de estoque, análise de giro
-- **Nota completa:** [[03 Estoque/00 - Visão Geral Estoque]]
+- **Nota completa:** [[Sistema Operacional Comercial/03 Estoque/00 - Visão Geral Estoque]]
 
 ### Critérios_planilhas.xlsx
 - **O que é:** regras de negócio editáveis — famílias, bitolas, cidades, grupos de concorrentes
@@ -247,7 +247,7 @@ Validado no caso SUPERIOR: pedido 343024 `Encerrado` × 343047 (reemitido) vazio
 > **Custo do ERP é REFERÊNCIA, não custo realizado.** É o custo que o vendedor
 > tinha na mão ao precificar, carimbado na emissão. O custo REAL é apurado no
 > **RAF**, depois de faturar. Confrontar os dois é justamente a análise que a
-> entrega destrava — ver [[04 RAF/00 - Visão Geral RAF]].
+> entrega destrava — ver [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]].
 
 ### Nomes: o que pedimos ≠ o que veio
 
@@ -282,8 +282,8 @@ dado existe na origem e é ignorado em silêncio.
 - [[00 - Arquitetura de Dados]] (visão do sistema)
 - [[02 - Arquivos Brutos e Convenções]] (o que sair do Softcomp vira)
 - [[04 - Qualidade de Dados]] (problemas conhecidos no dado bruto)
-- [[04 RAF/00 - Visão Geral RAF]]
-- [[05 Cotações/00 - Visão Geral Cotações]]
+- [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]]
+- [[Sistema Operacional Comercial/05 Cotações/00 - Visão Geral Cotações]]
 
 ## Referência externa
 - SQL Server: 10.0.0.215 (SGRA_SACCH) — rede interna AFS

@@ -6,7 +6,7 @@ ano: 2018
 lido_em: 2021-08
 nota: /5
 tema: [liderança, cultura, confiança, conversas difíceis]
-destaques: "[[Destaques/A coragem para liderar — Brené Brown (destaques)]]"
+destaques: "[[Biblioteca/Destaques/A coragem para liderar — Brené Brown (destaques)]]"
 fonte: material-publico
 cobertura_da_fonte: "praticamente nula — 1 destaque (50 caracteres) da Introdução. A nota NÃO reflete o que Gustavo marcou lendo."
 fonte_do_framework: "material público da autora e fontes secundárias — NÃO o texto do livro (DRM na Apple Books)"
@@ -95,7 +95,7 @@ Liderança corajosa não é traço de temperamento, é um conjunto de habilidade
 
 Praticamente nada. É o ponto principal a registrar sobre esta nota.
 
-- [[Destaques/A coragem para liderar — Brené Brown (destaques)]] — **1 trecho, 50 caracteres**, Introdução, 19/08/2021, marcado como "Ideia central": líderes ultrapassados que comandam à base de mágoa e medo.
+- [[Biblioteca/Destaques/A coragem para liderar — Brené Brown (destaques)]] — **1 trecho, 50 caracteres**, Introdução, 19/08/2021, marcado como "Ideia central": líderes ultrapassados que comandam à base de mágoa e medo.
 - Tudo o mais nesta nota vem de **material público da autora e fontes secundárias**, pesquisado na web, ou é **inferência minha** sobre o contexto da AFS. Nenhuma frase do livro foi reproduzida.
 - Referência do método: [[00 - Método de Leitura e Síntese]] — abaixo de ~30 trechos a nota sai fina e o agente deve declarar cobertura insuficiente. É o caso aqui, no extremo.
 

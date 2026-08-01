@@ -327,7 +327,7 @@ Este arquivo serve como **referência** para novos desenvolvimentos. Para criar 
 4. Mesma persistência (localStorage com auto-save debounced)
 5. Mesma UX (cards, cores semáforo, impressão A4 landscape)
 
-Ver [[01 Sistema de Dados/05 - Padrões de Desenvolvimento]] para style guide completo.
+Ver [[Sistema Operacional Comercial/01 Sistema de Dados/05 - Padrões de Desenvolvimento]] para style guide completo.
 
 ---
 
@@ -342,7 +342,7 @@ Ver [[01 Sistema de Dados/05 - Padrões de Desenvolvimento]] para style guide co
 - [[07 - Tabelas e Alçadas]]
 - [[09 - Simulador Web App (futuro)]]
 - [[12 - Modo Pacote Multi-Item]]
-- [[01 Sistema de Dados/05 - Padrões de Desenvolvimento]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/05 - Padrões de Desenvolvimento]]
 
 ## Arquivos
 - `Analise_Precificacao_Sacchelli.html` (principal)

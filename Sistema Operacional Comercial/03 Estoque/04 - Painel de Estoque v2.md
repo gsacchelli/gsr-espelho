@@ -20,7 +20,7 @@ Versão atual: **v2**. Outras versões anteriores (v1, Painel_Comercial_AFS_v1-v
 
 - `Painel_Estoque_Sacchelli_v2.html` — versão v2 (atual)
 - `Estoque_Sacchelli_YYYY-MM-DD.html` — snapshots datados gerados
-- Backups anteriores conforme convenção em [[01 Sistema de Dados/02 - Arquivos Brutos e Convenções]]
+- Backups anteriores conforme convenção em [[Sistema Operacional Comercial/01 Sistema de Dados/02 - Arquivos Brutos e Convenções]]
 
 ---
 
@@ -182,7 +182,7 @@ Ao criar novo painel (ex: Pedidos, Cotações), **seguir esta estrutura exata**:
 6. Print otimizado
 7. localStorage para filtros se aplicável
 
-Ver [[01 Sistema de Dados/05 - Padrões de Desenvolvimento]] para checklist completo.
+Ver [[Sistema Operacional Comercial/01 Sistema de Dados/05 - Padrões de Desenvolvimento]] para checklist completo.
 
 ---
 
@@ -243,5 +243,5 @@ Dashboard mostra estado atual. Mudanças críticas (item zerando, fora de padrã
 - [[03 - ABC XYZ (futuro)]]
 - [[05 - Movimentação e Giro]]
 - [[06 - Fora de Padrão]]
-- [[01 Sistema de Dados/05 - Padrões de Desenvolvimento]]
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/05 - Padrões de Desenvolvimento]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]

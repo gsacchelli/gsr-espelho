@@ -204,8 +204,8 @@ tables:
 ## Conexões
 
 - [[08 - Simulador HTML - Arquitetura]] (versão atual)
-- [[01 Sistema de Dados/03 - Ferramentas Analíticas - Inventário]]
-- [[01 Sistema de Dados/05 - Padrões de Desenvolvimento]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/03 - Ferramentas Analíticas - Inventário]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/05 - Padrões de Desenvolvimento]]
 - Vault estratégico: [[2026-04-17 — Estrutura Duferco-Brasil]] (decisões que afetam este projeto)
 
 ## Arquivo fonte

@@ -154,6 +154,6 @@ Significa: onde AFS perde para Gerdau-supplied, geralmente não é por preço de
 - [[01 - Inbound vs Outbound (ficção do ERP)]]
 - [[03 - Orçamento Prévio vs Projeto Real]]
 - [[05 - Win Rate e Métricas]]
-- [[02 Precificação/07 - Tabelas e Alçadas]]
-- [[04 RAF/06 - Despesas Logísticas por Unidade]] (CXS + Trefita)
+- [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]]
+- [[Sistema Operacional Comercial/04 RAF/06 - Despesas Logísticas por Unidade]] (CXS + Trefita)
 - `project_trefita_torres_intel` (memória)

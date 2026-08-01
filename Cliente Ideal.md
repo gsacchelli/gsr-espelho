@@ -76,3 +76,11 @@ Receita sem fit corrói margem, dispersa atenção e destrói cultura comercial.
 - [[Go-to-Market]]
 - [[Playbook - Planejamento Comercial]]
 - [[Playbook - Diagnóstico Comercial]]
+
+## Aplicado na AFS
+
+Notas operacionais que usam este conceito (costura conceito↔aplicado, 01/08/2026):
+- [[Sistema Operacional Comercial/02 Precificação/10 - Custo de Servir Aplicado]]
+- [[Sistema Operacional Comercial/05 Cotações/00 - Visão Geral Cotações]]
+- [[Sistema Operacional Comercial/05 Cotações/03 - Orçamento Prévio vs Projeto Real]]
+- [[Sistema Operacional Comercial/05 Cotações/04 - Cliente-Tabelista (flag proposta)]]

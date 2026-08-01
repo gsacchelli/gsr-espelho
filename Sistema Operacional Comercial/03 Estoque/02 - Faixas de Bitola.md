@@ -105,7 +105,7 @@ Mudança na grade afeta **todas as análises** que agregam por família. Revisar
 ## Mapeamento com tabela de preços
 
 ### Tabelas A/B/C no Softcomp
-As tabelas Verde/Amarela/Vermelha (ver [[02 Precificação/07 - Tabelas e Alçadas]]) geralmente são específicas por:
+As tabelas Verde/Amarela/Vermelha (ver [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]]) geralmente são específicas por:
 - Aço
 - Acabamento
 - Faixa de bitola
@@ -144,6 +144,6 @@ Quais bitolas aparecem em "Fora de Padrão"? Candidatos a formalização.
 - [[01 - Família Canônica]]
 - [[04 - Painel de Estoque v2]]
 - [[06 - Fora de Padrão]]
-- [[02 Precificação/06 - VPP Tolerância e Lâmina]]
-- [[02 Precificação/07 - Tabelas e Alçadas]]
-- [[02 Precificação/11 - Normas Técnicas]]
+- [[Sistema Operacional Comercial/02 Precificação/06 - VPP Tolerância e Lâmina]]
+- [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]]
+- [[Sistema Operacional Comercial/02 Precificação/11 - Normas Técnicas]]

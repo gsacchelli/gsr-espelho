@@ -13,7 +13,7 @@ aliases: [Metodologia de Custeio da Logística]
 
 ## Propósito
 
-Padronizar **como a Sacchelli mede o custo logístico real**, recupera esse custo no preço e decide entre frota própria e terceiro. Serve de base para a política de frete, o dimensionamento de frota e a conversa de [[02 Precificação/10 - Custo de Servir Aplicado|Custo de Servir]] por cliente.
+Padronizar **como a Sacchelli mede o custo logístico real**, recupera esse custo no preço e decide entre frota própria e terceiro. Serve de base para a política de frete, o dimensionamento de frota e a conversa de [[Sistema Operacional Comercial/02 Precificação/10 - Custo de Servir Aplicado|Custo de Servir]] por cliente.
 
 A tese central: o custo logístico médio (% sobre faturamento) **esconde** que uns pedidos pagam demais e outros de menos. Custear corretamente é separar o que é **fixo**, **variável** e **marginal**, e alocar cada um pelo direcionador certo.
 
@@ -198,7 +198,7 @@ A ocupação real revela sobredimensionamento: na Grande SP o caminhão sai com 
 - [[05 - Custo Real vs Cobrado]]
 - [[06 - Despesas Logísticas por Unidade]]
 - [[03 - MC Contábil vs Econômica]]
-- [[02 Precificação/03 - Componentes de Custo]]
+- [[Sistema Operacional Comercial/02 Precificação/03 - Componentes de Custo]]
 - [[Custo de Servir]]
 - [[Pricing - Precificação]]
 - [[Playbook - Diagnóstico Comercial]]

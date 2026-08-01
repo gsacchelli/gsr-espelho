@@ -92,3 +92,10 @@ _(vazio)_
 - [[Modelo de Negócio]]
 - [[Playbook - Avaliação de Oportunidades]]
 - [[Decisões C-Level]]
+
+## Aplicado na AFS
+
+Notas operacionais que usam este conceito (costura conceito↔aplicado, 01/08/2026):
+- [[Sistema Operacional Comercial/00 - Visão Geral do Sistema]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/00 - Arquitetura de Dados]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]

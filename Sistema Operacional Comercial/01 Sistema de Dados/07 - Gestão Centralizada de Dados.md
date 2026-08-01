@@ -369,4 +369,4 @@ Motor com 10 geradores + 10 templates é muito para manter solo.
 - [[02 - Arquivos Brutos e Convenções]] (base da convenção de nomes)
 - [[05 - Padrões de Desenvolvimento]] (style guide técnico)
 - [[06 - Motor Analítico v1]] (ferramenta central)
-- [[../03 Ferramentas Analíticas - Inventário]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/03 - Ferramentas Analíticas - Inventário]]

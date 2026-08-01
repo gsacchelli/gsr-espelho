@@ -4,11 +4,11 @@ tipo: documentação técnica
 projeto: Motor RAF de Enriquecimento + Painel Comercial
 ultima_revisao: 2026-04-28
 relacionados:
-  - "[[04 RAF/00 - Visão Geral RAF]]"
-  - "[[04 RAF/02 - Convenção Softcomp (Invertida)]]"
-  - "[[04 RAF/03 - MC Contábil vs Econômica]]"
-  - "[[04 RAF/04 - Margem Oculta (7 componentes)]]"
-  - "[[04 RAF/05 - Custo Real vs Cobrado]]"
+  - "[[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]]"
+  - "[[Sistema Operacional Comercial/04 RAF/02 - Convenção Softcomp (Invertida)]]"
+  - "[[Sistema Operacional Comercial/04 RAF/03 - MC Contábil vs Econômica]]"
+  - "[[Sistema Operacional Comercial/04 RAF/04 - Margem Oculta (7 componentes)]]"
+  - "[[Sistema Operacional Comercial/04 RAF/05 - Custo Real vs Cobrado]]"
 ---
 
 # Critérios de Classificação no Motor RAF
@@ -115,7 +115,7 @@ Determinada por linha-a-linha comparando `ABCOIIPVO` (preço fechado) com `ABCPR
 
 ## 7. MC Aço, Margem Agregada, MC Total
 
-Conceitos críticos. Detalhe completo em `[[04 RAF/03 - MC Contábil vs Econômica]]` e `[[04 RAF/04 - Margem Oculta (7 componentes)]]`.
+Conceitos críticos. Detalhe completo em `[[Sistema Operacional Comercial/04 RAF/03 - MC Contábil vs Econômica]]` e `[[Sistema Operacional Comercial/04 RAF/04 - Margem Oculta (7 componentes)]]`.
 
 Resumo:
 - **MC Aço (R$)** = `ValorMC` do RAF cru = `ValorLIQ − Aço − Σ reais − Descontos s/ Vendas`. É a MC parcial calculada pelo Softcomp.

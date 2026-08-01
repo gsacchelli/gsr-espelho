@@ -34,12 +34,12 @@ tags: [ferramentas, inventário, simulador, painel, motor]
 - **Tamanho:** ~5.300 linhas
 - **Tecnologia:** HTML self-contained (JS + CSS embutidos, sem dependências externas)
 - **Backup:** `Analise_Precificacao_Sacchelli.bak-pre-pacote-20260415-025719.html`
-- **Nota técnica:** [[02 Precificação/08 - Simulador HTML - Arquitetura]]
+- **Nota técnica:** [[Sistema Operacional Comercial/02 Precificação/08 - Simulador HTML - Arquitetura]]
 
 **Capacidades:**
 - DRE com MC1/MC2, composição do resultado, KPIs
 - Comparativo por unidade (GRU, SCA, PIR, RIP, CXJ)
-- Modos R$/Kg, R$/Pç, R$/m (ver [[02 Precificação/05 - Modos de Venda]])
+- Modos R$/Kg, R$/Pç, R$/m (ver [[Sistema Operacional Comercial/02 Precificação/05 - Modos de Venda]])
 - Spreads de Lâmina e Tolerância (Real vs Softcomp)
 - VPP informativo com hint EN 10060 / Metals
 - Print A4 landscape otimizado
@@ -54,7 +54,7 @@ tags: [ferramentas, inventário, simulador, painel, motor]
 - **Status:** em uso, **padrão canônico para novos dashboards**
 - **Tecnologia:** HTML self-contained
 - **Fonte de dados:** Excel de estoque + Critérios_planilhas
-- **Nota técnica:** [[03 Estoque/04 - Painel de Estoque v2]]
+- **Nota técnica:** [[Sistema Operacional Comercial/03 Estoque/04 - Painel de Estoque v2]]
 
 **Capacidades:**
 - Concentração de estoque por família
@@ -90,7 +90,7 @@ tags: [ferramentas, inventário, simulador, painel, motor]
 - **Deploy:** VM Sacchelli + Nginx + HTTPS
 - **Sync:** SQL espelho Softcomp → SQLite (cron 6h)
 - **Motor de cálculo:** 9 módulos JS (pricing-engine, cost, cut, process, vpp, spread, tax, dre-builder, kpi-builder)
-- **Nota técnica:** [[02 Precificação/09 - Simulador Web App (futuro)]]
+- **Nota técnica:** [[Sistema Operacional Comercial/02 Precificação/09 - Simulador Web App (futuro)]]
 
 **Razão da pausa:** prioridade estratégica (Duferco-Brasil) + custo/benefício do HTML atual vs. overhead do web app.
 
@@ -109,7 +109,7 @@ tags: [ferramentas, inventário, simulador, painel, motor]
 ### 6. Análise de Pedidos Emitidos
 - **Status:** em construção
 - **Objetivo:** do pedido ao faturamento, ciclo, status, anomalias
-- **Nota técnica:** [[06 Pedidos/00 - Visão Geral Pedidos]]
+- **Nota técnica:** [[Sistema Operacional Comercial/06 Pedidos/00 - Visão Geral Pedidos]]
 
 ---
 
@@ -149,7 +149,7 @@ Síntese do padrão atual (baseado em Estoque v2 + Simulador Precificação):
 |---|---|
 | Formato de saída | HTML self-contained (preferencial) ou Python + HTML |
 | Dependências | Sem CDN externa (reduzir quebra), Tailwind só se inline |
-| Taxonomia de produto | Família canônica embutida ([[03 Estoque/01 - Família Canônica]]) |
+| Taxonomia de produto | Família canônica embutida ([[Sistema Operacional Comercial/03 Estoque/01 - Família Canônica]]) |
 | Fonte de dados | Arquivo bruto do Softcomp (nomeado conforme [[02 - Arquivos Brutos e Convenções]]) |
 | Persistência de estado | localStorage quando aplicável |
 | Print | A4 landscape, 1-2 páginas |
@@ -187,6 +187,6 @@ Motor Analítico (RAF análise) ──┘
 - [[00 - Arquitetura de Dados]]
 - [[05 - Padrões de Desenvolvimento]]
 - [[06 - Motor Analítico v1]]
-- [[02 Precificação/08 - Simulador HTML - Arquitetura]]
-- [[03 Estoque/04 - Painel de Estoque v2]]
-- [[07 Cruzamentos e Previsões/00 - Visão Geral Cruzamentos]]
+- [[Sistema Operacional Comercial/02 Precificação/08 - Simulador HTML - Arquitetura]]
+- [[Sistema Operacional Comercial/03 Estoque/04 - Painel de Estoque v2]]
+- [[Sistema Operacional Comercial/07 Cruzamentos e Previsões/00 - Visão Geral Cruzamentos]]

@@ -62,7 +62,7 @@ Cliente ACME:
 
 ## Aplicação por família
 
-Agregar por família canônica (ver [[03 Estoque/01 - Família Canônica]]):
+Agregar por família canônica (ver [[Sistema Operacional Comercial/03 Estoque/01 - Família Canônica]]):
 
 **Perguntas respondidas:**
 - Qual família tem maior margem oculta?
@@ -184,5 +184,5 @@ Drift sistemático indica:
 - [[04 - Margem Oculta (7 componentes)]]
 - [[06 - Despesas Logísticas por Unidade]]
 - [[08 - Consolidação por OS]]
-- [[02 Precificação/10 - Custo de Servir Aplicado]]
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/02 Precificação/10 - Custo de Servir Aplicado]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]

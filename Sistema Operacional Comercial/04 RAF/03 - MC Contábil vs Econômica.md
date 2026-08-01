@@ -135,7 +135,7 @@ Pagar por:
 
 Essas métricas **movem** MC econômica, mas são 100% sob controle do vendedor.
 
-Ver [[02 Precificação/07 - Tabelas e Alçadas]].
+Ver [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]].
 
 ---
 
@@ -215,6 +215,6 @@ Alerta se uplift cai abaixo de 5 p.p. — indicador de que margem oculta está s
 - [[02 - Convenção Softcomp (Invertida)]]
 - [[04 - Margem Oculta (7 componentes)]]
 - [[05 - Custo Real vs Cobrado]]
-- [[02 Precificação/01 - Fórmula do Lucro]]
-- [[02 Precificação/04 - MC1 MC2 e DRE]]
-- [[02 Precificação/07 - Tabelas e Alçadas]]
+- [[Sistema Operacional Comercial/02 Precificação/01 - Fórmula do Lucro]]
+- [[Sistema Operacional Comercial/02 Precificação/04 - MC1 MC2 e DRE]]
+- [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]]

@@ -101,7 +101,7 @@ Para revisões dentro do mesmo dia ou snapshots especiais:
 - Período: mês fechado ou acumulado do ano
 - Unidade: todas (análises consolidadas)
 - Status: faturado (exclui cancelado)
-- Incluir colunas de custo COB e real (133 colunas — ver [[04 RAF/01 - Estrutura das 133 Colunas]])
+- Incluir colunas de custo COB e real (133 colunas — ver [[Sistema Operacional Comercial/04 RAF/01 - Estrutura das 133 Colunas]])
 
 ### Cotações (Cot_Encerradas.xlsx)
 **Filtros recomendados:**
@@ -141,14 +141,14 @@ Pasta `Planejamento Estratégico - Comercial` está em iCloud Drive — **sincro
 **Padrão:** `ABCXXX_YYY[_SUFIXO]`
 
 - Prefixo `ABC` = módulo de faturamento/DRE
-- Sufixo `_COB` **significa CUSTO REAL** (invertido! — ver [[04 RAF/02 - Convenção Softcomp (Invertida)]])
+- Sufixo `_COB` **significa CUSTO REAL** (invertido! — ver [[Sistema Operacional Comercial/04 RAF/02 - Convenção Softcomp (Invertida)]])
 - Sufixo `_MIN_X` = piso de tabela (A/B/C)
 - `_KG`, `_PC`, `_M` = unidade de medida
 
 **Atenção máxima à inversão do `_COB`.** Custou uma análise inteira de pricing errada em jan/2026 por essa armadilha.
 
 ### Convenção de família
-Padrão proposto (ver [[03 Estoque/01 - Família Canônica]]):
+Padrão proposto (ver [[Sistema Operacional Comercial/03 Estoque/01 - Família Canônica]]):
 `<Aço>_<Tipo>_<Perfil>_<Acabamento>_<S/N da faixa de bitola>`
 
 Exemplo: `1045_Carbono_Redondo_Trefilado_1` (1020 1045 carbono, redondo, trefilado, faixa 12.7-101.6mm)
@@ -179,7 +179,7 @@ Checagens rápidas:
 2. **Período filtrado** está correto?
 3. **Sem células vazias em colunas-chave** (cliente, produto, valor)?
 4. **Cidades já saem truncadas** — aplicar override antes de agrupar
-5. **Consolidação por OS** necessária? (múltiplas linhas mesmo item — ver [[04 RAF/08 - Consolidação por OS]])
+5. **Consolidação por OS** necessária? (múltiplas linhas mesmo item — ver [[Sistema Operacional Comercial/04 RAF/08 - Consolidação por OS]])
 
 Se falhar em qualquer item, **não avançar a análise sem resolver**.
 

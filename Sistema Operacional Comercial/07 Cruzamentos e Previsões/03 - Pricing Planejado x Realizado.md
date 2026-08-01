@@ -159,7 +159,7 @@ Custo aço subiu? Dashboard detecta na primeira semana de gap — não 3 meses d
 Precisam ser excluídas do cruzamento (não há RAF correspondente).
 
 ### 2. Consolidação
-RAF precisa ser consolidado por OS (ver [[04 RAF/08 - Consolidação por OS]]).
+RAF precisa ser consolidado por OS (ver [[Sistema Operacional Comercial/04 RAF/08 - Consolidação por OS]]).
 
 ### 3. Cotação vs Pedido
 Se houve desconto adicional entre cotação e pedido, **o gap não é contra o simulador**, é contra a negociação. Rastreabilidade importante.
@@ -185,8 +185,8 @@ Cotação de fev, fatura em maio. Comparar exige janela móvel, não mês fechad
 
 - [[00 - Visão Geral Cruzamentos]]
 - [[01 - Cotação x Pedido x RAF]]
-- [[02 Precificação/00 - Visão Geral Precificação]]
-- [[02 Precificação/02 - Fórmula de Preço Sacchelli]]
-- [[02 Precificação/08 - Simulador HTML - Arquitetura]]
-- [[04 RAF/03 - MC Contábil vs Econômica]]
-- [[04 RAF/05 - Custo Real vs Cobrado]]
+- [[Sistema Operacional Comercial/02 Precificação/00 - Visão Geral Precificação]]
+- [[Sistema Operacional Comercial/02 Precificação/02 - Fórmula de Preço Sacchelli]]
+- [[Sistema Operacional Comercial/02 Precificação/08 - Simulador HTML - Arquitetura]]
+- [[Sistema Operacional Comercial/04 RAF/03 - MC Contábil vs Econômica]]
+- [[Sistema Operacional Comercial/04 RAF/05 - Custo Real vs Cobrado]]

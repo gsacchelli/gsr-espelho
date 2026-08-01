@@ -10,7 +10,7 @@ relacionados:
 
 # Sessão 28/04/2026 — Painel Comercial RAF: Etapa B/C/D + Profissionalização + Decisões Metodológicas
 
-Sessão grande. Fechou o painel comercial em formato apresentável a consultoria, com 4 abas (DRE Gerencial, Carteira, Produtos, Evolução) e tomada várias decisões de metodologia que precisaram ser documentadas no vault. **Pivô importante**: até hoje as decisões metodológicas viviam só em código + CLAUDE.md; agora têm casa permanente em `[[04 RAF/09 - Critérios de Classificação]]`.
+Sessão grande. Fechou o painel comercial em formato apresentável a consultoria, com 4 abas (DRE Gerencial, Carteira, Produtos, Evolução) e tomada várias decisões de metodologia que precisaram ser documentadas no vault. **Pivô importante**: até hoje as decisões metodológicas viviam só em código + CLAUDE.md; agora têm casa permanente em `[[Sistema Operacional Comercial/04 RAF/09 - Critérios de Classificação]]`.
 
 ## Bloco 1 — Reformulação do Painel Comercial (Etapas B/C/D)
 
@@ -43,7 +43,7 @@ Sessão grande. Fechou o painel comercial em formato apresentável a consultoria
 - Botão Exportar CSV (BOM UTF-8 + separador `;` para Excel BR).
 - Mix por Atributo (6 charts), Evolução Temporal Top 10 famílias, KPIs do recorte.
 
-## Bloco 2 — Decisões Metodológicas (documentadas em `[[04 RAF/09 - Critérios de Classificação]]`)
+## Bloco 2 — Decisões Metodológicas (documentadas em `[[Sistema Operacional Comercial/04 RAF/09 - Critérios de Classificação]]`)
 
 ### Mudança de critério: Corte SN
 **Hoje 28/04**: `ABCPES_CTE > 0` → `ABCCUS_CTE > 0`.
@@ -84,7 +84,7 @@ Em vez de "Texto Livre" / "Especial" / "ESPECIAIS" / outros nomes → SEMPRE "Es
 
 **Problema**: daqui a 6 meses, ninguém vai lembrar por que `ABCCUS_CTE` substituiu `ABCPES_CTE`, ou por que MC Agregada bate com Margem Oculta mas tem nome diferente. Os logs do dia capturam o "fato"; o vault em `Sistema Operacional Comercial/` deve capturar a "regra".
 
-**Correção aplicada**: criada nota `[[04 RAF/09 - Critérios de Classificação]]` como fonte da verdade. Toda mudança metodológica futura deve passar por lá ANTES (ou junto com) a mudança no código.
+**Correção aplicada**: criada nota `[[Sistema Operacional Comercial/04 RAF/09 - Critérios de Classificação]]` como fonte da verdade. Toda mudança metodológica futura deve passar por lá ANTES (ou junto com) a mudança no código.
 
 ## Para retomar amanhã
 

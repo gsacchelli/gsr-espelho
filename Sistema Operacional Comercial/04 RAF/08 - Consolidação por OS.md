@@ -200,5 +200,5 @@ Se qualquer item falhar, **análise pode estar errada**.
 - [[01 - Estrutura das 133 Colunas]]
 - [[02 - Convenção Softcomp (Invertida)]]
 - [[05 - Custo Real vs Cobrado]]
-- [[01 Sistema de Dados/04 - Qualidade de Dados]]
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/04 - Qualidade de Dados]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]

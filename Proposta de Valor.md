@@ -89,3 +89,8 @@ Se ele escolheria o concorrente com 5% de desconto, não existe proposta de valo
 - [[Cliente Ideal]]
 - [[Servitização]]
 - [[Playing to Win]]
+
+## Aplicado na AFS
+
+Notas operacionais que usam este conceito (costura conceito↔aplicado, 01/08/2026):
+- [[Sistema Operacional Comercial/02 Precificação/00 - Visão Geral Precificação]]

@@ -61,7 +61,7 @@ Futuro pode incluir Quadrado, Sextavado, Chato. Por enquanto único.
 - **Forjado**
 
 Cada acabamento afeta:
-- VPP (ver [[02 Precificação/06 - VPP Tolerância e Lâmina]])
+- VPP (ver [[Sistema Operacional Comercial/02 Precificação/06 - VPP Tolerância e Lâmina]])
 - Custo (forjado > descascado > trefilado > laminado)
 - Aplicação do cliente
 
@@ -206,9 +206,9 @@ Se cliente pede um aço (ex: inox) que não está em FAMILIAS_PADRAO, vira "Fora
 - [[02 - Faixas de Bitola]]
 - [[04 - Painel de Estoque v2]]
 - [[06 - Fora de Padrão]]
-- [[02 Precificação/08 - Simulador HTML - Arquitetura]]
-- [[01 Sistema de Dados/05 - Padrões de Desenvolvimento]]
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/02 Precificação/08 - Simulador HTML - Arquitetura]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/05 - Padrões de Desenvolvimento]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]
 
 ## Arquivo fonte
 - `Critérios_descrição_familia.xlsx` (na pasta raiz do projeto)

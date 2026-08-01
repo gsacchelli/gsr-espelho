@@ -42,7 +42,7 @@ Cruzar **posição de estoque** (Excel Estoque) com **saídas efetivas** (RAF) p
 ## Chave de cruzamento
 
 ### Família Canônica
-`Aço + Tipo + Perfil + Acabamento + Faixa de Bitola` (ver [[03 Estoque/01 - Família Canônica]]).
+`Aço + Tipo + Perfil + Acabamento + Faixa de Bitola` (ver [[Sistema Operacional Comercial/03 Estoque/01 - Família Canônica]]).
 
 ### Unidade
 GRU, SCA, PIR, RIP, CXS.
@@ -195,9 +195,9 @@ Estoque tem material "em estoque" (ABCMAT_*). RAF tem "faturado" (ABC*). Transfo
 ## Conexões
 
 - [[00 - Visão Geral Cruzamentos]]
-- [[03 Estoque/00 - Visão Geral Estoque]]
-- [[03 Estoque/01 - Família Canônica]]
-- [[03 Estoque/04 - Painel de Estoque v2]]
-- [[03 Estoque/05 - Movimentação e Giro]]
-- [[04 RAF/00 - Visão Geral RAF]]
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/03 Estoque/00 - Visão Geral Estoque]]
+- [[Sistema Operacional Comercial/03 Estoque/01 - Família Canônica]]
+- [[Sistema Operacional Comercial/03 Estoque/04 - Painel de Estoque v2]]
+- [[Sistema Operacional Comercial/03 Estoque/05 - Movimentação e Giro]]
+- [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]

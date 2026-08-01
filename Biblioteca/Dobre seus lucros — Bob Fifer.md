@@ -6,7 +6,7 @@ ano: 1993
 lido_em: 2020-05
 nota: /5
 tema: [lucratividade, custos, cultura, gestão]
-destaques: "[[Destaques/Dobre seus lucros — Bob Fifer (destaques)]]"
+destaques: "[[Biblioteca/Destaques/Dobre seus lucros — Bob Fifer (destaques)]]"
 fonte: destaques
 cobertura_da_fonte: "parcial — 100 destaques cobrindo as Etapas 2 a 13 (a parte de cultura e mentalidade). A parte tática do livro não está nos destaques."
 ---
@@ -91,7 +91,7 @@ Lucro não é o que sobra depois de fazer tudo bem feito — é a variável que 
 
 Ponteiros, não transcrição. Os destaques não têm número de localização — a referência é a Etapa.
 
-- [[Destaques/Dobre seus lucros — Bob Fifer (destaques)]] — trechos completos (obra do autor; não publicar, não sair do GSR)
+- [[Biblioteca/Destaques/Dobre seus lucros — Bob Fifer (destaques)]] — trechos completos (obra do autor; não publicar, não sair do GSR)
 - **Etapa 2** — empenho pessoal; por que poucos praticam; promessa dos 2 a 6 meses
 - **Etapa 4** — os três significados de "ser o melhor"; meritocracia e a armadilha da diferença de 10-15%; a pergunta "a quem prefiro desagradar"; nota do Gustavo ("Remind 1") no trecho sobre horas trabalhadas × resultado
 - **Etapa 6** — a escala recado → memorando → reunião → processo

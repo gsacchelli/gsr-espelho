@@ -125,5 +125,5 @@ Atualizada mensalmente pelo gerente.
 - [[00 - Visão Geral Cotações]]
 - [[01 - Inbound vs Outbound (ficção do ERP)]]
 - [[03 - Orçamento Prévio vs Projeto Real]]
-- [[02 Precificação/10 - Custo de Servir Aplicado]]
+- [[Sistema Operacional Comercial/02 Precificação/10 - Custo de Servir Aplicado]]
 - Vault estratégico: [[Cliente Ideal]]

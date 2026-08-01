@@ -63,10 +63,10 @@ ERP proprietário usado pela AFS para operação completa: cadastros, cotação,
 ### Exports principais usados
 | Export | Conteúdo | Frequência | Ferramenta que consome |
 |---|---|---|---|
-| `DetalhesRAF.xlsx` | 133 colunas, faturamento detalhado | Mensal (idealmente semanal) | [[04 RAF/00 - Visão Geral RAF]], Motor Analítico |
-| `Cot_Encerradas.xlsx` | Cotações finalizadas com motivo | Conforme análise | [[05 Cotações/00 - Visão Geral Cotações]], Motor Analítico |
-| `tabela_preco.xlsx` | Tabelas A/B/C por produto | Mensal ou ao mudar | [[02 Precificação/07 - Tabelas e Alçadas]] |
-| `Estoque.xlsx` | Posição de estoque, giro | Semanal | [[03 Estoque/00 - Visão Geral Estoque]] |
+| `DetalhesRAF.xlsx` | 133 colunas, faturamento detalhado | Mensal (idealmente semanal) | [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]], Motor Analítico |
+| `Cot_Encerradas.xlsx` | Cotações finalizadas com motivo | Conforme análise | [[Sistema Operacional Comercial/05 Cotações/00 - Visão Geral Cotações]], Motor Analítico |
+| `tabela_preco.xlsx` | Tabelas A/B/C por produto | Mensal ou ao mudar | [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]] |
+| `Estoque.xlsx` | Posição de estoque, giro | Semanal | [[Sistema Operacional Comercial/03 Estoque/00 - Visão Geral Estoque]] |
 | `Critérios_planilhas.xlsx` | Regras: famílias, bitolas, cidades | Sob demanda | Motor Analítico, Painel Estoque |
 
 ---
@@ -95,7 +95,7 @@ Subpastas: `MotorAnalitico/`, `Arquivo/`, `MetalM/`
 ### Ferramentas em produção
 1. **Simulador de Precificação HTML** (`Analise_Precificacao_Sacchelli.html`)
    - 5.300+ linhas, self-contained, Entrega 1 multi-item validada
-   - Ver [[02 Precificação/08 - Simulador HTML - Arquitetura]]
+   - Ver [[Sistema Operacional Comercial/02 Precificação/08 - Simulador HTML - Arquitetura]]
 
 2. **Painel de Estoque HTML** (`Estoque_Sacchelli_YYYY-MM-DD.html`)
    - Gerado a partir do Excel de estoque + Critérios_planilhas

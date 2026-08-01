@@ -54,7 +54,7 @@ Nota fiscal emitida:
 ### Etapa 5 — Entrega e ciclo fechado
 Material enviado ao cliente. Entrega registrada no sistema.
 
-Se houver **liberação parcial**: múltiplas entregas da mesma OS → múltiplas linhas no RAF → **precisa consolidação** (ver [[04 RAF/08 - Consolidação por OS]]).
+Se houver **liberação parcial**: múltiplas entregas da mesma OS → múltiplas linhas no RAF → **precisa consolidação** (ver [[Sistema Operacional Comercial/04 RAF/08 - Consolidação por OS]]).
 
 ---
 
@@ -149,7 +149,7 @@ Vai consumir dados cruzados (cotação + pedido + RAF).
 - [[00 - Visão Geral Pedidos]]
 - [[02 - Ciclo e Status]]
 - [[03 - Métricas de Pedido]]
-- [[05 Cotações/00 - Visão Geral Cotações]]
-- [[04 RAF/00 - Visão Geral RAF]]
-- [[04 RAF/08 - Consolidação por OS]]
-- [[07 Cruzamentos e Previsões/01 - Cotação x Pedido x RAF]]
+- [[Sistema Operacional Comercial/05 Cotações/00 - Visão Geral Cotações]]
+- [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]]
+- [[Sistema Operacional Comercial/04 RAF/08 - Consolidação por OS]]
+- [[Sistema Operacional Comercial/07 Cruzamentos e Previsões/01 - Cotação x Pedido x RAF]]

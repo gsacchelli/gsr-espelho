@@ -132,7 +132,7 @@ Isso é conversa comercial **profissional**. "Vamos dar desconto pra aumentar vo
 |---|---|---|
 | **Receita líquida** | Fat s/IPI, s/devolução | RAF `ABCTOT_LIQ` |
 | **MC contábil** | Receita − custo aço (explícito) | RAF `ABCPER_MAR` |
-| **MC econômica** | MC contábil + margem oculta | Calculada (ver [[04 RAF/03 - MC Contábil vs Econômica]]) |
+| **MC econômica** | MC contábil + margem oculta | Calculada (ver [[Sistema Operacional Comercial/04 RAF/03 - MC Contábil vs Econômica]]) |
 | **Custo de servir** | Soma real dos componentes | RAF `ABCCUS_X_COB` (cuidado com convenção invertida) |
 | **Margem líquida real** | MC contábil − custo de servir real | Calculada |
 | **MC por cliente** | MC econômica agregada por cliente | Motor Analítico |
@@ -184,6 +184,6 @@ Quando precisar convencer cliente da Tese de Valor:
 - [[00 - Visão Geral Precificação]]
 - [[02 - Fórmula de Preço Sacchelli]]
 - [[10 - Custo de Servir Aplicado]]
-- [[04 RAF/03 - MC Contábil vs Econômica]]
-- [[04 RAF/04 - Margem Oculta (7 componentes)]]
+- [[Sistema Operacional Comercial/04 RAF/03 - MC Contábil vs Econômica]]
+- [[Sistema Operacional Comercial/04 RAF/04 - Margem Oculta (7 componentes)]]
 - Vault estratégico: [[Pricing - Precificação]], [[Custo de Servir]]

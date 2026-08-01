@@ -171,7 +171,7 @@ Cotação fechada hoje pode virar pedido amanhã, faturamento em 2 semanas. Se e
 **Solução:** cruzamento com **janela móvel** (ex: pedidos últimos 90 dias + RAF últimos 90 dias), não mês fechado.
 
 ### 3. Consolidação
-RAF precisa ser **consolidado por OS** (ver [[04 RAF/08 - Consolidação por OS]]) antes de cruzar com pedido, senão múltiplas linhas distorcem.
+RAF precisa ser **consolidado por OS** (ver [[Sistema Operacional Comercial/04 RAF/08 - Consolidação por OS]]) antes de cruzar com pedido, senão múltiplas linhas distorcem.
 
 ### 4. Campos com nomes diferentes
 Campo "cliente" pode ter nome diferente em cada tabela (`ABCCLI_*` no RAF, outro no módulo de cotação). Padronizar.
@@ -200,8 +200,8 @@ Campo "cliente" pode ter nome diferente em cada tabela (`ABCCLI_*` no RAF, outro
 
 - [[00 - Visão Geral Cruzamentos]]
 - [[03 - Pricing Planejado x Realizado]]
-- [[05 Cotações/00 - Visão Geral Cotações]]
-- [[06 Pedidos/01 - Do Pedido ao RAF]]
-- [[04 RAF/00 - Visão Geral RAF]]
-- [[04 RAF/08 - Consolidação por OS]]
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/05 Cotações/00 - Visão Geral Cotações]]
+- [[Sistema Operacional Comercial/06 Pedidos/01 - Do Pedido ao RAF]]
+- [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]]
+- [[Sistema Operacional Comercial/04 RAF/08 - Consolidação por OS]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]

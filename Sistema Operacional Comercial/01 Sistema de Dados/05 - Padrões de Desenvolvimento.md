@@ -32,7 +32,7 @@ Saída preferencial: **HTML único**, sem dependências externas (CDN, fontes re
 Nenhuma ferramenta mantém sua própria cópia de verdade. Todas consomem exports atualizados. Se há divergência, reprocessar.
 
 ### 4. Taxonomia unificada
-Todas usam a mesma **Família Canônica** (ver [[03 Estoque/01 - Família Canônica]]). Nenhuma inventa a sua.
+Todas usam a mesma **Família Canônica** (ver [[Sistema Operacional Comercial/03 Estoque/01 - Família Canônica]]). Nenhuma inventa a sua.
 
 ### 5. Graceful degradation
 Dados faltando não quebram a ferramenta. Linha sem cidade? Agrupa em "Não informado". SKU sem família? Vai pra "Fora de Padrão" com flag.
@@ -128,7 +128,7 @@ Ver [[02 - Arquivos Brutos e Convenções]]:
 ```
 
 ### Princípios específicos
-- **Config embutida:** não depender de arquivo externo para faixas de bitola, famílias, etc. Edita no HTML mesmo quando precisar mudar (ver [[03 Estoque/01 - Família Canônica]]).
+- **Config embutida:** não depender de arquivo externo para faixas de bitola, famílias, etc. Edita no HTML mesmo quando precisar mudar (ver [[Sistema Operacional Comercial/03 Estoque/01 - Família Canônica]]).
 - **Data/hora no título:** quando HTML é derivado de dados datados, incluir data no cabeçalho visível.
 - **Impressão otimizada:** CSS `@media print` com layout A4 landscape, 1-2 páginas.
 - **Auto-save debounced:** se ferramenta tem estado de usuário, salvar em localStorage com debounce 1,5s em input/change, save imediato em ações críticas.
@@ -377,6 +377,6 @@ Consolidação conhecida:
 - [[00 - Arquitetura de Dados]]
 - [[02 - Arquivos Brutos e Convenções]]
 - [[04 - Qualidade de Dados]]
-- [[03 Estoque/01 - Família Canônica]]
-- [[03 Estoque/04 - Painel de Estoque v2]] — referência canônica
-- [[02 Precificação/08 - Simulador HTML - Arquitetura]] — referência canônica
+- [[Sistema Operacional Comercial/03 Estoque/01 - Família Canônica]]
+- [[Sistema Operacional Comercial/03 Estoque/04 - Painel de Estoque v2]] — referência canônica
+- [[Sistema Operacional Comercial/02 Precificação/08 - Simulador HTML - Arquitetura]] — referência canônica

@@ -95,7 +95,7 @@ Itens fora das famílias canônicas existem (engenheirados, customizados, compra
 ### Motor Analítico
 - Consome mesma taxonomia de família
 - Cruza com RAF para giro real
-- Ver [[01 Sistema de Dados/06 - Motor Analítico v1]]
+- Ver [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]
 
 ### Excel alternativo
 - Gustavo tem arquivo alternativo com toda movimentação + preço de venda (mais simples que puxar do RAF)
@@ -182,5 +182,5 @@ Se surge novo aço/acabamento que não entra nas 207 combinações, vira "Fora d
 - [[04 - Painel de Estoque v2]]
 - [[05 - Movimentação e Giro]]
 - [[06 - Fora de Padrão]]
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
-- [[04 RAF/00 - Visão Geral RAF]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]]

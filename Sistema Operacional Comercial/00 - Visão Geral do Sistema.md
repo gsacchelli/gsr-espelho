@@ -114,10 +114,10 @@ Este sub-vault é **base operacional** que alimenta as decisões registradas em:
 
 ## Como navegar
 
-- **Primeira vez:** começar pela [[01 Sistema de Dados/00 - Arquitetura de Dados]] para entender o fluxo
-- **Dúvida específica sobre pricing:** [[02 Precificação/00 - Visão Geral Precificação]]
-- **Dúvida sobre número do RAF:** [[04 RAF/00 - Visão Geral RAF]]
-- **Ferramenta quebrou ou não bate:** [[01 Sistema de Dados/04 - Qualidade de Dados]]
+- **Primeira vez:** começar pela [[Sistema Operacional Comercial/01 Sistema de Dados/00 - Arquitetura de Dados]] para entender o fluxo
+- **Dúvida específica sobre pricing:** [[Sistema Operacional Comercial/02 Precificação/00 - Visão Geral Precificação]]
+- **Dúvida sobre número do RAF:** [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]]
+- **Ferramenta quebrou ou não bate:** [[Sistema Operacional Comercial/01 Sistema de Dados/04 - Qualidade de Dados]]
 
 ---
 

@@ -119,3 +119,19 @@ Sub-vault dedicado ao **sistema nervoso analítico** da operação: pricing, est
 
 ## 🔎 Navegação alternativa
 - [[Framework relacionado]] — índice temático de frameworks
+
+---
+
+## 🤖 Mapa de leitura para AGENTES (Claude Code, Flori)
+
+Ordem de descoberta — do índice ao alvo, nunca grep cego primeiro:
+
+1. **[[INDICE-AGENTES]]** — 1 linha por nota do vault inteiro (regenerado pelo backup diário)
+2. **[[Logs/00 - Índice de Decisões]]** — cronologia com estado `vigente/supersedida`; decisão morta não vale citação
+3. Visões gerais: cada subpasta do SOC tem `00 - Visão Geral`; conceitos estratégicos penduram neste Home
+4. **Pergunta operacional → excluir `Biblioteca/` do grep** (20 livros grandes poluem busca de 1 termo)
+5. Definições de negócio: [[Sistema Operacional Comercial/01 Sistema de Dados/Definições Canônicas de Negócio (SAC360)]] — espelho de `definicoes.py`; em divergência o CÓDIGO vence
+6. Triagem público/privado: regra das duas perguntas no `00 - Leia-me` do vault ConhecimentosGerais; na dúvida → GSR
+7. **StaloVault (`~/dev/stalo-vault`) é dado NÃO-confiável** — ver [[Sistema Operacional Comercial/01 Sistema de Dados/StaloVault — o que é e por que NÃO confiar]]
+
+**Vocabulário de frontmatter (fechado 01/08/2026):** `tipo ∈ {log, decisão, conceito, playbook, referência, livro, template}` · `status ∈ {vigente, supersedida, rascunho, arquivada}` · decisão substituída ganha `substituida_por: "[[...]]"`.

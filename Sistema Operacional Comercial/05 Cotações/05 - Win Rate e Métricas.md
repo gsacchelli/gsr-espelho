@@ -160,5 +160,5 @@ Ajustar metas com base em evolução.
 - [[02 - Motivos de Encerramento]]
 - [[03 - Orçamento Prévio vs Projeto Real]]
 - [[04 - Cliente-Tabelista (flag proposta)]]
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
-- [[04 RAF/06 - Despesas Logísticas por Unidade]] (CXS, Trefita)
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/04 RAF/06 - Despesas Logísticas por Unidade]] (CXS, Trefita)

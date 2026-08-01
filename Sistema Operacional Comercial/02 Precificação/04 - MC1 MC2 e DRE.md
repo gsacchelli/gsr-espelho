@@ -67,7 +67,7 @@ RECEITA BRUTA                               R$ X
 
 ## MC contábil vs MC econômica
 
-Este é um ponto **crítico** descoberto em abr/2026 (ver [[04 RAF/03 - MC Contábil vs Econômica]]).
+Este é um ponto **crítico** descoberto em abr/2026 (ver [[Sistema Operacional Comercial/04 RAF/03 - MC Contábil vs Econômica]]).
 
 ### MC contábil
 É a MC "tradicional" reportada no sistema — calcula apenas margem sobre o aço explícito.
@@ -204,5 +204,5 @@ Desvio fora corredor = |MC_atual − Mediana_corredor| / Mediana_corredor
 - [[03 - Componentes de Custo]]
 - [[08 - Simulador HTML - Arquitetura]]
 - [[12 - Modo Pacote Multi-Item]]
-- [[04 RAF/03 - MC Contábil vs Econômica]]
-- [[04 RAF/04 - Margem Oculta (7 componentes)]]
+- [[Sistema Operacional Comercial/04 RAF/03 - MC Contábil vs Econômica]]
+- [[Sistema Operacional Comercial/04 RAF/04 - Margem Oculta (7 componentes)]]

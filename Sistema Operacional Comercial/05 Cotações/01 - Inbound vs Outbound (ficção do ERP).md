@@ -68,7 +68,7 @@ Destacar **tipo de cliente** (tabelista vs regular vs projeto), não origem da c
 
 ## Implicação para remuneração futura
 
-Se remuneração virar atrelada a "qualidade de venda" (proposta — ver [[02 Precificação/07 - Tabelas e Alçadas]]), não usar "cotação inbound" como proxy de qualidade. Usar:
+Se remuneração virar atrelada a "qualidade de venda" (proposta — ver [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]]), não usar "cotação inbound" como proxy de qualidade. Usar:
 - Aderência à tabela
 - Cobrança de juro
 - Custo de servir baixo
@@ -81,4 +81,4 @@ Se remuneração virar atrelada a "qualidade de venda" (proposta — ver [[02 Pr
 - [[02 - Motivos de Encerramento]]
 - [[03 - Orçamento Prévio vs Projeto Real]]
 - [[04 - Cliente-Tabelista (flag proposta)]]
-- [[01 Sistema de Dados/04 - Qualidade de Dados]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/04 - Qualidade de Dados]]

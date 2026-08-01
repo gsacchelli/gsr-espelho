@@ -55,7 +55,7 @@ Ver [[05 - Win Rate e Métricas]].
 
 ## Conexões principais
 
-- [[04 RAF/00 - Visão Geral RAF]] (cotações viram pedidos, pedidos viram RAF)
-- [[02 Precificação/07 - Tabelas e Alçadas]] (pricing na cotação)
-- [[07 Cruzamentos e Previsões/01 - Cotação x Pedido x RAF]]
+- [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]] (cotações viram pedidos, pedidos viram RAF)
+- [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]] (pricing na cotação)
+- [[Sistema Operacional Comercial/07 Cruzamentos e Previsões/01 - Cotação x Pedido x RAF]]
 - Vault estratégico: [[Cliente Ideal]], [[Custo de Servir]]

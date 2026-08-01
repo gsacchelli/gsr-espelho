@@ -177,3 +177,12 @@ Juntas: McDonald explica *por que* a %Preta sobe (falta argumento em dinheiro); 
 - [[Finanças Corporativas]]
 - [[Playbook - Planejamento Comercial]]
 - [[Malcolm McDonald on Value Propositions — Malcolm McDonald]] · [[Rápido e devagar — Daniel Kahneman]]
+
+## Aplicado na AFS
+
+Notas operacionais que usam este conceito (costura conceito↔aplicado, 01/08/2026):
+- [[Sistema Operacional Comercial/00 - Visão Geral do Sistema]]
+- [[Sistema Operacional Comercial/02 Precificação/00 - Visão Geral Precificação]]
+- [[Sistema Operacional Comercial/02 Precificação/01 - Fórmula do Lucro]]
+- [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]]
+- [[Sistema Operacional Comercial/04 RAF/11 - Metodologia de Custeio da Logística]]

@@ -71,3 +71,10 @@ O log é a diferença entre experiência acumulada e **experiência que compõe 
 - [[TEMPLATE - DECISÕES]]
 - [[Aprendizados]]
 - [[Alocação de Capital]]
+
+## Aplicado na AFS
+
+Notas operacionais que usam este conceito (costura conceito↔aplicado, 01/08/2026):
+- [[Sistema Operacional Comercial/00 - Visão Geral do Sistema]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/00 - Arquitetura de Dados]]
+- [[Sistema Operacional Comercial/02 Precificação/00 - Visão Geral Precificação]]

@@ -252,5 +252,5 @@ O simulador tem:
 - [[05 - Modos de Venda]]
 - [[06 - VPP Tolerância e Lâmina]]
 - [[08 - Simulador HTML - Arquitetura]]
-- [[03 Estoque/01 - Família Canônica]]
+- [[Sistema Operacional Comercial/03 Estoque/01 - Família Canônica]]
 - `project_trefita_torres_intel` (memória)

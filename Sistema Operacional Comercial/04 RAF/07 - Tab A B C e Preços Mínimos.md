@@ -10,7 +10,7 @@ tags: [tabelas, preço-mínimo, verde-amarela-vermelha]
 
 ## Referência cruzada
 
-Esta nota detalha os **campos RAF** relacionados a tabelas de preço. Para o processo operacional e alçada (Verde/Amarela/Vermelha), ver [[02 Precificação/07 - Tabelas e Alçadas]].
+Esta nota detalha os **campos RAF** relacionados a tabelas de preço. Para o processo operacional e alçada (Verde/Amarela/Vermelha), ver [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]].
 
 ---
 
@@ -87,7 +87,7 @@ Vendedor age sozinho entre Verde e Vermelha. Diretor só vê o que desce abaixo 
 ### Falta de tabela para fora de padrão
 Itens "Fora de Padrão" não têm tabela A/B/C definida. Vendedor precisa precificar manualmente.
 
-**Mitigação:** formalizar tabela quando item Fora de Padrão vira recorrente (ver [[03 Estoque/06 - Fora de Padrão]]).
+**Mitigação:** formalizar tabela quando item Fora de Padrão vira recorrente (ver [[Sistema Operacional Comercial/03 Estoque/06 - Fora de Padrão]]).
 
 ---
 
@@ -142,6 +142,6 @@ Painéis existentes (v1-v4) podem ter visão parcial disso. Trazer ao padrão v2
 
 - [[00 - Visão Geral RAF]]
 - [[01 - Estrutura das 133 Colunas]]
-- [[02 Precificação/07 - Tabelas e Alçadas]]
-- [[02 Precificação/02 - Fórmula de Preço Sacchelli]]
-- [[03 Estoque/06 - Fora de Padrão]]
+- [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]]
+- [[Sistema Operacional Comercial/02 Precificação/02 - Fórmula de Preço Sacchelli]]
+- [[Sistema Operacional Comercial/03 Estoque/06 - Fora de Padrão]]

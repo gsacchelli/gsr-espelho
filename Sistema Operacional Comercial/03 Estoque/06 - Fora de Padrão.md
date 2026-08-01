@@ -96,7 +96,7 @@ Material com especificação única do cliente. Geralmente:
 - Impossível reaproveitar para outro cliente
 
 ### Pricing e venda
-- **Exclusivamente em R$/Pç** (ver [[02 Precificação/05 - Modos de Venda]])
+- **Exclusivamente em R$/Pç** (ver [[Sistema Operacional Comercial/02 Precificação/05 - Modos de Venda]])
 - Custeio pelo peso de partida
 - Simulador bloqueia Kg e m
 
@@ -196,4 +196,4 @@ Não sabemos quanto % do estoque é "Fora de Padrão" ao longo dos últimos anos
 - [[02 - Faixas de Bitola]]
 - [[04 - Painel de Estoque v2]]
 - [[05 - Movimentação e Giro]]
-- [[02 Precificação/05 - Modos de Venda]]
+- [[Sistema Operacional Comercial/02 Precificação/05 - Modos de Venda]]

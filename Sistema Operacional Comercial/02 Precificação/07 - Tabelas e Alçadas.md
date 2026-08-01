@@ -104,7 +104,7 @@ Urgência, retrabalho, corte fora de padrão: cobrar ou absorver?
 
 ## Canal INT / PJ / REP (clarificação)
 
-**Atenção:** canal é **fiscal / tributário**, não comercial. Ver [[01 Sistema de Dados/04 - Qualidade de Dados]].
+**Atenção:** canal é **fiscal / tributário**, não comercial. Ver [[Sistema Operacional Comercial/01 Sistema de Dados/04 - Qualidade de Dados]].
 
 ### Hoje (abr/2026)
 - Quase todos os vendedores são **PJ** (por razão tributária)
@@ -202,5 +202,5 @@ Vendedor cota → Sistema mostra 3 tabelas
 - [[01 - Fórmula do Lucro]]
 - [[02 - Fórmula de Preço Sacchelli]]
 - [[08 - Simulador HTML - Arquitetura]]
-- [[01 Sistema de Dados/04 - Qualidade de Dados]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/04 - Qualidade de Dados]]
 - Vault estratégico: [[Pricing - Precificação]], [[Custo de Servir]]

@@ -42,3 +42,8 @@ Vantagem competitiva nasce da forma como a cadeia é organizada.
 ## Conexões
 - [[Vantagem Competitiva]]
 - [[VRIO]]
+
+## Aplicado na AFS
+
+Notas operacionais que usam este conceito (costura conceito↔aplicado, 01/08/2026):
+- [[Sistema Operacional Comercial/03 Estoque/00 - Visão Geral Estoque]]

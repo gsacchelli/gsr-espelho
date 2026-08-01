@@ -73,3 +73,8 @@ Resultado:
 - [[Posicionamento Estratégico]]
 - [[Proposta de Valor]]
 - [[Servitização]]
+
+## Aplicado na AFS
+
+Notas operacionais que usam este conceito (costura conceito↔aplicado, 01/08/2026):
+- [[Sistema Operacional Comercial/03 Estoque/00 - Visão Geral Estoque]]

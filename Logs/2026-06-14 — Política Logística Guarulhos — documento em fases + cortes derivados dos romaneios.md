@@ -213,7 +213,7 @@ Doc atualizado: tabela região detalhada (RAF), frete% 4,97%, nota de método (v
 
 ## Conexões
 - [[2026-06-12 — Política Logística Guarulhos — doc e deck v2 em 3 partes]]
-- [[Metodologia de Custeio da Logistica]]
+- [[Sistema Operacional Comercial/04 RAF/11 - Metodologia de Custeio da Logística]]
 - [[2026-06-19 — Lançamento Comercial Material Trefilado (e-mail aos gestores)]]
 
 ---

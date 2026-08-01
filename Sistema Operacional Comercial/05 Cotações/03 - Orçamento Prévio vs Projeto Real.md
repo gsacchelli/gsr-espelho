@@ -173,7 +173,7 @@ AFS está em **desvantagem estrutural** em pipeline de projeto. Corrigir é alav
 - [[02 - Motivos de Encerramento]]
 - [[04 - Cliente-Tabelista (flag proposta)]]
 - [[05 - Win Rate e Métricas]]
-- [[01 Sistema de Dados/01 - ERP Softcomp - Detalhes]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/01 - ERP Softcomp - Detalhes]]
 - Vault estratégico: [[Cliente Ideal]]
 
 ## Memórias relacionadas

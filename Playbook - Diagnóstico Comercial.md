@@ -42,3 +42,8 @@ Problema comercial geralmente é de processo.
 - [[Custo de Servir]]
 - [[Pricing - Precificação]]
 - [[Vendas B2B]]
+
+## Aplicado na AFS
+
+Notas operacionais que usam este conceito (costura conceito↔aplicado, 01/08/2026):
+- [[Sistema Operacional Comercial/04 RAF/11 - Metodologia de Custeio da Logística]]

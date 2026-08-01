@@ -59,7 +59,7 @@ Quando estoque tem múltiplos lotes com custos diferentes, AFS usa **custo médi
 
 **Implicação:** no pricing ferroso da AFS, corte é **despesa orçamentária absorvida**. Cliente não vê custo separado.
 
-**Margem oculta:** todo ABCCUS_CTE registrado é **margem capturada** pela AFS (o cliente teria essa despesa se fosse em outro lugar). Ver [[04 RAF/04 - Margem Oculta (7 componentes)]].
+**Margem oculta:** todo ABCCUS_CTE registrado é **margem capturada** pela AFS (o cliente teria essa despesa se fosse em outro lugar). Ver [[Sistema Operacional Comercial/04 RAF/04 - Margem Oculta (7 componentes)]].
 
 **Em abr/2026:** R$1,0M de margem oculta via corte.
 
@@ -264,6 +264,6 @@ Pós-faturamento, spread de cada componente visível no RAF.
 - [[06 - VPP Tolerância e Lâmina]]
 - [[10 - Custo de Servir Aplicado]]
 - [[11 - Normas Técnicas]]
-- [[04 RAF/02 - Convenção Softcomp (Invertida)]]
-- [[04 RAF/04 - Margem Oculta (7 componentes)]]
-- [[04 RAF/06 - Despesas Logísticas por Unidade]]
+- [[Sistema Operacional Comercial/04 RAF/02 - Convenção Softcomp (Invertida)]]
+- [[Sistema Operacional Comercial/04 RAF/04 - Margem Oculta (7 componentes)]]
+- [[Sistema Operacional Comercial/04 RAF/06 - Despesas Logísticas por Unidade]]

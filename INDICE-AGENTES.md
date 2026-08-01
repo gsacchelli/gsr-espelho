@@ -50,6 +50,7 @@ leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 - `Ideias em Desenvolvimento.md` — Ideias em Desenvolvimento · **Primeira etapa** do funil de novas iniciativas. Captura de ideias ainda não estruturadas, antes de virarem hipótese testável.
 - `Inovação H1, H2 e H3.md` — Visão Geral · O modelo de inovação H1, H2 e H3 ajuda empresas a equilibrar o presente e o futuro, organizando iniciativas em três horizontes de tempo e im
 - `Liderança.md` — Liderança · Capacidade de definir direção, tomar decisões difíceis e alinhar pessoas para execução.
+- `Logs/00 - Índice de Decisões.md` — Índice de Decisões — Logs · Gerado em 01/08/2026 (auditoria A1). **Leia isto antes de grep cego nos Logs.**
 - `Logs/2026-04-17 — Aprendizado - Frete break bulk vs BDI.md` — 2026-04-17 — Aprendizado: Frete break bulk China→SFS — fonte correta vs BDI · Durante estudo de viabilidade da MetalM (parceria Duferco/DITH), foi necessário estimar o **custo de frete internacional** para compor o cus
 - `Logs/2026-04-17 — Estrutura Duferco-Brasil.md` — 2026-04-17 — Estrutura da participação de Gustavo no movimento Duferco-Brasil · ---
 - `Logs/2026-04-17 — Hipóteses críticas Duferco-Brasil.md` — 2026-04-17 — Hipóteses críticas para a decisão Duferco-Brasil · ---
@@ -193,7 +194,7 @@ leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 - `Sistema Operacional Comercial/04 RAF/04 - Margem Oculta (7 componentes).md` — 04 — Margem Oculta (7 componentes) · **Margem oculta** = diferença entre o que a AFS **cobrou** do cliente (embutido no preço) e o que **realmente pagou** — para cada componente
 - `Sistema Operacional Comercial/04 RAF/05 - Custo Real vs Cobrado.md` — 05 — Custo Real vs Cobrado · Esta nota sintetiza como **calcular e interpretar** a diferença cobrado vs real para análises operacionais. Para a nomenclatura e armadilha,
 - `Sistema Operacional Comercial/04 RAF/06 - Despesas Logísticas por Unidade.md` — 06 — Despesas Logísticas por Unidade · **Reavaliação:** trimestral.
-- `Sistema Operacional Comercial/04 RAF/07 - Tab A B C e Preços Mínimos.md` — 07 — Tab A B C e Preços Mínimos · Esta nota detalha os **campos RAF** relacionados a tabelas de preço. Para o processo operacional e alçada (Verde/Amarela/Vermelha), ver [[02
+- `Sistema Operacional Comercial/04 RAF/07 - Tab A B C e Preços Mínimos.md` — 07 — Tab A B C e Preços Mínimos · Esta nota detalha os **campos RAF** relacionados a tabelas de preço. Para o processo operacional e alçada (Verde/Amarela/Vermelha), ver [[Si
 - `Sistema Operacional Comercial/04 RAF/08 - Consolidação por OS.md` — 08 — Consolidação por OS · No RAF, um **mesmo item** (OS + ITE) pode ter **múltiplas linhas** devido a:
 - `Sistema Operacional Comercial/04 RAF/09 - Critérios de Classificação.md` — Critérios de Classificação no Motor RAF · Esta nota é a **fonte da verdade** das decisões metodológicas que regem como o motor de enriquecimento (`MotorAnalitico/raf/enriquecer.py`) 
 - `Sistema Operacional Comercial/04 RAF/10 - Margem MC PGA (Metas Anuais).md` — 10 — Margem MC PGA (Metas Anuais) · Métrica oficial para apuração da **Margem de Contribuição Global** definida no PGA (Plano Geral de Atividades) 2026, aprovado por Wagner Sac

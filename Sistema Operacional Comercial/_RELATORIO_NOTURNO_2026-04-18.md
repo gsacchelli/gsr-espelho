@@ -29,69 +29,69 @@ Conforme solicitado pelo Gustavo:
 ## O que foi criado
 
 ### Domínio 01 — Sistema de Dados (7 notas, nível 3 completo)
-- [[01 Sistema de Dados/00 - Arquitetura de Dados]]
-- [[01 Sistema de Dados/01 - ERP Softcomp - Detalhes]]
-- [[01 Sistema de Dados/02 - Arquivos Brutos e Convenções]]
-- [[01 Sistema de Dados/03 - Ferramentas Analíticas - Inventário]]
-- [[01 Sistema de Dados/04 - Qualidade de Dados]]
-- [[01 Sistema de Dados/05 - Padrões de Desenvolvimento]] ← style guide canônico
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/00 - Arquitetura de Dados]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/01 - ERP Softcomp - Detalhes]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/02 - Arquivos Brutos e Convenções]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/03 - Ferramentas Analíticas - Inventário]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/04 - Qualidade de Dados]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/05 - Padrões de Desenvolvimento]] ← style guide canônico
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]
 
 ### Domínio 02 — Precificação (13 notas, nível 3 completo)
-- [[02 Precificação/00 - Visão Geral Precificação]]
-- [[02 Precificação/01 - Fórmula do Lucro]]
-- [[02 Precificação/02 - Fórmula de Preço Sacchelli]]
-- [[02 Precificação/03 - Componentes de Custo]]
-- [[02 Precificação/04 - MC1 MC2 e DRE]]
-- [[02 Precificação/05 - Modos de Venda]]
-- [[02 Precificação/06 - VPP Tolerância e Lâmina]]
-- [[02 Precificação/07 - Tabelas e Alçadas]]
-- [[02 Precificação/08 - Simulador HTML - Arquitetura]]
-- [[02 Precificação/09 - Simulador Web App (futuro)]]
-- [[02 Precificação/10 - Custo de Servir Aplicado]]
-- [[02 Precificação/11 - Normas Técnicas]]
-- [[02 Precificação/12 - Modo Pacote Multi-Item]]
+- [[Sistema Operacional Comercial/02 Precificação/00 - Visão Geral Precificação]]
+- [[Sistema Operacional Comercial/02 Precificação/01 - Fórmula do Lucro]]
+- [[Sistema Operacional Comercial/02 Precificação/02 - Fórmula de Preço Sacchelli]]
+- [[Sistema Operacional Comercial/02 Precificação/03 - Componentes de Custo]]
+- [[Sistema Operacional Comercial/02 Precificação/04 - MC1 MC2 e DRE]]
+- [[Sistema Operacional Comercial/02 Precificação/05 - Modos de Venda]]
+- [[Sistema Operacional Comercial/02 Precificação/06 - VPP Tolerância e Lâmina]]
+- [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]]
+- [[Sistema Operacional Comercial/02 Precificação/08 - Simulador HTML - Arquitetura]]
+- [[Sistema Operacional Comercial/02 Precificação/09 - Simulador Web App (futuro)]]
+- [[Sistema Operacional Comercial/02 Precificação/10 - Custo de Servir Aplicado]]
+- [[Sistema Operacional Comercial/02 Precificação/11 - Normas Técnicas]]
+- [[Sistema Operacional Comercial/02 Precificação/12 - Modo Pacote Multi-Item]]
 
 ### Domínio 03 — Estoque (7 notas, nível 3 completo)
-- [[03 Estoque/00 - Visão Geral Estoque]]
-- [[03 Estoque/01 - Família Canônica]]
-- [[03 Estoque/02 - Faixas de Bitola]]
-- [[03 Estoque/03 - ABC XYZ (futuro)]]
-- [[03 Estoque/04 - Painel de Estoque v2]]
-- [[03 Estoque/05 - Movimentação e Giro]]
-- [[03 Estoque/06 - Fora de Padrão]]
+- [[Sistema Operacional Comercial/03 Estoque/00 - Visão Geral Estoque]]
+- [[Sistema Operacional Comercial/03 Estoque/01 - Família Canônica]]
+- [[Sistema Operacional Comercial/03 Estoque/02 - Faixas de Bitola]]
+- [[Sistema Operacional Comercial/03 Estoque/03 - ABC XYZ (futuro)]]
+- [[Sistema Operacional Comercial/03 Estoque/04 - Painel de Estoque v2]]
+- [[Sistema Operacional Comercial/03 Estoque/05 - Movimentação e Giro]]
+- [[Sistema Operacional Comercial/03 Estoque/06 - Fora de Padrão]]
 
 ### Domínio 04 — RAF (9 notas, nível 3 completo)
-- [[04 RAF/00 - Visão Geral RAF]]
-- [[04 RAF/01 - Estrutura das 133 Colunas]]
-- [[04 RAF/02 - Convenção Softcomp (Invertida)]]
-- [[04 RAF/03 - MC Contábil vs Econômica]]
-- [[04 RAF/04 - Margem Oculta (7 componentes)]]
-- [[04 RAF/05 - Custo Real vs Cobrado]]
-- [[04 RAF/06 - Despesas Logísticas por Unidade]]
-- [[04 RAF/07 - Tab A B C e Preços Mínimos]]
-- [[04 RAF/08 - Consolidação por OS]]
+- [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]]
+- [[Sistema Operacional Comercial/04 RAF/01 - Estrutura das 133 Colunas]]
+- [[Sistema Operacional Comercial/04 RAF/02 - Convenção Softcomp (Invertida)]]
+- [[Sistema Operacional Comercial/04 RAF/03 - MC Contábil vs Econômica]]
+- [[Sistema Operacional Comercial/04 RAF/04 - Margem Oculta (7 componentes)]]
+- [[Sistema Operacional Comercial/04 RAF/05 - Custo Real vs Cobrado]]
+- [[Sistema Operacional Comercial/04 RAF/06 - Despesas Logísticas por Unidade]]
+- [[Sistema Operacional Comercial/04 RAF/07 - Tab A B C e Preços Mínimos]]
+- [[Sistema Operacional Comercial/04 RAF/08 - Consolidação por OS]]
 
 ### Domínio 05 — Cotações (6 notas, todas completas)
-- [[05 Cotações/00 - Visão Geral Cotações]]
-- [[05 Cotações/01 - Inbound vs Outbound (ficção do ERP)]]
-- [[05 Cotações/02 - Motivos de Encerramento]]
-- [[05 Cotações/03 - Orçamento Prévio vs Projeto Real]]
-- [[05 Cotações/04 - Cliente-Tabelista (flag proposta)]]
-- [[05 Cotações/05 - Win Rate e Métricas]]
+- [[Sistema Operacional Comercial/05 Cotações/00 - Visão Geral Cotações]]
+- [[Sistema Operacional Comercial/05 Cotações/01 - Inbound vs Outbound (ficção do ERP)]]
+- [[Sistema Operacional Comercial/05 Cotações/02 - Motivos de Encerramento]]
+- [[Sistema Operacional Comercial/05 Cotações/03 - Orçamento Prévio vs Projeto Real]]
+- [[Sistema Operacional Comercial/05 Cotações/04 - Cliente-Tabelista (flag proposta)]]
+- [[Sistema Operacional Comercial/05 Cotações/05 - Win Rate e Métricas]]
 
 ### Domínio 06 — Pedidos (4 notas — 2 completas + 2 esqueleto)
-- [[06 Pedidos/00 - Visão Geral Pedidos]] — esqueleto
-- [[06 Pedidos/01 - Do Pedido ao RAF]] — completa
-- [[06 Pedidos/02 - Ciclo e Status]] — esqueleto
-- [[06 Pedidos/03 - Métricas de Pedido]] — esqueleto
+- [[Sistema Operacional Comercial/06 Pedidos/00 - Visão Geral Pedidos]] — esqueleto
+- [[Sistema Operacional Comercial/06 Pedidos/01 - Do Pedido ao RAF]] — completa
+- [[Sistema Operacional Comercial/06 Pedidos/02 - Ciclo e Status]] — esqueleto
+- [[Sistema Operacional Comercial/06 Pedidos/03 - Métricas de Pedido]] — esqueleto
 
 ### Domínio 07 — Cruzamentos e Previsões (5 notas, 4 completas + 1 esqueleto)
-- [[07 Cruzamentos e Previsões/00 - Visão Geral Cruzamentos]]
-- [[07 Cruzamentos e Previsões/01 - Cotação x Pedido x RAF]]
-- [[07 Cruzamentos e Previsões/02 - Estoque x RAF (giro real)]]
-- [[07 Cruzamentos e Previsões/03 - Pricing Planejado x Realizado]]
-- [[07 Cruzamentos e Previsões/04 - Previsões e Forecasts]] — esqueleto
+- [[Sistema Operacional Comercial/07 Cruzamentos e Previsões/00 - Visão Geral Cruzamentos]]
+- [[Sistema Operacional Comercial/07 Cruzamentos e Previsões/01 - Cotação x Pedido x RAF]]
+- [[Sistema Operacional Comercial/07 Cruzamentos e Previsões/02 - Estoque x RAF (giro real)]]
+- [[Sistema Operacional Comercial/07 Cruzamentos e Previsões/03 - Pricing Planejado x Realizado]]
+- [[Sistema Operacional Comercial/07 Cruzamentos e Previsões/04 - Previsões e Forecasts]] — esqueleto
 
 ### Overview raiz
 - [[00 - Visão Geral do Sistema]]
@@ -146,7 +146,7 @@ Valores abaixo **vieram da memória de conversas anteriores**, mas vale validar 
 - MC econômica realizada 35,44% (+6,15 pp)
 - Margem oculta: corte R$1M, FIN R$1M, EXT R$466k, COM R$111k, CER R$23k, INT R$19k, IMP R$0 (total +R$2,64M)
 
-**Se algum desses mudou, atualizar** nas notas correspondentes (principalmente [[02 Precificação/00 - Visão Geral Precificação]] e [[04 RAF/00 - Visão Geral RAF]]).
+**Se algum desses mudou, atualizar** nas notas correspondentes (principalmente [[Sistema Operacional Comercial/02 Precificação/00 - Visão Geral Precificação]] e [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]]).
 
 ### Métricas operacionais
 - Win rate 67,6%
@@ -205,7 +205,7 @@ Família Canônica e Motor Analítico se destacam como **conectores cross-domín
 
 ## Padrões de desenvolvimento documentados
 
-Conforme direcionamento, a nota [[01 Sistema de Dados/05 - Padrões de Desenvolvimento]] foi construída como **style guide canônico** para novos programas. Baseado em:
+Conforme direcionamento, a nota [[Sistema Operacional Comercial/01 Sistema de Dados/05 - Padrões de Desenvolvimento]] foi construída como **style guide canônico** para novos programas. Baseado em:
 - **Painel de Estoque v2** (referência)
 - **Simulador de Precificação HTML** (referência)
 
@@ -240,7 +240,7 @@ Principais padrões consolidados:
 9. **Integrar com logs vivos** — ex: entrada em [[Aprendizados]] quando sub-vault operacional revelar insight
 
 ### Ações técnicas fora do vault (sugestões)
-10. **Trazer Painel Comercial v1-v4 ao padrão** (ver [[01 Sistema de Dados/05 - Padrões de Desenvolvimento]])
+10. **Trazer Painel Comercial v1-v4 ao padrão** (ver [[Sistema Operacional Comercial/01 Sistema de Dados/05 - Padrões de Desenvolvimento]])
 11. **Arquivar dashboards históricos** (Campanha_60anos, Acovisa) para pasta dedicada
 
 ---
@@ -291,8 +291,8 @@ O sub-vault está **operacional** e pode ser usado imediatamente como:
 ## Conexões principais
 
 - [[00 - Visão Geral do Sistema]] — ponto de partida
-- [[01 Sistema de Dados/00 - Arquitetura de Dados]] — fluxo de dados
-- [[01 Sistema de Dados/05 - Padrões de Desenvolvimento]] — style guide
+- [[Sistema Operacional Comercial/01 Sistema de Dados/00 - Arquitetura de Dados]] — fluxo de dados
+- [[Sistema Operacional Comercial/01 Sistema de Dados/05 - Padrões de Desenvolvimento]] — style guide
 - Vault estratégico: [[Home]]
 
 ---

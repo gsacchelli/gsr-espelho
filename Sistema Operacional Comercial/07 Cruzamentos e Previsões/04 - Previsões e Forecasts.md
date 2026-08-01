@@ -81,5 +81,5 @@ Prematuro implementar sem essas bases.
 - [[01 - Cotação x Pedido x RAF]]
 - [[02 - Estoque x RAF (giro real)]]
 - [[03 - Pricing Planejado x Realizado]]
-- [[05 Cotações/03 - Orçamento Prévio vs Projeto Real]] (projetos)
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/05 Cotações/03 - Orçamento Prévio vs Projeto Real]] (projetos)
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]

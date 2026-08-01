@@ -171,4 +171,4 @@ Se item pula entre A/B ou X/Y a cada trimestre, classificação é instável. A�
 - [[01 - Família Canônica]]
 - [[04 - Painel de Estoque v2]]
 - [[05 - Movimentação e Giro]]
-- [[01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]

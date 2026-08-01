@@ -82,7 +82,7 @@ Análise nunca deve tratar "orçamento prévio" como bloco uniforme. Sempre segm
 2. Por setor do cliente (industrial pesado = provável projeto)
 3. Por nome conhecido (ANDRITZ, PROK, SUPERIOR = projeto)
 
-Ver detalhes em [[05 Cotações/03 - Orçamento Prévio vs Projeto Real]].
+Ver detalhes em [[Sistema Operacional Comercial/05 Cotações/03 - Orçamento Prévio vs Projeto Real]].
 
 ---
 
@@ -133,7 +133,7 @@ Se interpretar como intuitivo: spread parece "custo de servir negativo". Se inte
 - Memória `project_raf_convencao_softcomp.md` atualizada
 
 ### Padrão recomendado
-Em qualquer análise RAF, **primeiro** passar pelas funções de carga do motor (que aplicam a inversão correta), **nunca** ler direto dos campos brutos sem tradução. Ver [[04 RAF/02 - Convenção Softcomp (Invertida)]].
+Em qualquer análise RAF, **primeiro** passar pelas funções de carga do motor (que aplicam a inversão correta), **nunca** ler direto dos campos brutos sem tradução. Ver [[Sistema Operacional Comercial/04 RAF/02 - Convenção Softcomp (Invertida)]].
 
 ---
 
@@ -156,7 +156,7 @@ Sempre consolidar linhas **por OS + ITE** antes de calcular métricas unitárias
 - Médias ponderadas por peso/quantidade
 
 ### Padrão recomendado
-Funções de análise do RAF operam **sempre** sobre dataframe consolidado, não sobre linhas brutas. Implementado no Motor Analítico. Ver [[04 RAF/08 - Consolidação por OS]].
+Funções de análise do RAF operam **sempre** sobre dataframe consolidado, não sobre linhas brutas. Implementado no Motor Analítico. Ver [[Sistema Operacional Comercial/04 RAF/08 - Consolidação por OS]].
 
 ---
 
@@ -264,6 +264,6 @@ Se qualquer item responder "não", **pare e corrija antes de concluir algo**.
 - [[00 - Arquitetura de Dados]]
 - [[01 - ERP Softcomp - Detalhes]]
 - [[05 - Padrões de Desenvolvimento]]
-- [[04 RAF/02 - Convenção Softcomp (Invertida)]]
-- [[04 RAF/08 - Consolidação por OS]]
-- [[05 Cotações/03 - Orçamento Prévio vs Projeto Real]]
+- [[Sistema Operacional Comercial/04 RAF/02 - Convenção Softcomp (Invertida)]]
+- [[Sistema Operacional Comercial/04 RAF/08 - Consolidação por OS]]
+- [[Sistema Operacional Comercial/05 Cotações/03 - Orçamento Prévio vs Projeto Real]]

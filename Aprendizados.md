@@ -95,3 +95,13 @@ Acerto **não analisado** não escala.
 - [[Sistema de Decisão - C-Level]]
 - [[Hipóteses de Negócio]]
 - [[Filtros Estratégicos]]
+
+## Aplicado na AFS
+
+Notas operacionais que usam este conceito (costura conceito↔aplicado, 01/08/2026):
+- [[Sistema Operacional Comercial/00 - Visão Geral do Sistema]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/00 - Arquitetura de Dados]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]
+- [[Sistema Operacional Comercial/01 Sistema de Dados/07 - Gestão Centralizada de Dados]]
+- [[Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF]]
+- [[Sistema Operacional Comercial/_RELATORIO_NOTURNO_2026-04-18]]

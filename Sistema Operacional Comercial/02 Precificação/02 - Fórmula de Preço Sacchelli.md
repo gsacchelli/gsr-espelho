@@ -231,5 +231,5 @@ Implicação: descontos em pedidos **sem serviço adicional** (aço puro) derrub
 - [[05 - Modos de Venda]]
 - [[06 - VPP Tolerância e Lâmina]]
 - [[08 - Simulador HTML - Arquitetura]]
-- [[04 RAF/02 - Convenção Softcomp (Invertida)]]
-- [[04 RAF/04 - Margem Oculta (7 componentes)]]
+- [[Sistema Operacional Comercial/04 RAF/02 - Convenção Softcomp (Invertida)]]
+- [[Sistema Operacional Comercial/04 RAF/04 - Margem Oculta (7 componentes)]]
