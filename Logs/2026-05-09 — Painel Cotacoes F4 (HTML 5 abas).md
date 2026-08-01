@@ -1,7 +1,10 @@
 ---
 data: 2026-05-09
+tipo: log
+status: supersedida
+substituida_por: "[[Logs/2026-07-14 — Regras de negócio oficializadas (DRE, comissão agente) + Estágio 5]]"
+obs: "F4 fechada — painel HTML em produção"
 contexto: Painel Comercial de Cotações
-status: F4 fechada — painel HTML em produção
 tags: [painel, cotações, html, frontend, sessão]
 ---
 

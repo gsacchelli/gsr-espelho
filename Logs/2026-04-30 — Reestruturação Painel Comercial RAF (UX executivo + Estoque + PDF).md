@@ -1,13 +1,11 @@
 ---
 data: 2026-04-30
-tipo: implementação + decisão metodológica
+tipo: log
+status: supersedida
+substituida_por: "[[Logs/2026-07-14 — Regras de negócio oficializadas (DRE, comissão agente) + Estágio 5]]"
+obs: "Pacotes 6, 7, 8, 9, 9b aplicados — boot validado em todos"
 projeto: Painel Comercial RAF — Reestruturação completa de UX (4 abas) + Análise de Estoque Estratégico + PDF Export
-status: Pacotes 6, 7, 8, 9, 9b aplicados — boot validado em todos
-relacionados:
-  - "[[Logs/2026-04-29 — Análise DRE Sacchelli + Break-Even Gerencial]]"
-  - "[[Logs/2026-04-28 — Sessão Painel Comercial RAF + Decisões Metodológicas]]"
-  - "[[Logs/2026-04-27 — Bloco 1+2 RAF + Painel Estoque + Aggregator Painel Comercial]]"
-  - "[[Sistema Operacional Comercial/04 RAF/09 - Critérios de Classificação]]"
+relacionados: 
 ---
 
 # 30/04/2026 — Reestruturação Painel Comercial RAF + Pacote 5 (Estoque) + Pacote 6 (PDF)

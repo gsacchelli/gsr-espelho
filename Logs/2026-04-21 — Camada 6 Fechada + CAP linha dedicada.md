@@ -1,4 +1,7 @@
 ---
+data: 2026-04-21
+tipo: log
+status: vigente
 tags: [log, decisao, simulador, importacao, motor-pricing, camada-6]
 date: 2026-04-21
 ---

@@ -1,6 +1,7 @@
 ---
 data: 2026-07-17
-tipo: entrega — ferramenta nova
+tipo: log
+status: vigente
 projeto: Portal SAC360 (afs-lake)
 ---
 

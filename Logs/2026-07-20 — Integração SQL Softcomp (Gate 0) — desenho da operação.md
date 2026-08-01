@@ -1,3 +1,8 @@
+---
+data: 2026-07-20
+tipo: log
+status: vigente
+---
 # 2026-07-20 — Integração SQL Softcomp (Gate 0): desenho da operação
 
 Retomada do acesso ao banco Softcomp pra eliminar o export manual e alimentar o

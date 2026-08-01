@@ -1,3 +1,8 @@
+---
+data: 2026-04-21
+tipo: log
+status: vigente
+---
 # 2026-04-21 — Teste Guiado Proposta Comercial
 
 Sessão com Claude pra validar o fluxo Proposta Comercial em cenário real após o refactor de Etapas 1-4 fechado hoje de manhã. Resultado: **2 fixes críticos aplicados + 2 bugs estruturais descobertos + 3 refinos de UX mapeados**.

@@ -1,9 +1,10 @@
 ---
 data: 2026-04-22
 tipo: log
+status: vigente
+obs: "fechado"
 projeto: Simulador Precificação
 fase: W3 Wrapper Fino — W3d-5 (última extração antes do W3e)
-status: fechado
 ---
 
 # W3d-5 — Render Estoque validado em produção

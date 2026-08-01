@@ -1,8 +1,9 @@
 ---
-tipo: log-auditoria
+data: 2026-04-20
+tipo: log
+status: vigente
 categoria: simulador / pricing / fiscal
 domínio: importação
-data: 2026-04-20
 tags: [simulador, importação, fiscal, auditoria, pis, cofins, icms, ii, ipi, afrmm, lei-10865, lei-14973]
 ---
 

@@ -1,7 +1,10 @@
 ---
 data: 2026-05-09
+tipo: log
+status: supersedida
+substituida_por: "[[Logs/2026-07-14 — Regras de negócio oficializadas (DRE, comissão agente) + Estágio 5]]"
+obs: "F5 fechada — refactor profundo pra espelhar Excel do Gustavo"
 contexto: Painel Comercial de Cotações
-status: F5 fechada — refactor profundo pra espelhar Excel do Gustavo
 tags: [painel, cotações, refactor, sessão]
 ---
 

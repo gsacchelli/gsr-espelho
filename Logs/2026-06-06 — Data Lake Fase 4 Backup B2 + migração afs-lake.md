@@ -1,8 +1,9 @@
 ---
 data: 2026-06-06
+tipo: log
+status: vigente
 tags: [data-lake, backup, backblaze-b2, rclone, infra, git, ssh, migracao, fase-4]
-relacionado:
-  - "[[2026-06-02 — Refactor Cotações anual + bug gap_cot_ped + análise big4]]"
+relacionado: 
 ---
 
 # Data Lake — Fase 4 (Backup Backblaze B2) + migração do projeto pra ~/dev/afs-lake

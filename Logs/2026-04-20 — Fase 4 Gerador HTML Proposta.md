@@ -1,13 +1,11 @@
 ---
 data: 2026-04-20
-tipo: implementação
+tipo: log
+status: vigente
+obs: "concluída — aguarda validação visual no navegador"
 projeto: Simulador Precificação → Proposta Comercial
 fase: 4 (Gerador HTML — greedy)
-status: concluída — aguarda validação visual no navegador
-relacionados:
-  - "[[Logs/2026-04-20 — Arquitetura Gerador Proposta]]"
-  - "[[Logs/2026-04-20 — Fase 3 Proposta Schema e UI]]"
-  - "[[07_Marca/Filosofia_Design_Proposta]]"
+relacionados: 
 ---
 
 # Fase 4 — Gerador de HTML da Proposta (greedy)

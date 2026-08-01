@@ -1,12 +1,11 @@
 ---
 data: 2026-04-20
-tipo: implementação
+tipo: log
+status: vigente
+obs: "concluída — aguarda validação em produção"
 projeto: Simulador Precificação → Proposta Comercial
 fase: 3 (Schema + UI no simulador)
-status: concluída — aguarda validação em produção
-relacionados:
-  - "[[Logs/2026-04-20 — Arquitetura Gerador Proposta]]"
-  - "[[Logs/2026-04-17 — Plano Fases 1+3 Simulador Precificação]]"
+relacionados: 
 ---
 
 # Fase 3 — Schema de Proposta + UI no Simulador

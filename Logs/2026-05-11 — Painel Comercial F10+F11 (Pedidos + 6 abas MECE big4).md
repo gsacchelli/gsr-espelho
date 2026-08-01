@@ -1,3 +1,8 @@
+---
+data: 2026-05-11
+tipo: log
+status: vigente
+---
 # 2026-05-11 — Painel Comercial F10+F11
 
 ## TL;DR

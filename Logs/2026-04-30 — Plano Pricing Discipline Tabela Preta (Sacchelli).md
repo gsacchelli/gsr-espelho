@@ -1,14 +1,10 @@
 ---
 data: 2026-04-30
-tipo: plano operacional
+tipo: log
+status: vigente
 projeto: Pricing Discipline AFS — turnaround Tabela Preta Q2-Q3 2026
-status: rascunho
 fonte_dados: Painel_Comercial_RAF.html (PD JSON, cubo_main + cubo_os, snapshot 2026-04-30)
-relacionados:
-  - "[[Logs/2026-04-30 — Diagnóstico Estratégico Sacchelli 2026 YTD (Jan-Mar)]]"
-  - "[[Logs/2026-04-29 — Análise DRE Sacchelli + Break-Even Gerencial]]"
-  - "[[Logs/2026-04-17 — Estrutura Duferco-Brasil]]"
-  - "[[Logs/2026-04-17 — Plano de transição AFS-MetalM (Cenário F)]]"
+relacionados: 
 ---
 
 # Plano Operacional — Pricing Discipline Tabela Preta (AFS Q2-Q3 2026)

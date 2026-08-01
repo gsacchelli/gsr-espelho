@@ -1,3 +1,8 @@
+---
+data: 2026-04-21
+tipo: log
+status: vigente
+---
 # 2026-04-21 — Bugs 3, 4 e 5 da Proposta Comercial (FIX)
 
 ## Bug 5 — pacoteAfterCalc corrompe state durante restore (FIXADO 21/04/2026 noite)

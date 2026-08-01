@@ -1,12 +1,11 @@
 ---
 data: 2026-05-03
-tipo: implementação + ferramenta de gestão
+tipo: log
+status: supersedida
+substituida_por: "[[Logs/2026-07-14 — Regras de negócio oficializadas (DRE, comissão agente) + Estágio 5]]"
+obs: "código aplicado, pendente Gustavo rodar `--painel-raf` (~8 min) e validar"
 projeto: Painel Comercial RAF — Cockpit Pricing Review semanal (instrumentação Decisão 1+3 Wagner)
-status: código aplicado, pendente Gustavo rodar `--painel-raf` (~8 min) e validar
-relacionados:
-  - "[[Logs/2026-04-30 — One-Pager Decisões Wagner (esta semana)]]"
-  - "[[Logs/2026-04-30 — Plano Pricing Discipline Tabela Preta (Sacchelli)]]"
-  - "[[Logs/2026-04-30 — Reestruturação Painel Comercial RAF (UX executivo + Estoque + PDF)]]"
+relacionados: 
 ---
 
 # 03/05/2026 — Cockpit Pricing Review semanal no Painel Comercial RAF

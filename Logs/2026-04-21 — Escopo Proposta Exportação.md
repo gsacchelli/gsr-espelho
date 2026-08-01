@@ -1,3 +1,8 @@
+---
+data: 2026-04-21
+tipo: log
+status: vigente
+---
 # 2026-04-21 — Escopo Proposta de Exportação (USD, EN)
 
 Feature planejada. Escopo fechado com Gustavo. **Implementação parada aguardando sinal verde** (prioridade definida depois, sem conflito com processo Duferco-Brasil em curso).

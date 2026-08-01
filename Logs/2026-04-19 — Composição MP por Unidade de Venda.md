@@ -1,8 +1,9 @@
 ---
-tipo: decisão
+data: 2026-04-19
+tipo: log
+status: vigente
 categoria: produto / pricing
 domínio: simulador
-data: 2026-04-19
 tags: [decisão, simulador, pricing, modos-venda, composição-mp, camada-7, w3-a]
 ---
 

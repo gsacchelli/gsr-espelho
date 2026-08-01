@@ -1,6 +1,8 @@
 ---
-status: ação-tática (REORDENADA 2026-04-17)
-tipo: plano-ação
+data: 2026-04-17
+tipo: log
+status: vigente
+obs: "ação-tática (REORDENADA 2026-04-17)"
 prazo-duro: 2026-04-30 (Vanessa → suíços)
 data-criação: 2026-04-17
 data-revisão: 2026-04-17 (reordenada após discussão crítica)

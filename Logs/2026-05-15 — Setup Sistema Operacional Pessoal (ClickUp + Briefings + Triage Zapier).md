@@ -1,3 +1,8 @@
+---
+data: 2026-05-15
+tipo: log
+status: vigente
+---
 # 2026-05-15 — Setup Sistema Operacional Pessoal (ClickUp + Briefings + Triage Zapier)
 
 **Duração:** ~3h em sessão única

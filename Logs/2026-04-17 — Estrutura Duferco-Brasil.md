@@ -1,6 +1,8 @@
 ---
-status: em-deliberação
-tipo: decisão
+data: 2026-04-17
+tipo: log
+status: vigente
+obs: "em-deliberação"
 tipo-decisão: Tipo 1 (irreversível)
 data-decisão: 2026-04-17
 prazo-janela-ação: 2026-04-30 (Vanessa → suíços)

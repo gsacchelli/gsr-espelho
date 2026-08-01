@@ -1,9 +1,10 @@
 ---
 data: 2026-04-22
 tipo: log
+status: vigente
+obs: "fechado"
 projeto: Simulador Precificação
 fase: W3 Wrapper Fino — W3d-4 + sweep pt-BR
-status: fechado
 ---
 
 # W3d-4 — Render MC Cards + Sweep pt-BR validados em produção

@@ -1,9 +1,11 @@
 ---
-tipo: log de sessão
+data: 2026-06-14
+tipo: log
+status: vigente
+obs: "entregue — documento em 3 fases pronto para discussão"
 domínio: logística / custeio / política comercial
 criado: 2026-06-14
 tags: [logística, frete, guarulhos, conselho, cowork, fase1]
-status: entregue — documento em 3 fases pronto para discussão
 ---
 
 # Política Logística Guarulhos — documento em fases + cortes derivados da base NF a NF

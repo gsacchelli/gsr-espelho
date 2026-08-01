@@ -1,9 +1,10 @@
 ---
 data: 2026-04-24
 tipo: log
+status: vigente
+obs: "fechado"
 projeto: Simulador Precificação
 fase: Camada 11 — Auto-VPP + Lâmina em MP Repasse a granel + venda Pç
-status: fechado
 ---
 
 # Camada 11 — Proteção contra margem furada em MP Repasse a granel

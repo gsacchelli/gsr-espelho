@@ -1,8 +1,9 @@
 ---
-tipo: log-execução
+data: 2026-04-20
+tipo: log
+status: vigente
 categoria: simulador / pricing
 domínio: camada-6c
-data: 2026-04-20
 tags: [simulador, motor, camada-6c, repasse, importação, sprint-3, pre-work]
 ---
 

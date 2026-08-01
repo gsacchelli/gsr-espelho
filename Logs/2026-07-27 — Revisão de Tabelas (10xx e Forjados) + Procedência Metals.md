@@ -1,8 +1,9 @@
 ---
 data: 2026-07-27
-tipo: pricing / comunicação interna
+tipo: log
+status: vigente
+obs: "rascunho criado no Gmail — não enviado"
 projeto: Revisão de Tabelas Jul'26 (comerciais 10xx + forjados)
-status: rascunho criado no Gmail — não enviado
 ---
 
 # Revisão de Tabelas Jul'26 + Procedência Metals (e-mail aos gestores)

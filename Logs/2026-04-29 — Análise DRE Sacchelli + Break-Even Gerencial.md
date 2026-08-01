@@ -1,12 +1,10 @@
 ---
 data: 2026-04-29
-tipo: análise financeira + decisão metodológica
+tipo: log
+status: vigente
 projeto: Painel Comercial RAF — Pacote 1 (Matriz BCG) + threshold MC% break-even
 fonte: Balanço Patrimonial 2023, 2024, 2025 + Balancete fev/2026 (uploads Gustavo)
-relacionados:
-  - "[[Logs/2026-04-28 — Sessão Painel Comercial RAF + Decisões Metodológicas]]"
-  - "[[Logs/2026-04-27 — Bloco 1+2 RAF + Painel Estoque + Aggregator Painel Comercial]]"
-  - "[[Logs/2026-04-17 — Estrutura Duferco-Brasil]]"
+relacionados: 
 ---
 
 # 29/04/2026 — Análise DRE Sacchelli + Break-Even Gerencial

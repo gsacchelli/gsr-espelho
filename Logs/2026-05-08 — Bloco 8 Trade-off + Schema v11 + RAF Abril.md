@@ -1,3 +1,8 @@
+---
+data: 2026-05-08
+tipo: log
+status: vigente
+---
 # 2026-05-08 — Bloco 8 Trade-off + Schema v11 + RAF Abril
 
 Sessão consolidada. Ingestão de Abril/26, integração da análise de Trade-off Desconto × Volume no Painel Comercial RAF (bloco 8 do Pricing V3), correção arquitetural do `cubo_cliente` pra filtrar por período (BCG), e revisão metodológica de filtros de Tabela Preta.

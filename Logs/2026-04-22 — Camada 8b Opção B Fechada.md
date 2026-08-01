@@ -1,3 +1,8 @@
+---
+data: 2026-04-22
+tipo: log
+status: vigente
+---
 # 2026-04-22 — Camada 8b Opção B Fechada (DRE Camada 2 no motor)
 
 Fechamento formal da decomposição gerencial do spread total (DRE Camada 2) no motor. Paridade bit-idêntica com HTML validada via fixture real capturada em produção.

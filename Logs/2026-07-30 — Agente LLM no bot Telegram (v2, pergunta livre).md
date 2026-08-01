@@ -1,3 +1,8 @@
+---
+data: 2026-07-30
+tipo: log
+status: vigente
+---
 # Agente LLM no bot Telegram — v2, pergunta livre
 
 **Data:** 30/07/2026

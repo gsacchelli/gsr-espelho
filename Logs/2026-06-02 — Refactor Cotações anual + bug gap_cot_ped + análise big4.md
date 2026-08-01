@@ -1,11 +1,9 @@
 ---
 data: 2026-06-02
+tipo: log
+status: vigente
 tags: [motor-cotacoes, motor-pedidos, politica-dados, refactor, bug, analise-big4, win-rate, cross-check]
-relacionado:
-  - "[[2026-06-01 — Fix valor_orc_previo (Win Rate dobra de 22%→40%)]]"
-  - "[[2026-05-11 — Painel Comercial F10+F11 (Pedidos + 6 abas MECE big4)]]"
-  - "[[2026-05-09 — Painel Cotacoes F4 (HTML 5 abas)]]"
-  - "[[Sistema Operacional Comercial/08 Agente Analítico/02 - Convenções e Caveats]]"
+relacionado: 
 ---
 
 # Refactor Cotações pra política anual + descoberta bug gap_cot_ped_pct + análise big4

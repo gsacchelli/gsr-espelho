@@ -3,11 +3,6 @@
 Regenerado pelo backup_gsr.py em 01/08/2026. Uma linha por nota:
 leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 
-- `5 Forças de Porter.md` — 5 Forças de Porter · Analisar a estrutura competitiva de um mercado.
-- `Alocação de Capital.md` — Alocação de Capital · Decisão sobre **onde investir recursos escassos** para maximizar valor no longo prazo.
-- `Análise de Mercado.md` — Análise de Mercado · Processo de entender a estrutura, dinâmica e oportunidades de um mercado.
-- `Aprendizados.md` — Aprendizados — Log unificado · Registro vivo de aprendizados, erros e acertos ao longo do tempo. Fecha o ciclo das decisões registradas em [[Decisões C-Level]].
-- `Balanced Scorecard (BSC).md` — Balanced Scorecard (BSC) · Sistema de gestão que traduz estratégia em execução.
 - `Biblioteca/00 - Leia-me (Biblioteca).md` — 📚 Biblioteca — leitura que vira decisão · Pasta de livros lidos. A regra é uma só: **destaque bruto e síntese própria são coisas separadas e moram em arquivos diferentes.**
 - `Biblioteca/00 - Método de Leitura e Síntese.md` — Método de Leitura e Síntese · Como um livro vira conhecimento reutilizável no vault. Quatro etapas, sendo que só a primeira custa tempo — e ela custa zero minuto a mais d
 - `Biblioteca/00 - Índice da Biblioteca.md` — Índice da Biblioteca · *Regenerado em 2026-08-01 por `_scripts/gerar_indice.py`.*
@@ -31,25 +26,53 @@ leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 - `C-Level Operating System/C-Level - Operating Model.md` — C-Level - Operating Model · Ser C-Level é operar como alocador de capital sob incerteza.
 - `C-Level Operating System/Filtros Estratégicos.md` — Filtros Estratégicos · - Isso cria valor real?
 - `C-Level Operating System/Sistema de Decisão - C-Level.md` — Sistema de Decisão - C-Level · Framework de princípios, tipos e processo para decisões de alto impacto.
-- `Cadeia de Valor.md` — Cadeia de Valor · Sequência de atividades que gera valor ao cliente.
-- `Canvas MetalM.md` — Canvas MetalM · Os nove blocos do Business Model Canvas preenchidos a partir do **seu próprio plano de negócios** (v1.0, mar/2026). Nada aqui vem de livro: 
-- `Cliente Ideal.md` — Cliente Ideal (ICP) · Perfil de cliente que gera **maior valor econômico** e **melhor fit estratégico** para o negócio.
-- `Construção de Ativos vs Renda.md` — Construção de Ativos vs Renda · Distinção estrutural entre **fluxo** (renda) e **estoque** (ativo) — e a implicação de escolher onde alocar tempo, capital e atenção.
-- `Cultura Organizacional.md` — Cultura Organizacional · Conjunto de comportamentos, valores e normas que definem como as coisas realmente acontecem na empresa.
-- `Custo de Servir.md` — Custo de Servir · Conjunto de **custos operacionais** que variam por cliente e **não estão no CMV** — ficam escondidos no resultado total e são cobrados (ou a
-- `Customer Segmentation.md` — Customer Segmentation · Divisão da base de clientes em **grupos homogêneos** por características relevantes para decisão comercial.
-- `Decisões C-Level.md` — Decisões C-Level — Log · Registro vivo de decisões de alto impacto tomadas. Uma entrada por decisão.
-- `Ecossistema e Parcerias.md` — Ecossistema e Parcerias · Rede estruturada de **atores complementares** que amplia capacidade, reduz risco e acelera acesso a mercado. O concorrente não é mais apenas
-- `Estratégia - Fundamentos.md` — Estratégia - Fundamentos · Estratégia é um conjunto integrado de escolhas que define onde competir e como vencer.
-- `Finanças Corporativas.md` — Definição · Finanças corporativas é o sistema de tomada de decisão que conecta estratégia, investimento e criação de valor.
-- `Framework relacionado.md` — Framework Relacionado · Servir como ponto de conexão entre frameworks estratégicos utilizados no sistema.
-- `Funil de Vendas.md` — Funil de Vendas · Representação do processo comercial em etapas.
-- `Go-to-Market.md` — Go-to-Market · Estratégia para levar produto ao mercado.
-- `Hipóteses de Negócio.md` — Hipóteses de Negócio · **Suposições críticas** que precisam ser validadas antes de comprometer capital relevante.
+- `Fundamentos/5 Forças de Porter.md` — 5 Forças de Porter · Analisar a estrutura competitiva de um mercado.
+- `Fundamentos/Alocação de Capital.md` — Alocação de Capital · Decisão sobre **onde investir recursos escassos** para maximizar valor no longo prazo.
+- `Fundamentos/Análise de Mercado.md` — Análise de Mercado · Processo de entender a estrutura, dinâmica e oportunidades de um mercado.
+- `Fundamentos/Aprendizados.md` — Aprendizados — Log unificado · Registro vivo de aprendizados, erros e acertos ao longo do tempo. Fecha o ciclo das decisões registradas em [[Decisões C-Level]].
+- `Fundamentos/Balanced Scorecard (BSC).md` — Balanced Scorecard (BSC) · Sistema de gestão que traduz estratégia em execução.
+- `Fundamentos/Cadeia de Valor.md` — Cadeia de Valor · Sequência de atividades que gera valor ao cliente.
+- `Fundamentos/Canvas MetalM.md` — Canvas MetalM · Os nove blocos do Business Model Canvas preenchidos a partir do **seu próprio plano de negócios** (v1.0, mar/2026). Nada aqui vem de livro: 
+- `Fundamentos/Cliente Ideal.md` — Cliente Ideal (ICP) · Perfil de cliente que gera **maior valor econômico** e **melhor fit estratégico** para o negócio.
+- `Fundamentos/Construção de Ativos vs Renda.md` — Construção de Ativos vs Renda · Distinção estrutural entre **fluxo** (renda) e **estoque** (ativo) — e a implicação de escolher onde alocar tempo, capital e atenção.
+- `Fundamentos/Cultura Organizacional.md` — Cultura Organizacional · Conjunto de comportamentos, valores e normas que definem como as coisas realmente acontecem na empresa.
+- `Fundamentos/Custo de Servir.md` — Custo de Servir · Conjunto de **custos operacionais** que variam por cliente e **não estão no CMV** — ficam escondidos no resultado total e são cobrados (ou a
+- `Fundamentos/Customer Segmentation.md` — Customer Segmentation · Divisão da base de clientes em **grupos homogêneos** por características relevantes para decisão comercial.
+- `Fundamentos/Decisões C-Level.md` — Decisões C-Level — Log · Registro vivo de decisões de alto impacto tomadas. Uma entrada por decisão.
+- `Fundamentos/Ecossistema e Parcerias.md` — Ecossistema e Parcerias · Rede estruturada de **atores complementares** que amplia capacidade, reduz risco e acelera acesso a mercado. O concorrente não é mais apenas
+- `Fundamentos/Estratégia - Fundamentos.md` — Estratégia - Fundamentos · Estratégia é um conjunto integrado de escolhas que define onde competir e como vencer.
+- `Fundamentos/Finanças Corporativas.md` — Definição · Finanças corporativas é o sistema de tomada de decisão que conecta estratégia, investimento e criação de valor.
+- `Fundamentos/Framework relacionado.md` — Framework Relacionado · Servir como ponto de conexão entre frameworks estratégicos utilizados no sistema.
+- `Fundamentos/Funil de Vendas.md` — Funil de Vendas · Representação do processo comercial em etapas.
+- `Fundamentos/Go-to-Market.md` — Go-to-Market · Estratégia para levar produto ao mercado.
+- `Fundamentos/Hipóteses de Negócio.md` — Hipóteses de Negócio · **Suposições críticas** que precisam ser validadas antes de comprometer capital relevante.
+- `Fundamentos/Ideias em Desenvolvimento.md` — Ideias em Desenvolvimento · **Primeira etapa** do funil de novas iniciativas. Captura de ideias ainda não estruturadas, antes de virarem hipótese testável.
+- `Fundamentos/Inovação H1, H2 e H3.md` — Visão Geral · O modelo de inovação H1, H2 e H3 ajuda empresas a equilibrar o presente e o futuro, organizando iniciativas em três horizontes de tempo e im
+- `Fundamentos/Liderança.md` — Liderança · Capacidade de definir direção, tomar decisões difíceis e alinhar pessoas para execução.
+- `Fundamentos/Modelo de Negócio.md` — Definição · Forma como a empresa **cria, entrega e captura** valor.
+- `Fundamentos/Playbook - Análise de Mercado.md` — Playbook - Análise de Mercado · Entender dinâmica e oportunidades.
+- `Fundamentos/Playbook - Avaliação de Oportunidades.md` — Playbook - Avaliação de Oportunidades · Avaliar se uma oportunidade deve ser perseguida.
+- `Fundamentos/Playbook - BSC.md` — Playbook - BSC · Traduzir estratégia em execução.
+- `Fundamentos/Playbook - Diagnóstico Comercial.md` — Playbook - Diagnóstico Comercial · Avaliar performance da área comercial.
+- `Fundamentos/Playbook - Estratégia.md` — Playbook - Estratégia · Construir uma estratégia clara e executável.
+- `Fundamentos/Playbook - Planejamento Comercial.md` — Playbook - Planejamento Comercial · Transformar estratégia em receita.
+- `Fundamentos/Playbook - Tomada de Decisão C-Level.md` — Playbook - Tomada de Decisão C-Level · Tomar decisões com impacto estratégico.
+- `Fundamentos/Playing to Win.md` — Playing to Win · Framework para construção de estratégia prática.
+- `Fundamentos/Posicionamento Estratégico.md` — Posicionamento Estratégico · Como você **quer ser percebido** na mente do cliente vs. concorrência. Não é o que você vende — é o **espaço mental** que ocupa.
+- `Fundamentos/Pricing - Precificação.md` — Pricing — Precificação · Decisão sobre **quanto capturar do valor criado** para o cliente, sob restrição de mercado, custo e posicionamento.
+- `Fundamentos/Projeto Forja — Plataforma de Dados e IA (Três Horizontes).md` — Projeto Forja — Plataforma de Dados e IA da Aços Sacchelli · Projeto estruturado nos **Três Horizontes de Inovação** ([[Inovação H1, H2 e H3]]) vistos no curso da FDC. Trata exclusivamente da jornada d
+- `Fundamentos/Proposta de Valor.md` — Proposta de Valor · Razão clara pela qual **este cliente específico** escolhe você em vez do concorrente. Não é slogan nem descrição de produto — é a **equação 
+- `Fundamentos/SWOT Avançado.md` — SWOT Avançado · Ferramenta para análise estratégica integrada.
+- `Fundamentos/Servitização.md` — Servitização · Evolução de um negócio baseado em **produto** para um baseado em **produto + serviços integrados** que geram valor contínuo para o cliente.
+- `Fundamentos/Strategy Map.md` — Strategy Map · Representação visual da estratégia com relações de causa e efeito.
+- `Fundamentos/Tempo como Ativo Estratégico.md` — Tempo como Ativo Estratégico · Tempo é o único recurso **verdadeiramente escasso, irreversível e não-transferível** que um C-Level aloca. Dinheiro pode voltar, reputação p
+- `Fundamentos/Trade-offs.md` — Trade-offs · Escolhas estratégicas que envolvem renunciar alternativas.
+- `Fundamentos/Transformação de Mercado.md` — Transformação de Mercado · Leitura estrutural das **mudanças de fundo** no mercado — não flutuações, mas movimentos que **reconfiguram** quem captura valor.
+- `Fundamentos/Unit Economics.md` — Unit Economics · Análise da rentabilidade por unidade de negócio.
+- `Fundamentos/VRIO.md` — VRIO · Framework para avaliar se um recurso gera vantagem competitiva sustentável.
+- `Fundamentos/Vantagem Competitiva.md` — Vantagem Competitiva · Capacidade de uma empresa gerar valor superior de forma sustentável.
+- `Fundamentos/Vendas B2B.md` — Vendas B2B · - ciclo longo
 - `Home.md` — 🧠 Sistema Estratégico — Home · Hub central do vault. Ponto de partida para navegação e aplicação dos frameworks.
-- `Ideias em Desenvolvimento.md` — Ideias em Desenvolvimento · **Primeira etapa** do funil de novas iniciativas. Captura de ideias ainda não estruturadas, antes de virarem hipótese testável.
-- `Inovação H1, H2 e H3.md` — Visão Geral · O modelo de inovação H1, H2 e H3 ajuda empresas a equilibrar o presente e o futuro, organizando iniciativas em três horizontes de tempo e im
-- `Liderança.md` — Liderança · Capacidade de definir direção, tomar decisões difíceis e alinhar pessoas para execução.
 - `Logs/00 - Índice de Decisões.md` — Índice de Decisões — Logs · Gerado em 01/08/2026 (auditoria A1). **Leia isto antes de grep cego nos Logs.**
 - `Logs/2026-04-17 — Aprendizado - Frete break bulk vs BDI.md` — 2026-04-17 — Aprendizado: Frete break bulk China→SFS — fonte correta vs BDI · Durante estudo de viabilidade da MetalM (parceria Duferco/DITH), foi necessário estimar o **custo de frete internacional** para compor o cus
 - `Logs/2026-04-17 — Estrutura Duferco-Brasil.md` — 2026-04-17 — Estrutura da participação de Gustavo no movimento Duferco-Brasil · ---
@@ -141,21 +164,6 @@ leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 - `Logs/2026-07-31 — Vault ConhecimentosGerais (base pública Flori + Stalo).md` — Vault ConhecimentosGerais — base de conhecimento pública (Flori + Stalo) · **Data:** 31/07/2026
 - `Logs/2026-08-01 — Custo na cotação e no pedido (entrega Nelson).md` — 2026-08-01 — Custo na cotação e no pedido (entrega do Nelson) · O Nelson (Softcomp) entregou em 31/07 as colunas que pedimos nas solicitações de
 - `Logs/_Arquivadas/2026-04-17 — Posicionamento MetalM - Servitizador.md` — 2026-04-17 — Posicionamento MetalM - Servitizador · ---
-- `Modelo de Negócio.md` — Definição · Forma como a empresa **cria, entrega e captura** valor.
-- `Playbook - Análise de Mercado.md` — Playbook - Análise de Mercado · Entender dinâmica e oportunidades.
-- `Playbook - Avaliação de Oportunidades.md` — Playbook - Avaliação de Oportunidades · Avaliar se uma oportunidade deve ser perseguida.
-- `Playbook - BSC.md` — Playbook - BSC · Traduzir estratégia em execução.
-- `Playbook - Diagnóstico Comercial.md` — Playbook - Diagnóstico Comercial · Avaliar performance da área comercial.
-- `Playbook - Estratégia.md` — Playbook - Estratégia · Construir uma estratégia clara e executável.
-- `Playbook - Planejamento Comercial.md` — Playbook - Planejamento Comercial · Transformar estratégia em receita.
-- `Playbook - Tomada de Decisão C-Level.md` — Playbook - Tomada de Decisão C-Level · Tomar decisões com impacto estratégico.
-- `Playing to Win.md` — Playing to Win · Framework para construção de estratégia prática.
-- `Posicionamento Estratégico.md` — Posicionamento Estratégico · Como você **quer ser percebido** na mente do cliente vs. concorrência. Não é o que você vende — é o **espaço mental** que ocupa.
-- `Pricing - Precificação.md` — Pricing — Precificação · Decisão sobre **quanto capturar do valor criado** para o cliente, sob restrição de mercado, custo e posicionamento.
-- `Projeto Forja — Plataforma de Dados e IA (Três Horizontes).md` — Projeto Forja — Plataforma de Dados e IA da Aços Sacchelli · Projeto estruturado nos **Três Horizontes de Inovação** ([[Inovação H1, H2 e H3]]) vistos no curso da FDC. Trata exclusivamente da jornada d
-- `Proposta de Valor.md` — Proposta de Valor · Razão clara pela qual **este cliente específico** escolhe você em vez do concorrente. Não é slogan nem descrição de produto — é a **equação 
-- `SWOT Avançado.md` — SWOT Avançado · Ferramenta para análise estratégica integrada.
-- `Servitização.md` — Servitização · Evolução de um negócio baseado em **produto** para um baseado em **produto + serviços integrados** que geram valor contínuo para o cliente.
 - `Sistema Operacional Comercial/00 - Visão Geral do Sistema.md` — 00 — Visão Geral do Sistema Operacional Comercial · Documenta o **sistema nervoso analítico** da operação comercial — lógica, normas, dados, ferramentas e cruzamentos. Não é estratégia; é a **
 - `Sistema Operacional Comercial/01 Sistema de Dados/00 - Arquitetura de Dados.md` — 00 — Arquitetura de Dados · **O ERP Softcomp é a fonte de verdade.** Tudo o que é analisado deriva de exports dele. Ferramentas analíticas (simulador, painel, motor) sã
 - `Sistema Operacional Comercial/01 Sistema de Dados/01 - ERP Softcomp - Detalhes.md` — 01 — ERP Softcomp — Detalhes · ERP proprietário brasileiro utilizado pela AFS para operação completa: cadastros de cliente/fornecedor, cotações, pedidos, faturamento, esto
@@ -222,17 +230,9 @@ leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 - `Sistema Operacional Comercial/09 Base Técnica do Flori/00 - Leia-me.md` — Base Técnica do Flori · Pasta de conhecimento técnico que o Flori (agente Telegram) lê pra responder dúvidas de metalurgia, normas, conversões e catálogo. **Basta s
 - `Sistema Operacional Comercial/09 Base Técnica do Flori/01 - Acervo Conhecimentos Gerais (IA) — mapa e regras.md` — Acervo "15. Conhecimentos Gerais (IA)" — mapa e regras de uso · Semeado em 01/08/2026. O Gustavo montou um acervo de conhecimento para os agentes em:
 - `Sistema Operacional Comercial/_RELATORIO_NOTURNO_2026-04-18.md` — Relatório Noturno — Construção do Sub-Vault Sistema Operacional Comercial · **Sessão iniciada:** 2026-04-17 ~23:50
-- `Strategy Map.md` — Strategy Map · Representação visual da estratégia com relações de causa e efeito.
 - `TEMPLATE - CASO APLICADO.md` — AAAA-MM-DD — Caso: {{Título curto e descritivo}} · ---
 - `TEMPLATE - DECISÕES.md` — Decisão: {{Título}} · Situação e problema.
 - `TEMPLATE - FRAMEWORKS.md` — {{Nome do Framework}} · Para que serve e quando usar.
 - `TEMPLATE - NEGÓCIO.md` — {{Nome do Negócio}} · Descrição clara do negócio.
 - `TEMPLATE - PLAYBOOK.md` — {{Nome do Playbook}} · Quando usar este playbook.
 - `TEMPLATE PADRÃO - FUNDAMENTOS.md` — {{Título}} · Explique o conceito de forma clara e objetiva.
-- `Tempo como Ativo Estratégico.md` — Tempo como Ativo Estratégico · Tempo é o único recurso **verdadeiramente escasso, irreversível e não-transferível** que um C-Level aloca. Dinheiro pode voltar, reputação p
-- `Trade-offs.md` — Trade-offs · Escolhas estratégicas que envolvem renunciar alternativas.
-- `Transformação de Mercado.md` — Transformação de Mercado · Leitura estrutural das **mudanças de fundo** no mercado — não flutuações, mas movimentos que **reconfiguram** quem captura valor.
-- `Unit Economics.md` — Unit Economics · Análise da rentabilidade por unidade de negócio.
-- `VRIO.md` — VRIO · Framework para avaliar se um recurso gera vantagem competitiva sustentável.
-- `Vantagem Competitiva.md` — Vantagem Competitiva · Capacidade de uma empresa gerar valor superior de forma sustentável.
-- `Vendas B2B.md` — Vendas B2B · - ciclo longo

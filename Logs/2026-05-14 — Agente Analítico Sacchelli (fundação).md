@@ -1,7 +1,9 @@
 ---
 data: 2026-05-14
+tipo: log
+status: vigente
+obs: "12 funções canônicas entregues, validadas em produção real"
 contexto: Agente Analítico Sacchelli — Fase 1 (fundação)
-status: 12 funções canônicas entregues, validadas em produção real
 tags: [agente, sacchelli, fase-1, fundação, python, pandas, sessão]
 ---
 

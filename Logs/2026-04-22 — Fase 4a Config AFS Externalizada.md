@@ -1,9 +1,10 @@
 ---
 data: 2026-04-22
 tipo: log
+status: vigente
+obs: "fechado"
 projeto: Simulador Precificação
 fase: Fase 4a — Config AFS externalizada (CF tabela + certificações)
-status: fechado
 ---
 
 # Fase 4a — CF tabela + certificações externalizadas para parametros_afs.json

@@ -1,3 +1,8 @@
+---
+data: 2026-05-11
+tipo: log
+status: vigente
+---
 # 2026-05-11 — F12+F13 — Dashboard reset + sistema de overrides
 
 > Sessão de tarde. Continuação da F10+F11 (manhã). Foco: simplificação radical pós-feedback ("painel muito confuso, falta o básico").

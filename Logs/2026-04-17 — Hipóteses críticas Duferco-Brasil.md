@@ -1,6 +1,8 @@
 ---
-status: em-teste
-tipo: hipóteses-conjunto
+data: 2026-04-17
+tipo: log
+status: vigente
+obs: "em-teste"
 contexto: Duferco-Brasil
 data-formulação: 2026-04-17
 prazo-validação: 2026-05-15 (maior parte) / 2026-07-17 (residual)

@@ -1,6 +1,7 @@
 ---
 data: 2026-06-21
-tipo: questionário / due diligence
+tipo: log
+status: vigente
 projeto: Data Lake + IA dedicada (Aços Sacchelli)
 destinatário: DataSide
 relacionado: Logs/2026-06-21 — Avaliação Assessment DataSide (Data Lake + IA Sacchelli).md

@@ -1,9 +1,10 @@
 ---
 data: 2026-04-24
 tipo: log
+status: vigente
+obs: "fechado"
 projeto: Simulador Precificação
 fase: Fase 4f + Camada 10a + UI Export + PDF i18n + 2 hotfixes
-status: fechado
 ---
 
 # Sessão consolidada — Proposta Exportação USD/EN ativada de ponta a ponta

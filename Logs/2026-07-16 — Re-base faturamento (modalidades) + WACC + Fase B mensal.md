@@ -1,6 +1,7 @@
 ---
 data: 2026-07-16
-tipo: decisão + execução
+tipo: log
+status: vigente
 projeto: Portal SAC360 (afs-lake)
 ---
 

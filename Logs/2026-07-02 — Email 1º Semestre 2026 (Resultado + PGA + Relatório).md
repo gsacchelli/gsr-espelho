@@ -1,3 +1,8 @@
+---
+data: 2026-07-02
+tipo: log
+status: vigente
+---
 # E-mail 1º Semestre 2026 — Resultado, PGA e prioridades (enviado 02/07/2026 13:22)
 
 **Para:** Fernando Roveda, Odair Oliveira, Fabíola Cardoso Piazza, Fuscão, Felipe Sória.

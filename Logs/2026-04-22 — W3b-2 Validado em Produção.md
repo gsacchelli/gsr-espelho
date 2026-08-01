@@ -1,3 +1,8 @@
+---
+data: 2026-04-22
+tipo: log
+status: vigente
+---
 # 2026-04-22 — W3b-2 Validado em Produção
 
 Fechamento formal do W3b-2 (Card Repasse no motor). Instrumentado em 22/04 na sessão consolidada, validado em produção hoje em cenário real.

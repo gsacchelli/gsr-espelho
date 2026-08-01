@@ -1,9 +1,10 @@
 ---
 data: 2026-04-22
 tipo: log
+status: vigente
+obs: "fechado"
 projeto: Simulador Precificação
 fase: Fase 4d — Tolerâncias dimensionais externalizadas
-status: fechado
 ---
 
 # Fase 4d — SIM_TOL_LAMINADO/FORJADO externalizados

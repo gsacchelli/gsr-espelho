@@ -1,6 +1,8 @@
 ---
-status: em-teste
-tipo: hipótese
+data: 2026-04-17
+tipo: log
+status: vigente
+obs: "em-teste"
 categoria: modelo-de-negócio
 data-formulação: 2026-04-17
 prazo-validação: 2026-10-17

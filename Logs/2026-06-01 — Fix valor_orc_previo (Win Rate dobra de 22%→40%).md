@@ -1,10 +1,9 @@
 ---
 data: 2026-06-01
+tipo: log
+status: vigente
 tags: [incidente, motor-cotacoes, win-rate, fix-fonte]
-relacionado:
-  - "[[2026-05-09 — Painel Cotacoes F3 (aggregator + cubos OLAP)]]"
-  - "[[2026-05-14 — Agente Analítico Sacchelli (fundação)]]"
-  - "[[Sistema Operacional Comercial/08 Agente Analítico/02 - Convenções e Caveats]]"
+relacionado: 
 ---
 
 # Fix `valor_orc_previo` — Win Rate dobra de 22% → 40%

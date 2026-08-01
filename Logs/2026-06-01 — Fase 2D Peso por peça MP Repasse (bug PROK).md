@@ -1,3 +1,8 @@
+---
+data: 2026-06-01
+tipo: log
+status: vigente
+---
 # 2026-06-01 — Fase 2D Peso por peça MP Repasse (bug PROK forjado)
 
 ## Contexto

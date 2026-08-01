@@ -1,3 +1,8 @@
+---
+data: 2026-04-17
+tipo: log
+status: vigente
+---
 # 2026-04-17 — Plano Fases 1+3 Simulador de Precificação
 
 **Status:** proposta técnica (não executado)

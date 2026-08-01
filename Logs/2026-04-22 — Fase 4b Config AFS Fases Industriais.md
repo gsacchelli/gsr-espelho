@@ -1,9 +1,10 @@
 ---
 data: 2026-04-22
 tipo: log
+status: vigente
+obs: "fechado"
 projeto: Simulador Precificação
 fase: Fase 4b — Fases industriais externalizadas para parametros_afs.json
-status: fechado
 ---
 
 # Fase 4b — Fases industriais (TT/TD/USX/EMB) externalizadas

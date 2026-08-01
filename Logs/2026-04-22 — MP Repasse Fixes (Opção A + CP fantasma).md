@@ -1,9 +1,10 @@
 ---
 data: 2026-04-22
 tipo: log
+status: vigente
+obs: "fechado"
 projeto: Simulador Precificação
 fase: Bug hunt pós-W3e-A
-status: fechado
 ---
 
 # MP Repasse — Fixes consolidados (Opção A estrita + CP fantasma)

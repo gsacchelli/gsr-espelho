@@ -1,8 +1,9 @@
 ---
-tipo: plano-técnico
+data: 2026-04-19
+tipo: log
+status: vigente
 categoria: execução / pricing
 domínio: simulador
-data: 2026-04-19
 tags: [simulador, motor, refatoração, camada-7, w3-a, plano-execução]
 ---
 

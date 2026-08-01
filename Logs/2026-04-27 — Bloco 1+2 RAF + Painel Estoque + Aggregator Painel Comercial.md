@@ -1,11 +1,10 @@
 ---
 data: 2026-04-27
-tipo: implementação
+tipo: log
+status: vigente
+obs: "Bloco RAF fechado, Painel Comercial em curso (P1 fechado, P2-P6 pendentes)"
 projeto: Motor RAF + Reorganização Brutos + Painel Comercial
-status: Bloco RAF fechado, Painel Comercial em curso (P1 fechado, P2-P6 pendentes)
-relacionados:
-  - "[[Logs/2026-04-25 — Fase 2A.1 + 2A.2 Proposta Prazo + Descrição]]"
-  - "[[Sistema Operacional Comercial/01 RAF/01 - Estrutura RAF]]"
+relacionados: 
 ---
 
 # Sessão 27/04/2026 — Bloco 1+2 RAF + Painel Estoque + Início Painel Comercial

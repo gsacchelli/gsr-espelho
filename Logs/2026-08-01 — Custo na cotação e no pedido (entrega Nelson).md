@@ -1,5 +1,7 @@
 ---
+data: 2026-08-01
 tipo: log
+status: vigente
 domínio: sistema-de-dados
 criado: 2026-08-01
 tags: [softcomp, sql, custo, margem, cotacoes, pedidos, raf]

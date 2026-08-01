@@ -1,3 +1,8 @@
+---
+data: 2026-05-05
+tipo: log
+status: vigente
+---
 # 2026-05-05 — Fase 2C TIPI Lookup Proposta
 
 ## Contexto

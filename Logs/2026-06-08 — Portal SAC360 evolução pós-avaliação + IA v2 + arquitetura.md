@@ -1,6 +1,7 @@
 ---
 data: 2026-06-08
-tipo: log de desenvolvimento
+tipo: log
+status: vigente
 projeto: Portal SAC360 (afs-lake)
 ---
 

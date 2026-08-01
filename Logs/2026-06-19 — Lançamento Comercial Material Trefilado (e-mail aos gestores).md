@@ -1,8 +1,9 @@
 ---
 data: 2026-06-19
-tipo: lançamento comercial / comunicação interna
+tipo: log
+status: vigente
+obs: "enviado"
 projeto: Material Trefilado (Família 0892 — 1020/1045)
-status: enviado
 ---
 
 # Lançamento Comercial — Material Trefilado (e-mail aos gestores)

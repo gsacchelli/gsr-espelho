@@ -1,8 +1,9 @@
 ---
 data: 2026-07-02
-tipo: fechamento comercial / análise de lançamento
+tipo: log
+status: vigente
+obs: "relatório entregue (v1) + análise de disponibilidade"
 projeto: Material Trefilado (Família 892 — 1020/1045)
-status: relatório entregue (v1) + análise de disponibilidade
 ---
 
 # Fechamento Trefilados — Junho 2026 (1º mês da linha)

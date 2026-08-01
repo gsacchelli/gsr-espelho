@@ -1,14 +1,10 @@
 ---
 data: 2026-04-30
-tipo: diagnóstico estratégico executivo
+tipo: log
+status: vigente
 projeto: Briefing Sacchelli 2026 YTD — insumo Duferco
-status: rascunho
 fonte_dados: Painel_Comercial_RAF.html (PD JSON inline) + RAF enriquecido 2023-2026
-relacionados:
-  - "[[Logs/2026-04-30 — Reestruturação Painel Comercial RAF (UX executivo + Estoque + PDF)]]"
-  - "[[Logs/2026-04-29 — Análise DRE Sacchelli + Break-Even Gerencial]]"
-  - "[[Logs/2026-04-17 — Estrutura Duferco-Brasil]]"
-  - "[[Logs/2026-04-28 — Sessão Painel Comercial RAF + Decisões Metodológicas]]"
+relacionados: 
 ---
 
 # Diagnóstico Estratégico Sacchelli — 2026 YTD (Jan-Mar)

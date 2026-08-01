@@ -1,3 +1,8 @@
+---
+data: 2026-04-22
+tipo: log
+status: vigente
+---
 # 2026-04-22 — W3d-2 Render DRE Validado em Produção
 
 Fechamento formal do W3d-2 (segundo módulo de render extraído do simCalc). Padrão do piloto W3d (render_corte.js) confirmado com bloco bem mais complexo.

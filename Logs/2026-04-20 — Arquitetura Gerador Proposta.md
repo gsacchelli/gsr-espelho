@@ -1,12 +1,10 @@
 ---
 data: 2026-04-20
-tipo: decisão arquitetural
+tipo: log
+status: vigente
+obs: "aprovada — pronta para Fase 3"
 projeto: Simulador Precificação → Proposta Comercial
-relacionados:
-  - "[[Logs/2026-04-17 — Plano Fases 1+3 Simulador Precificação]]"
-  - "[[Logs/2026-04-20 — Bloco Importação Consolidado]]"
-  - "[[07_Marca/Filosofia_Design_Proposta]]"
-status: aprovada — pronta para Fase 3
+relacionados: 
 ---
 
 # Arquitetura — Gerador de Proposta Comercial

@@ -1,3 +1,8 @@
+---
+data: 2026-07-27
+tipo: log
+status: vigente
+---
 # Perfil e acabamento das cotações vêm do item (não da família de preço)
 
 **Data:** 27/07/2026

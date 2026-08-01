@@ -1,4 +1,7 @@
 ---
+data: 2026-04-21
+tipo: log
+status: vigente
 tags: [log, sessao, simulador, motor-pricing, proposta, camada-6, camada-8b-ponta, refactor]
 date: 2026-04-21
 ---

@@ -1,6 +1,7 @@
 ---
 data: 2026-06-07
-tipo: avaliação
+tipo: log
+status: vigente
 projeto: Portal SAC360 (afs-lake)
 nota: 6.9/10
 ---

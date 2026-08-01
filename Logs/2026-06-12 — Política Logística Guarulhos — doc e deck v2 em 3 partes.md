@@ -1,9 +1,11 @@
 ---
-tipo: log de sessão
+data: 2026-06-12
+tipo: log
+status: vigente
+obs: "entregue — v2 pronta para o conselho"
 domínio: logística / custeio / política comercial
 criado: 2026-06-12
 tags: [logística, frete, guarulhos, conselho, cowork]
-status: entregue — v2 pronta para o conselho
 ---
 
 # Política Logística Guarulhos — doc e deck v2 (estrutura em 3 partes)

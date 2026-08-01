@@ -1,8 +1,9 @@
 ---
-tipo: log-consolidado
+data: 2026-04-20
+tipo: log
+status: vigente
 categoria: simulador / pricing / fiscal
 domínio: bloco-importação
-data: 2026-04-20
 tags: [simulador, importação, fiscal, hedge, siscomex, incoterm, breakdown, impressão]
 ---
 

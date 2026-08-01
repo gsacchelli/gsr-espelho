@@ -1,8 +1,9 @@
 ---
-tipo: log-execução
+data: 2026-04-20
+tipo: log
+status: vigente
 categoria: simulador / pricing
 domínio: camada-6a
-data: 2026-04-20
 tags: [simulador, motor, camada-6a, repasse, ux, sprint-3]
 ---
 

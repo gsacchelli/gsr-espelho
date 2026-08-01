@@ -1,5 +1,7 @@
 ---
 data: 2026-06-17
+tipo: log
+status: vigente
 tags: [valuation, duferco, raf, motor, metodologia, segmentacao]
 contexto: Contraproposta de curva de crescimento p/ valuation Naia/Duferco
 ---

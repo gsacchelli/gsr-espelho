@@ -1,3 +1,9 @@
+---
+data: 2026-07-25
+tipo: log
+status: supersedida
+substituida_por: "[[Logs/2026-07-28 — Bot Telegram do lake (sucessor do Stalo local)]]"
+---
 # Stalo — agente Telegram do lake (nascimento)
 
 **Data:** 25/07/2026

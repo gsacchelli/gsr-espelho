@@ -1,9 +1,10 @@
 ---
 data: 2026-04-22
 tipo: log
+status: vigente
+obs: "fechado"
 projeto: Simulador Precificação
 fase: W3 Wrapper Fino — W3e (simCalc adapter fino)
-status: fechado
 ---
 
 # W3e — simCalc adapter fino

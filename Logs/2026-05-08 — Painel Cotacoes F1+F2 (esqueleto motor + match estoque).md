@@ -1,7 +1,10 @@
 ---
 data: 2026-05-08
+tipo: log
+status: supersedida
+substituida_por: "[[Logs/2026-07-14 — Regras de negócio oficializadas (DRE, comissão agente) + Estágio 5]]"
+obs: "F1+F2 fechadas, F3+F4 pendentes"
 contexto: Painel Comercial de Cotações
-status: F1+F2 fechadas, F3+F4 pendentes
 tags: [painel, cotações, motor-analítico, sessão]
 ---
 

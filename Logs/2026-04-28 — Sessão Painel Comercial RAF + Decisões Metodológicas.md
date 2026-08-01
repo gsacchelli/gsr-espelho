@@ -1,11 +1,10 @@
 ---
 data: 2026-04-28
-tipo: implementação + decisões metodológicas
+tipo: log
+status: vigente
+obs: "Painel multi-aba pronto (DRE, Carteira, Produtos, Evolução); aggregator expandido com cubo OS/Produto/Partida"
 projeto: Painel Comercial RAF — Etapa B/C/D + Refinamentos
-status: Painel multi-aba pronto (DRE, Carteira, Produtos, Evolução); aggregator expandido com cubo OS/Produto/Partida
-relacionados:
-  - "[[Logs/2026-04-27 — Bloco 1+2 RAF + Painel Estoque + Aggregator Painel Comercial]]"
-  - "[[Sistema Operacional Comercial/04 RAF/09 - Critérios de Classificação]]"
+relacionados: 
 ---
 
 # Sessão 28/04/2026 — Painel Comercial RAF: Etapa B/C/D + Profissionalização + Decisões Metodológicas

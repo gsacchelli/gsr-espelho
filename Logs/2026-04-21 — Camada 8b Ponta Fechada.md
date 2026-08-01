@@ -1,4 +1,7 @@
 ---
+data: 2026-04-21
+tipo: log
+status: vigente
 tags: [log, decisao, simulador, motor-pricing, camada-8b, ponta]
 date: 2026-04-21
 ---

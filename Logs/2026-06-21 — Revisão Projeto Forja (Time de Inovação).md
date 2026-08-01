@@ -1,6 +1,7 @@
 ---
 data: 2026-06-21
-tipo: revisão
+tipo: log
+status: vigente
 projeto: "[[Projeto Forja — Plataforma de Dados e IA (Três Horizontes)]]"
 painel: Time de Inovação (5 papéis)
 veredito: aprovar com reenquadramentos duros

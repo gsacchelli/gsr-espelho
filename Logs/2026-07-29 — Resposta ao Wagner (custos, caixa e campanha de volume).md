@@ -1,8 +1,9 @@
 ---
 data: 2026-07-29
-tipo: estratégia / comunicação interna
+tipo: log
+status: vigente
+obs: "enviado 29/07/2026 10:47 — aguardando resposta"
 projeto: Resposta ao "cortar custos na carne" (Wagner, jul/26)
-status: enviado 29/07/2026 10:47 — aguardando resposta
 ---
 
 # Resposta ao Wagner — custos, caixa e campanha de volume

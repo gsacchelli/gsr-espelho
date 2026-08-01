@@ -1,9 +1,10 @@
 ---
 data: 2026-04-22
 tipo: log
+status: vigente
+obs: "fechado"
 projeto: Simulador Precificação
 fase: Fase 4c — Deduplicação completa das certificações
-status: fechado
 ---
 
 # Fase 4c — DEFAULT_AFS_CERT_PHASES removido do motor

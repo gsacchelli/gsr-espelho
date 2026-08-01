@@ -1,3 +1,8 @@
+---
+data: 2026-04-22
+tipo: log
+status: vigente
+---
 # 2026-04-22 — Sessão Consolidada (8b fechada + W2.5 + W3b-1 + W3c + W3b-2 + W3d piloto)
 
 Sessão longa (~6h) consolidando 6 frentes significativas do motor + wrapper fino do simulador. Todas protegidas pelo shadow bloqueante desde o meio da sessão — 2 bugs reais pegos no primeiro uso.

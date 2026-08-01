@@ -1,6 +1,8 @@
 ---
-status: plano-ativo
-tipo: plano-operacional
+data: 2026-04-17
+tipo: log
+status: vigente
+obs: "plano-ativo"
 data-criação: 2026-04-17
 prazo-negociação: 2026-05-30 (acordo com Wagner antes da Duferco fechar)
 prazo-execução: 2026 a 2028

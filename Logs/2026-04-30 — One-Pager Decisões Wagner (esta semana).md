@@ -1,14 +1,11 @@
 ---
 data: 2026-04-30
-tipo: documento executivo — pedido de decisão
+tipo: log
+status: vigente
+obs: "aguardando decisão"
 audiência: Wagner Sacchelli
 projeto: Turnaround Sacchelli + Cenário Duferco
-status: aguardando decisão
-relacionados:
-  - "[[Logs/2026-04-30 — Diagnóstico Estratégico Sacchelli 2026 YTD (Jan-Mar)]]"
-  - "[[Logs/2026-04-30 — Plano Pricing Discipline Tabela Preta (Sacchelli)]]"
-  - "[[Logs/2026-04-30 — Plano Queima Estoque Crítico (Sacchelli + Duferco)]]"
-  - "[[Logs/2026-04-17 — Estrutura Duferco-Brasil]]"
+relacionados: 
 ---
 
 # Decisões Wagner — Esta Semana

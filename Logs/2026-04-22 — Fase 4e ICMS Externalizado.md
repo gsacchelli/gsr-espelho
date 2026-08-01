@@ -1,9 +1,10 @@
 ---
 data: 2026-04-22
 tipo: log
+status: vigente
+obs: "fechado"
 projeto: Simulador Precificação
 fase: Fase 4e — Parâmetros ICMS externalizados
-status: fechado
 ---
 
 # Fase 4e — simAutoICMS lê de window.AFS_CONFIG.icms

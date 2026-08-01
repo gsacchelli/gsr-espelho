@@ -1,3 +1,8 @@
+---
+data: 2026-07-28
+tipo: log
+status: vigente
+---
 # Stalo no Hostinger + time de agentes (Radar e Torno)
 
 **Data:** 28/07/2026

@@ -1,9 +1,9 @@
 ---
 data: 2026-06-21
-tipo: avaliação
+tipo: log
+status: vigente
 projeto: Data Lake + IA dedicada (Aços Sacchelli)
 fornecedor: DataSide
-documento avaliado: DocumentacaoFinal_Assessment_AcosSacchelli.pdf (EFT v1.1, 12/06/2026)
 veredito: aprovar como diagnóstico · recusar como base de contratação
 ---
 

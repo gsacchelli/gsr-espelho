@@ -1,3 +1,8 @@
+---
+data: 2026-07-31
+tipo: log
+status: vigente
+---
 # Vault ConhecimentosGerais — base de conhecimento pública (Flori + Stalo)
 
 **Data:** 31/07/2026

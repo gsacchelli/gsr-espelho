@@ -1,8 +1,9 @@
 ---
-tipo: aprendizado
+data: 2026-04-17
+tipo: log
+status: vigente
 categoria: parâmetros-de-mercado
 classificação: acerto-processo / erro-evitado
-data: 2026-04-17
 tags: [aprendizado, metalm, frete, parâmetros, pricing]
 ---
 

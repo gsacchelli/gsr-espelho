@@ -1,15 +1,13 @@
 ---
 data: 2026-04-30
-tipo: plano-operacional
+tipo: log
+status: vigente
+obs: "rascunho-executivo"
 contexto: AFS / Wagner / Duferco
 prioridade: critica
-relacionados:
-  - "[[2026-04-30 — Diagnóstico Estratégico Sacchelli 2026 YTD (Jan-Mar)]]"
-  - "[[2026-04-17 — Estrutura Duferco-Brasil]]"
-  - "[[2026-04-30 — Reestruturação Painel Comercial RAF (UX executivo + Estoque + PDF)]]"
+relacionados: 
 fonte_dados: "PD.cubo_estoque + PD.cubo_produto_partida (Painel Comercial RAF, gerado 2026-04-30T14:03)"
 horizonte: 6 meses operacional / 2 semanas decisão Duferco
-status: rascunho-executivo
 ---
 
 # Plano de Queima de Estoque Crítico — AFS + Carve-out Duferco
