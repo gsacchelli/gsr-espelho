@@ -33,7 +33,7 @@ PROK BRASIL comprou **R$ 2.351 da Trefita em 3,5 anos** (1 pedido em 2023; o res
 - Laminado: nós PU −4,0% / receita −19,5%; eles PU −6,2% / receita −3,2% — eles cortaram mais fundo e seguraram o volume.
 - **Migrações nomeadas** (caiu conosco E cresceu lá): RENK-ZANINI (−1,6 MM ↔ +2,4 MM lá; wallet nosso 12%→26%→**45% em 2025**→**16%** em 2026 — a conta que tínhamos conquistado; compra forjado redondo grande 18CrNiMo7-6/4140/4340 na T2) e WEG CESTARI (−1,0 ↔ +0,85). SEW/NETZSCH: eles já dominavam (posição nossa marginal). HOWDEN/MARCHESAN/SUPERIOR: mercado caiu pros dois.
 
-**Página no portal (mesmo dia):** `🔒 Restrito → Concorrência (Trefita)` — duopólio anual, acabamento H1×H1, unidades, busca de cliente com wallet share e itens deles. Gate: só aparece na máquina com o parquet; lê o dado DIRETO (nunca via gold — o gold alimenta relatórios de gerência). ⚠ Lição TCC de novo: launchd não lê `~/Documents` → dado movido pra **`~/dev/concorrencia/`** (fora do TCC, fora do git, fora do iCloud).
+**Página no portal (mesmo dia):** `🔒 Concorrência (Trefita/Torres)` — duopólio anual, acabamento H1×H1, famílias (gap), UF, prospects CNPJ, wallet share por cliente. **Acesso (decisão Gustavo, tarde): botão no rodapé de Entrada de Pedidos (fora do menu lateral) + senha** (SHA-256 no código; gate de privacidade — a segurança real é o dado só existir nesta máquina). Lê o dado DIRETO (nunca via gold — o gold alimenta relatórios de gerência). ⚠ Lição TCC de novo: launchd não lê `~/Documents` → dado movido pra **`~/dev/concorrencia/`** (fora do TCC, fora do git, fora do iCloud).
 
 ## Adendo 2 (mesmo dia) — cadastro unificado, famílias canônicas, UF e prospects
 
