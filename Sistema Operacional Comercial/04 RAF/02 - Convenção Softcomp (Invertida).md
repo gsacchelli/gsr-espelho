@@ -2,11 +2,59 @@
 tipo: armadilha-crítica
 domínio: raf
 criado: 2026-04-17
-última-revisão: 2026-04-17
+última-revisão: 2026-08-02
 tags: [convenção, softcomp, invertida, armadilha, crítico]
 ---
 
 # 02 — Convenção Softcomp (Invertida)
+
+> ## ✅ CONFIRMADA EMPIRICAMENTE EM 02/08/2026 — com uma EXCEÇÃO
+>
+> Esta nota nasceu em 04/2026 de **dedução** (o histórico cita o efeito da
+> correção, não a prova da causa). Em 02/08/2026 foi auditada por **três rotas
+> independentes** e o veredicto é: **está certa para os 6 componentes de
+> SERVIÇO, e ERRADA para o AÇO.**
+>
+> ### A exceção: `ABCCUS_ACO` é CUSTO, não cobrado
+> A identidade `ValorMC = LiquidoAco − ABCCUS_ACO` fecha em **273.280/273.280
+> linhas (100%)**. No aço, o rótulo do dicionário oficial está certo. O erro
+> foi generalizar "sem sufixo = cobrado" para os nove componentes — e ele nunca
+> apareceu em número porque `ABCCUS_ACO` e `ABCCUS_ACO_COB` coincidem em 99,9%
+> das linhas (aço é repasse, não tem markup).
+>
+> ### As provas, para não se re-litigar
+> 1. **Custo financeiro (determinística).** `ABCCUS_FIN` reproduz a tabela
+>    escalonada COMERCIAL da AFS — `prazo/30 × {2,0% ≤45d · 2,5% ≤60d ·
+>    3,75% >60d}` — em **100% de 267.073 linhas** de 4 anos, com degraus
+>    exatamente em 45 e 60 dias. `ABCCUS_FIN_COB` é reta pura de **1,25%/mês**
+>    (custo de capital), sem degrau. Teste cruzado: **0%**. Degrau em 45/60 dias
+>    é assinatura de decisão comercial; custo de dinheiro não tem degrau.
+> 2. **Certificações.** As razões `sem-sufixo ÷ _COB` são exatamente **1,00 e
+>    1,25** — os dois valores de `marg` do catálogo em `parametros_afs.js`
+>    (0% e 20%). O motor calcula `venda = custo/(1−marg)`. Custo real não é
+>    múltiplo redondo de outro número; preço é.
+> 3. **Contabilidade.** Em todo componente com contrapartida no razão do DUO, a
+>    ordem observada é **razão < `_COB` < sem-sufixo** — a que a convenção
+>    prevê (caixa ≤ competência ≤ cobrado). Sob a leitura invertida, o razão
+>    teria de ficar ACIMA do "cobrado"; não fica em nenhum componente.
+> 4. **Precedente**: o `vw_spread_ddvlog` (14/07) já usava o sem-sufixo como
+>    cobrado e foi validado contra o razão auditado.
+>
+> ### Por que o dicionário oficial diz o contrário
+> `06_Docs/Dicionario_RAF_Softcomp_2026-04-18.xlsx` rotula `ABCCUS_X` = "Custo X"
+> e `ABCCUS_X_COB` = "custo X cobr. cliente". Ele documenta os **nomes de tela do
+> schema**, não o dado. A prova está nele mesmo: `ABCCUS_COB` (o totalizador do
+> lado nominalmente "cobrado") vale **0 em 100% das linhas de todos os anos** —
+> foi projetado e nunca implementado. Pela evidência, **`_COB` não abrevia
+> "cobrado"**; provavelmente é "cobertura"/custo-base. Confirmar com o Nelson.
+>
+> ### Travado por teste
+> `MotorAnalitico/lake/test_gold.py::test_convencao_custo_softcomp_ancorada_no_dado`
+> roda sobre dado real e reprova qualquer inversão. Antes disso, os 113 testes do
+> RAF eram sintéticos — as duas leituras produziam o mesmo teste.
+>
+> **Não alterar o cálculo:** inverter os pares moveria ~R$ 42,5 MM de margem
+> (18% da MC reportada) e derrubaria a MC total em ~10 pp.
 
 ## A armadilha mais cara do sistema operacional
 

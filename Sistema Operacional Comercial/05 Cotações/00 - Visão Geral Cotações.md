@@ -59,3 +59,8 @@ Ver [[05 - Win Rate e Métricas]].
 - [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]] (pricing na cotação)
 - [[Sistema Operacional Comercial/07 Cruzamentos e Previsões/01 - Cotação x Pedido x RAF]]
 - Vault estratégico: [[Cliente Ideal]], [[Custo de Servir]]
+
+
+## Margem × conversão (novo, 02/08/2026)
+
+Com o custo na cotação exposto pelo ERP, a relação entre margem prevista e desfecho passou a ser mensurável: o **win rate SOBE com a margem** (24% → 77%), a **Vermelha está abaixo do custo** em parte do mix, e só 18% do que perdemos por preço tinha margem para dar. Ver [[06 - Margem × Win Rate (curva empírica)]].

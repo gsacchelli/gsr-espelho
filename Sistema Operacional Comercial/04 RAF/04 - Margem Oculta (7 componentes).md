@@ -227,3 +227,34 @@ Clientes que compram **pacote completo** (aço + serviços) geram **maior valor 
 - [[Sistema Operacional Comercial/02 Precificação/01 - Fórmula do Lucro]]
 - [[Sistema Operacional Comercial/02 Precificação/03 - Componentes de Custo]]
 - [[Sistema Operacional Comercial/02 Precificação/10 - Custo de Servir Aplicado]]
+
+
+---
+
+## ⚠️ O corte entra 100% como margem — decisão da AFS (02/08/2026)
+
+`ABCCUS_CTE_COB` (custo real do corte) é **zero em 100% das linhas, em todos os
+anos**. Logo `COR_Spread = ABCCUS_CTE − 0 = ABCCUS_CTE` inteiro:
+
+| ano | corte lido como margem |
+|---|---|
+| 2026 YTD | **R$ 1,86 MM** |
+| 2025 | R$ 5,10 MM |
+
+**Não é falha de dado — é design.** Gustavo confirmou (02/08) que o campo
+`ABCCUS_CTE_COB` **foi criado zerado sobre essa premissa**: a decisão de negócio
+está embutida na estrutura do ERP, não é parametrização esquecida. Racional da
+Sacchelli: o custo do corte — hora/máquina, pessoal, insumos como lâmina e óleo —
+é tratado como **conta orçamentária, não variável**. Por isso não entra como
+custo do item, e o cobrado pelo corte é lido integralmente como margem na
+análise gerencial do RAF.
+
+⚠️ **Gustavo registra que discorda pessoalmente**: para ele é parte do custo de
+produção. A convenção fica por ser entendimento da casa; a divergência fica
+documentada. Se um dia se decidir custear o corte, mudam **duas coisas**: esta linha do
+cálculo E a parametrização do ERP (o campo teria de passar a ser apurado). O
+impacto é conhecido: ~R$ 1,9 MM/ano de margem reportada, o **segundo maior
+spread** da casa.
+
+~~Perguntar ao Nelson~~ — **respondido por Gustavo em 02/08**: é por definição,
+não lacuna. Não há número real a recuperar; ele nunca foi apurado por decisão.

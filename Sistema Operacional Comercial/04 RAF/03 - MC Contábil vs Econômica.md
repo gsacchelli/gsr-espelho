@@ -218,3 +218,52 @@ Alerta se uplift cai abaixo de 5 p.p. — indicador de que margem oculta está s
 - [[Sistema Operacional Comercial/02 Precificação/01 - Fórmula do Lucro]]
 - [[Sistema Operacional Comercial/02 Precificação/04 - MC1 MC2 e DRE]]
 - [[Sistema Operacional Comercial/02 Precificação/07 - Tabelas e Alçadas]]
+
+
+---
+
+## A diferença DUO × RAF é ESTRUTURAL — medida e explicada (02/08/2026)
+
+Comparação 2026, receita líquida e margem, contábil (balancete DUO via
+`vw_indicadores_executivos`) × gerencial (RAF via `vw_kpi_mensal`):
+
+| mês | líq. DUO | líq. RAF | Δ | marg. bruta DUO | MC Total RAF | Δ pp |
+|---|---|---|---|---|---|---|
+| jan | 18,15M | 18,30M | 0,8% | 28,6% | 31,5% | −2,8 |
+| fev | 16,09M | 16,29M | 1,2% | 39,6% | 30,7% | +8,8 |
+| **mar** | 14,71M | 14,98M | 1,8% | **−7,9%** | 30,9% | **−38,8** |
+| abr | 16,87M | 16,56M | −1,8% | 38,6% | 32,1% | +6,5 |
+| mai | 14,01M | 14,17M | 1,1% | 44,3% | 31,5% | +12,8 |
+| jun | 14,32M | **14,34M** | **0,1%** | 39,9% | 33,4% | +6,5 |
+
+**A RECEITA reconcilia** (junho ao centavo; ver `vw_conciliacao_contabil_check`,
+5 de 6 meses com delta zero absoluto). O denominador está provado.
+
+**A MARGEM diverge — e isso é esperado.** Palavras do Gustavo (02/08):
+> *"a diferença sempre vai existir, são visões diferentes do negócio"*
+
+Não é erro a reconciliar: é regime de **competência da compra** (contábil) contra
+**competência da venda** (gerencial).
+
+### Março/2026 — o caso extremo, explicado
+
+Lucro bruto contábil **negativo** (−7,9%), com CPV de R$ 15,88 MM contra receita
+líquida de R$ 14,71 MM. Causa (Gustavo): **entrada de muito material IMPORTADO
+no mês**, que impacta balanço e estoque.
+
+O CPV contábil registra a compra quando ela entra; o RAF só reconhece o custo
+quando o material **sai** (é vendido). Num mês de reposição pesada, o contábil
+mostra prejuízo bruto enquanto a operação comercial vai bem.
+
+⚠️ **Implicação para análise**: nunca ler margem contábil mensal isolada como
+desempenho comercial. A MC gerencial é notavelmente estável (30,7%–33,4% em seis
+meses); a contábil oscila de −7,9% a 44,3% seguindo o ciclo de compras.
+
+### A ponte com o drift de custo
+
+Este é o **mesmo fenômeno** que produz o drift de −13,9% entre custo de
+referência e custo real (ver [[2026-08-02 — Dicionário do RAF e a semântica dos campos do pedido]]):
+o estoque é comprado num momento e vendido em outro. Março mostra a **entrada**
+(CPV alto, margem contábil deprimida); o drift mostra a **saída** (custo do lote
+mais barato que a reposição, margem gerencial inflada pelo ganho de estoque).
+São as duas pontas do mesmo descasamento temporal.

@@ -16,7 +16,7 @@ Verde · Amarela · Vermelha · **Preta** (PU abaixo do piso Vermelho). Todo Pre
 | Nome | Fórmula | Uso |
 |---|---|---|
 | Declarativo | R$ Ganhou ÷ R$ Encerradas | como marcado no Softcomp |
-| Ajustado | R$ Ganhou ÷ (Encerradas − "Orç. prévio") | disputa real |
+| Ajustado | R$ Ganhou ÷ (Encerradas − "Orç. prévio" − "Enc. administrativo") | disputa real (conjunto {X,W,P,Y} fora desde 17/07/2026; linha corrigida 02/08 — estava defasada vs `SQL_DISPUTA_REAL` do código) |
 | Real | R$ Pedidos Emitidos ÷ R$ Encerradas | independe de marcação — KPI principal |
 
 Grafia única do motivo: `Orç. prévio` (constante `MOTIVO_ORC_PREVIO`).

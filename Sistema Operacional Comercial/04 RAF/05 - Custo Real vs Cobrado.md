@@ -186,3 +186,16 @@ Drift sistemático indica:
 - [[08 - Consolidação por OS]]
 - [[Sistema Operacional Comercial/02 Precificação/10 - Custo de Servir Aplicado]]
 - [[Sistema Operacional Comercial/01 Sistema de Dados/06 - Motor Analítico v1]]
+
+
+---
+
+## Uma TERCEIRA régua: o custo do PEDIDO (02/08/2026)
+
+⚠️ *Correção de 02/08: a primeira versão desta seção inverteu a convenção do
+resto da nota. O correto — auditado por 3 rotas independentes — está em
+[[02 - Convenção Softcomp (Invertida)]]: nos 6 componentes de SERVIÇO o
+sem-sufixo é COBRADO e o `_COB` é o real; **no AÇO é o oposto**, `ABCCUS_ACO`
+é custo.*
+
+Além do cobrado e do real, o RAF guarda o custo de **REFERÊNCIA** vindo do pedido: `ABCOIICUS` (total) e `ABCOIICUS_ACO` (aço). É o custo que o vendedor tinha ao precificar, não o apurado — e é ~14% MAIOR que o real, por ganho de estocagem. ⚠️ É do pedido INTEIRO: repete em cada nota parcial. Ver [[Sistema Operacional Comercial/04 RAF/01 - Estrutura das 133 Colunas]] e [[2026-08-02 — Dicionário do RAF e a semântica dos campos do pedido]].

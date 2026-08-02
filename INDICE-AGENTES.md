@@ -1,6 +1,6 @@
 # Índice do vault GSR (gerado — não editar)
 
-Regenerado pelo backup_gsr.py em 01/08/2026. Uma linha por nota:
+Regenerado pelo backup_gsr.py em 02/08/2026. Uma linha por nota:
 leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 
 - `Biblioteca/00 - Leia-me (Biblioteca).md` — 📚 Biblioteca — leitura que vira decisão · Pasta de livros lidos. A regra é uma só: **destaque bruto e síntese própria são coisas separadas e moram em arquivos diferentes.**
@@ -163,6 +163,10 @@ leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 - `Logs/2026-07-30 — Agente LLM no bot Telegram (v2, pergunta livre).md` — Agente LLM no bot Telegram — v2, pergunta livre · **Data:** 30/07/2026
 - `Logs/2026-07-31 — Vault ConhecimentosGerais (base pública Flori + Stalo).md` — Vault ConhecimentosGerais — base de conhecimento pública (Flori + Stalo) · **Data:** 31/07/2026
 - `Logs/2026-08-01 — Custo na cotação e no pedido (entrega Nelson).md` — 2026-08-01 — Custo na cotação e no pedido (entrega do Nelson) · O Nelson (Softcomp) entregou em 31/07 as colunas que pedimos nas solicitações de
+- `Logs/2026-08-02 — Dicionário do RAF e a semântica dos campos do pedido.md` — 2026-08-02 — Dicionário do RAF e a semântica dos campos do pedido · Gustavo perguntou duas coisas sobre o achado de 01/08 (o RAF carrega o custo do
+- `Logs/2026-08-02 — Flori Vigia (alertas proativos do lake).md` — Flori Vigia — alertas proativos do lake · **Data:** 02/08/2026
+- `Logs/2026-08-02 — Onde parei (custo, margem e calibração).md` — 2026-08-02 — Onde parei (custo, margem e calibração) · Ponto de retomada da sessão de 01-02/08. Tudo commitado, testes verdes.
+- `Logs/2026-08-02 — Trefita histórico 2023-26 (duopólio, deflação, queda H1).md` — Trefita/Torres — série histórica 2023-jun/2026 · **Data:** 02/08/2026
 - `Logs/_Arquivadas/2026-04-17 — Posicionamento MetalM - Servitizador.md` — 2026-04-17 — Posicionamento MetalM - Servitizador · ---
 - `Sistema Operacional Comercial/00 - Visão Geral do Sistema.md` — 00 — Visão Geral do Sistema Operacional Comercial · Documenta o **sistema nervoso analítico** da operação comercial — lógica, normas, dados, ferramentas e cruzamentos. Não é estratégia; é a **
 - `Sistema Operacional Comercial/01 Sistema de Dados/00 - Arquitetura de Dados.md` — 00 — Arquitetura de Dados · **O ERP Softcomp é a fonte de verdade.** Tudo o que é analisado deriva de exports dele. Ferramentas analíticas (simulador, painel, motor) sã
@@ -196,7 +200,7 @@ leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 - `Sistema Operacional Comercial/03 Estoque/05 - Movimentação e Giro.md` — 05 — Movimentação e Giro · Entradas e saídas de estoque em período. Revela **ritmo de rotação** do estoque.
 - `Sistema Operacional Comercial/03 Estoque/06 - Fora de Padrão.md` — 06 — Fora de Padrão · **"Fora de Padrão"** é o bucket onde caem SKUs que **não se encaixam** nas 207 combinações canônicas da Família Canônica (ver [[01 - Família
 - `Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF.md` — 00 — Visão Geral RAF · **RAF = Relatório de Acompanhamento de Faturamento** do Softcomp.
-- `Sistema Operacional Comercial/04 RAF/01 - Estrutura das 133 Colunas.md` — 01 — Estrutura das 133 Colunas · O export `DetalhesRAF.xlsx` do Softcomp tem **133 colunas**. Esta nota cataloga as **mais usadas** para análise, agrupadas por categoria.
+- `Sistema Operacional Comercial/04 RAF/01 - Estrutura das 133 Colunas.md` — 01 — Estrutura das 133 Colunas · O export `DetalhesRAF.xlsx` do Softcomp tem **133 colunas**, todas documentadas.
 - `Sistema Operacional Comercial/04 RAF/02 - Convenção Softcomp (Invertida).md` — 02 — Convenção Softcomp (Invertida) · O Softcomp usa **nomenclatura invertida** nos campos de custo do RAF. Interpretar errado leva a análises completamente erradas — como aconte
 - `Sistema Operacional Comercial/04 RAF/03 - MC Contábil vs Econômica.md` — 03 — MC Contábil vs MC Econômica · A Sacchelli tem **duas medidas de MC** que coexistem e dizem coisas diferentes:
 - `Sistema Operacional Comercial/04 RAF/04 - Margem Oculta (7 componentes).md` — 04 — Margem Oculta (7 componentes) · **Margem oculta** = diferença entre o que a AFS **cobrou** do cliente (embutido no preço) e o que **realmente pagou** — para cada componente
@@ -214,6 +218,7 @@ leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 - `Sistema Operacional Comercial/05 Cotações/03 - Orçamento Prévio vs Projeto Real.md` — 03 — Orçamento Prévio vs Projeto Real · O motivo de encerramento "Cotação somente para orçamento prévio" **engloba dois perfis completamente diferentes** de cliente. Tratamento con
 - `Sistema Operacional Comercial/05 Cotações/04 - Cliente-Tabelista (flag proposta).md` — 04 — Cliente-Tabelista (flag proposta) · **Proposta — não implementada.**
 - `Sistema Operacional Comercial/05 Cotações/05 - Win Rate e Métricas.md` — 05 — Win Rate e Métricas · **Fórmula:**
+- `Sistema Operacional Comercial/05 Cotações/06 - Margem × Win Rate (curva empírica).md` — 06 — Margem × Win Rate (curva empírica) · Achados medidos no lake em 01-02/08/2026, quando o ERP passou a expor custo na
 - `Sistema Operacional Comercial/06 Pedidos/00 - Visão Geral Pedidos.md` — 00 — Visão Geral Pedidos · **Domínio em construção** — documentação inicial. Ferramenta de análise de pedidos em desenvolvimento.
 - `Sistema Operacional Comercial/06 Pedidos/01 - Do Pedido ao RAF.md` — 01 — Do Pedido ao RAF · Pedido emitido → RAF em 5 etapas:
 - `Sistema Operacional Comercial/06 Pedidos/02 - Ciclo e Status.md` — 02 — Ciclo e Status · **Esqueleto — a desenvolver.** Aguarda implementação da Análise de Pedidos Emitidos.

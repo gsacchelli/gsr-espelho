@@ -94,7 +94,7 @@ Soma de **6 componentes**:
 |---|---|---|
 | **MC_Aço** | `MC_Aco_RS` | `LiquidoAço − Custo Aço` (margem contábil direta) |
 | **FIN** | `FIN_Spread` | `ABCCUS_FIN − ABCCUS_FIN_COB` (CF% cobrado − Selic equivalente) |
-| **COR** | `COR_Spread` | `ABCCUS_COR − ABCCUS_COR_COB` (corte cobrado − custo real ~0) |
+| **COR** | `COR_Spread` | `ABCCUS_CTE − ABCCUS_CTE_COB` (corte cobrado − custo real ~0) |
 | **EXT** | `EXT_Spread` | `ABCCUS_EXT − ABCCUS_EXT_COB` (TT cobrado − pago ao tratador) |
 | **INT** | `INT_Spread` | `ABCCUS_INT − ABCCUS_INT_COB` (processos internos − custo ~0) |
 | **CER** | `CERT_Spread` | `ABCCUS_CER − ABCCUS_CER_COB` (certificação − custo emissão ~0) |
@@ -205,3 +205,6 @@ Script de geração: `MotorAnalitico/exports/gerar_auditoria_mc_pga.py`.
 
 ---
 
+
+
+> ⚠️ **Correção 02/08/2026:** esta nota citava `ABCCUS_COR` e `ABCCUS_REP`, que **não existem** no RAF — os nomes reais são `ABCCUS_CTE` (corte) e `ABCCUS_COM` (representação). O mesmo erro estava em `MotorAnalitico/exports/gerar_auditoria_mc_pga.py`, que devolvia 0,0 em silêncio: o Excel `Auditoria_MC_PGA_20linhas.xlsx` que circulou entre os gerentes mostrava **Cobrado 0 / Real 0** nas linhas de Corte e Representação, com o Spread preenchido. Corrigido nos dois lugares, e a leitura agora levanta exceção em coluna inexistente.
