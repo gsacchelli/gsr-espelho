@@ -234,6 +234,8 @@ leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 - `Sistema Operacional Comercial/08 Agente Analítico/03 - Memória do Flori.md` — Memória do Agente Telegram · Fatos ensinados via /aprender (injetados em todo prompt do agente). Editável à vontade.
 - `Sistema Operacional Comercial/09 Base Técnica do Flori/00 - Leia-me.md` — Base Técnica do Flori · Pasta de conhecimento técnico que o Flori (agente Telegram) lê pra responder dúvidas de metalurgia, normas, conversões e catálogo. **Basta s
 - `Sistema Operacional Comercial/09 Base Técnica do Flori/01 - Acervo Conhecimentos Gerais (IA) — mapa e regras.md` — Acervo "15. Conhecimentos Gerais (IA)" — mapa e regras de uso · Semeado em 01/08/2026. O Gustavo montou um acervo de conhecimento para os agentes em:
+- `Sistema Operacional Comercial/09 Base Técnica do Flori/02 - Tipos de NF do Softcomp (guia operacional).md` — Tipos de NF do Softcomp — guia operacional do cadastro (183 códigos) · - **Cód** é alfanumérico (1–99 + letras: A1..A9, G0..G9, N*, R*, T*, etc.).
+- `Sistema Operacional Comercial/09 Base Técnica do Flori/03 - NCM no ERP Softcomp (parametrização interna).md` — NCM no ERP Softcomp — códigos internos, cBenef e armadilhas do cadastro · Cada item de NF referencia um **código interno** (letra ou letra+dígito) que carrega: NCM, CST de IPI (+CENQ e %), CST de ICMS (+tipo de red
 - `Sistema Operacional Comercial/_RELATORIO_NOTURNO_2026-04-18.md` — Relatório Noturno — Construção do Sub-Vault Sistema Operacional Comercial · **Sessão iniciada:** 2026-04-17 ~23:50
 - `TEMPLATE - CASO APLICADO.md` — AAAA-MM-DD — Caso: {{Título curto e descritivo}} · ---
 - `TEMPLATE - DECISÕES.md` — Decisão: {{Título}} · Situação e problema.

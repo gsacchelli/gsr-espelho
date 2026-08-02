@@ -64,3 +64,24 @@ PROK BRASIL comprou **R$ 2.351 da Trefita em 3,5 anos** (1 pedido em 2023; o res
 - [ ] Sazonalidade mensal + procedência (importado×nacional) deles
 - [ ] Wallet share por CNPJ no histórico (upgrade da busca por nome)
 - [ ] Campanha trefilado: cruzar os gaps R T com os 1.566 prospects (lista de ataque pronta)
+
+## Adendo 4 (mesmo dia, noite) — instrumentação das decisões + Radar série completa
+
+Aprovação do Gustavo aos 3 instrumentos + filtro de ano: (1) **Prêmio mês a mês** na página do portal (like-for-like por família × mês, ponderados Forjado/Laminado — o velocímetro da recalibração que será proposta ao Wagner em 03/08); (2) **alerta de movimento de preço deles** no processar_trefita (último mês vs média 3m, |Δ|>5%); (3) **placar de campanha** — `Trefita/campanhas.json` com os 50 alvos trefilado-Arcelor (baseline 02/08) × funil nosso por CNPJ, na página. **Radar regenerado com a série completa** (2023-26, R$ 1,28 BI deles; grupos: A 337MM · B perda silenciosa 380MM/857 cli · C 11MM · D dormente 420MM · E 131MM) + filtro ANO na barra + UX: nome preferindo cadastro Sacchelli (laranja = sem cadastro nosso), "Nossa fatia"→"Wallet nosso %", linhas compactas. Encadeado: processar → radar em 1 comando. Botão de acesso: Entrada de Pedidos → 🔒 Concorrência (senha) → página + botão do Radar.
+
+## Adendo 5 (02/08, noite) — ERRO GRAVE no elo do Radar, achado pelo Gustavo (caso SEW)
+
+**Sintoma:** SEW aparecia com "nada" em R$ conosco; o print do SP8001A mostrava **R$ 1.377.395 no H1/26** (cod 8156). O número da PÁGINA do portal estava certo (bate ao centavo) — o furo era só do **Radar**.
+
+**Três bugs empilhados, todos no elo cliente-nosso ↔ cliente-dele:**
+1. **Elo por NOME via faturamento** — o Radar ligava nossos pedidos ao cliente dele pelo nome (vw_pedidos não tinha `cod_cliente`). Deixava **21,7% do nosso R$ sem dono**. Corrigido: passou a ler `pedidos_enriquecidos` (tem cod) → elo **cod → raiz CNPJ → nome**.
+2. **Cliente rachado por filial** — SEW deles usa 2 CNPJs do mesmo grupo (…002052 e …000432): o R$ deles ficava num registro e o nosso elo em outro, com wallet zerado nos dois. Corrigido: cliente do Radar passou a ser o **GRUPO ECONÔMICO** (raiz de CNPJ) — mesma doutrina da segmentação ("SEW/WEG = 1 mesa, não 7").
+3. **Fuzzy de nome ROUBAVA código** (o mais perigoso): 'MULT USI' (R$ 2,9 mil na Trefita) casava por semelhança com o nosso 'MULT ENGRENAG.' e **levava os R$ 3,84 MM** de pedidos da MULT ENGRENAGENS — porque `cod2ci` é dict e o último a escrever vencia (ordem instável entre execuções!). O mesmo padrão inventava venda em AGT (deles) → 'AGT ESTRELA' (nosso, outra empresa), MM SANTOS, SIGMA, VIA PORTO, RDB.
+
+**Regra fechada (02/08):** **documento manda; nome só quando não há documento.** Se o cliente dele tem CNPJ e esse CNPJ/raiz não existe na nossa base, a resposta honesta é "não é nosso cliente" (grupo E) — nunca casar por semelhança. Precedência no elo: CNPJ > grupo > nome, e um código **nunca troca de dono**.
+
+**AUDITORIA AUTOMÁTICA embutida no gerar_radar** (regra da casa: número exibido tem que ser o que o dado sustenta): a cada geração, compara o R$ nosso de cada cliente casado contra a soma dos pedidos dos códigos do mesmo grupo econômico e **lista as divergências >2%**. Hoje: `✓ todo cliente casado bate`. Conferência externa contra o gold na mesma janela: **20/20 dos maiores clientes conferem (<2%)**.
+
+**Efeito nos números:** SEW passa de R$ 0 → **R$ 9,08 MM (wallet 22%)**; MULT ENGRENAGENS de 0 → 3,84 MM; grupo E sobe (4.098) porque quem não tem match por documento deixou de ser inventado. Ligação total do nosso R$: 80,3% (o resto é cliente que não compra da Trefita — correto).
+
+**Lição registrada:** match por similaridade de nome em análise estratégica é dívida escondida — só sobrevive com documento como âncora e auditoria automática que quebre quando o número não fecha.

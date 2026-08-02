@@ -35,3 +35,11 @@ Semeado em 01/08/2026. O Gustavo montou um acervo de conhecimento para os agente
 - Normas ASTM mais citadas no dia a dia (A29, A108, A322, A434, E140...) → fichas-resumo próprias.
 - Catálogo Comercial 2026 (171 MB) — extração pendente.
 - Apostila "Tratamento Térmico.pdf": síntese própria curta das faixas de revenido × estrutura × dureza (150–230 °C ~60-63 HRC → 650–723 °C 5–20 HRC) e da Tabela IV (normalizado vs recozido por %C) — conteúdo clássico confiável, nomenclatura datada (troostita/sorbita).
+
+## Adendo 02/08/2026 — segunda leva sintetizada (Contábil-Fiscal + Marketing)
+
+- ✅ **Catálogo Comercial 2026 (171 MB) extraído** → nota **11** do ConhecimentosGerais (composição/dureza/aplicações dos 4 grupos de aços + serviços + timeline). Fecha o backlog "extração pendente". Págs. 5/9/10 são imagem pura sem texto — perda zero (peso teórico e tolerâncias já estão nas notas 01 e 10).
+- ✅ **NCM.xlsx dividido em DUAS notas** — o mapa rotulava "Público (é lei)", mas o arquivo mistura lei com parametrização de ERP e clientes nominais: camada pública (NCM/TIPI por produto) → nota **12** do ConhecimentosGerais; parametrização interna (códigos, cBenef, casos por cliente) → nota **03** desta pasta. ⚠ **IPI 3,25% do ERP é pré-Decreto 11.158/2022** (TIPI vigente zera o cap. 72) — reforça a validação pendente com o contador.
+- ✅ **Tipos NFs.xlsx** (183 códigos, acordos nominais) → nota **02** desta pasta (INTERNO).
+- Manual da Marca e Catálogo Técnico: já sintetizados em 01/08 (sem duplicar).
+- ⚠ 3 EPS de logo com **0 bytes** (corrompidos) em "Logos em vetor/": SACCHELLI-VERTICAL-{NEGATIVA, NEGATIVARESUMIDA, RESUMIDA} — repor se precisar dos vetores.
