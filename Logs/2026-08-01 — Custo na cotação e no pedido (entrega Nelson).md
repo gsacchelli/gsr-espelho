@@ -126,6 +126,41 @@ Detalhamento completo: `06_Docs/Custo_Referencia_vs_Real_2026-08-01.md`.
 5. `BI.CondPagamentos`
 6. `BI.RAF` continua espelhando o acúmulo do relatório do usuário (por isso o RAF
    segue manual)
+7. **`BI.RAF.ValorMC` e `BI.RAF.LiquidoAco`** — acrescentadas em 02/08, ver abaixo
+
+### Adendo 02/08/2026 — a MC não sobrevive à migração do RAF como a view está hoje
+
+Gustavo rodou o RAF de julho na tela e pediu uma leitura do mês. Conferindo a
+`BI.RAF` contra o gold no trecho que se sobrepõe (01–24/07, o que o portal já
+tinha do export de 25/07), **linhas, NFs e valor líquido batem ao centavo** —
+4.473 linhas, 1.729 NFs, R$ 11.192.985,64. A view é fiel. Mas ela tem **116
+colunas contra as 133 do export**, e duas das que faltam são justamente as que
+sustentam a MC da casa:
+
+| falta | o que é | por que trava |
+|---|---|---|
+| `ValorMC` | MC do aço em R$ (= `LiquidoAco − ABCCUS_ACO`) | é o **numerador**; o motor lê essa coluna já calculada (`raf/enriquecer.py::derivar_margens`) |
+| `LiquidoAco` | parcela do líquido atribuída ao aço | é o **denominador** do MC% do aço |
+
+A view expõe `PercentualMC`, que **não** substitui: aplicado ao líquido de julho
+dá R$ 4,11 MM contra os R$ 3,17 MM reais de MC do aço. Reconstruí a régua por
+rota indireta — `(liq − ValorCustoTotal − CustodaMP) + Σ(Custo_X − Custo_X_Cob)`
+— e o agregado fecha com resíduo de R$ 48 em R$ 3,73 MM (0,001%). Serviu para
+ler julho, **mas proxy não é contrato**: por linha ela já erra (a NF 321056 da
+SEW aparece com MC −R$ 10 mil quando o desvio real é −R$ 1,8 mil), e a origem
+pode mudar sem aviso. Enquanto essas duas colunas não existirem, a rota A (view
+lendo as tabelas de faturamento) **entrega faturamento sem margem** — o que
+mataria o indicador central do portal.
+
+**Armadilha de nome, já medida** (não é pendência dele, é documentação nossa):
+`BI.RAF.ValorTottal` **não é o bruto da NF — já vem sem IPI**. Equivale ao
+`faturamento_cimp` do gold, não ao `valor_bruto`. A diferença de R$ 298.946,63
+em julho é, ao centavo, `SUM(ValorIPI)`. Bruto da NF = `ValorTottal + ValorIPI`.
+
+E o item 6 ganhou prova nova: em 02/08 a view tinha **um mês só** (01 a 31/07),
+exatamente o período que o Gustavo rodou na tela. O `conferir_colunas.py` passou
+a checar isso sozinho — se `BI.RAF` tiver um único mês, ele avisa que a view
+está espelhando relatório, não faturamento.
 
 ## Conexões
 

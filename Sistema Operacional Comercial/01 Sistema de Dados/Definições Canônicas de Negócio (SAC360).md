@@ -104,3 +104,34 @@ O Softcomp manda a MESMA dimensão em duas grafias conforme a rota: export manua
 
 ## Pricing — thresholds
 Stoplight %Preta por vendedor: atenção >12% · crítico >25% (R$ mínimo 50k). Piso Operacional de MC: 24%.
+
+## Procedência do pedido — dois vocabulários, um canônico (02/08/2026)
+A migração de Pedidos para SQL trocou os RÓTULOS, não os conceitos. Ainda assim **um `COALESCE` entre as duas colunas produziria série com quebra invisível**, porque empilharia vocabulários crus:
+- **Rota manual (≤2025)**, coluna `procedencia`: Com reserva · Sem reserva · O.C. · Comprar
+- **Rota SQL (2026+)**, coluna `procedencia_erp`: Estoque · Comprar · OC · Prod.externa
+
+**Equivalência (Gustavo, 02/08/2026):** `Com reserva` = **Estoque** (material reservado, já é nosso) · `Sem reserva` = **Comprar** (sem reserva → precisa comprar) · `Comprar` = Comprar · `O.C.` = OC · `Prod.externa` só existe na rota SQL (conceito novo, sem histórico).
+
+Canônico em `definicoes.py::PROCEDENCIA_CANON` + `procedencia_canonica()` → coluna **`procedencia_canon`** no enriquecido (100% em 2024-25, 97,9% em 2026). Domínio: **Estoque · Comprar · OC · Produção externa**. Valor não reconhecido devolve **None, nunca 'Outros'** — um balde 'Outros' que cresce em silêncio é como quebra de fonte vira tendência de negócio.
+
+O mapeamento é completo: **nada se perdeu**, a série fica comparável de 2023 a 2026. Sempre consultar `procedencia_canon`; as cruas cobrem meia série cada.
+
+**❓ Pendência com o Nelson:** em 2026 a `BI.Pedido` devolve **Procedencia VAZIA em 2,1% dos pedidos** (765 linhas, R$ 6,0 MM). Não é buraco de carga — a distribuição é plana (~100/mês) e atinge todas as unidades. E os totais batem com o balde que sumiu: 2025 (Comprar+OC) = 2,53% × 2026 (vazio+Comprar+OC) = 2,68%. **Hipótese, não conclusão:** o vazio é o antigo 'Sem reserva'. Enquanto não confirmar, esses pedidos ficam `None` — nunca chutados para um balde.
+
+⚠️ Registro do erro: a 1ª versão mapeava `Sem reserva` → Estoque, por leitura minha do rótulo e não do negócio — movia ~1.500 pedidos/ano de 'Comprar' para 'Estoque' (2,0% → 0,3% da série). **Significado de campo não se infere de nome: se não estiver escrito, é pergunta.**
+
+## Base da MC — qual líquido é o denominador (02/08/2026 — regra FECHADA)
+`mc_total_rs` e `preta_rs` da `vw_kpi_mensal` já filtram `margem_confiavel` (excluem beneficiamento, onde a matéria-prima é do cliente e o custo do ERP é fictício). O denominador que combina com eles é **`liq_margem`**, que a view expõe exatamente para isso. Dividir por `faturamento_liq` — que INCLUI beneficiamento — mistura as bases.
+
+Régua da casa, 2026: **MC 31,84%** (32,54% com o ajuste DDV/LOG) · **%Preta 16,48%**.
+
+Três superfícies estavam do lado errado até 02/08 e divergiam 0,10 pp do card da Visão Geral no mesmo recorte: DRE Gerencial de Vendas, **relatório executivo** (o que sai da empresa) e `vw_kpi_mensal_ajustada`. Unificadas; travadas em `portal/test_bases.py` (roda no `make ci`).
+
+**"Sobre o líquido" não é declaração de base** — não distingue `faturamento_liq` de `liq_margem`, e era essa ambiguidade que sustentava a divergência. Todo rótulo de MC diz agora qual líquido usa.
+
+⚠️ Cuidado com `LiquidoAco`: já tem os serviços descontados (~19% menor que `ValorLIQ`). Dividir por ele infla a MC em ~7pp — foi o erro do Painel de Estoque (publicava 38,9%) e o da primeira calibração do Cockpit. **Toda margem nova se confere contra ~32% antes de ir para a tela.**
+
+## Cobertura de estoque — indefinida ≠ zero (02/08/2026)
+Item **sem saída nos últimos 12 meses** não tem cobertura: a divisão é impossível, não dá zero. Escrever `0.0` punha item PARADO na mesma faixa visual de quem está em ruptura — o KPI "Crítico (< 1 mês)" do Painel de Estoque marcava **44 quando a ruptura real era 19**, e 5 dos falsos tinham estoque livre positivo (sobra exibida como falta).
+
+Nível próprio **"Sem demanda 12m"** (cinza, filtrável), célula com `—` e o KPI declarando o que ficou de fora. Regra geral: **ausente ≠ zero** — um `0` que deveria ser `—` é o formato mais comum do erro silencioso, porque passa por resultado.

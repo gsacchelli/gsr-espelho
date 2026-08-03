@@ -261,7 +261,7 @@ existe × o que os loaders consomem**, e separa o que é pendência do Nelson do
 lista explícita. Enquanto ninguém edita o SELECT + enricher + silver + gold, o
 dado existe na origem e é ignorado em silêncio.
 
-### Pendências abertas com o Nelson (01/08/2026)
+### Pendências abertas com o Nelson (atualizada 02/08/2026)
 
 1. **Histórico** — nova planilha, já combinado (é a pendência que o Gustavo rastreia).
 2. `BI.Cotacao.DataEncerramento` — **descoberta em 28/07, provavelmente não está na
@@ -273,7 +273,35 @@ dado existe na origem e é ignorado em silêncio.
    antes de cobrar — o agregado já resolve a maior parte das análises.
 5. `BI.CondPagamentos` — cadastro de condições (hoje só vem o código).
 6. `BI.RAF` segue espelhando o **acúmulo do relatório do usuário**, não as tabelas
-   de faturamento (ver seção do RAF) — por isso o RAF continua manual.
+   de faturamento (ver seção do RAF) — por isso o RAF continua manual. Prova nova
+   em 02/08: a view tinha **um mês só** (01–31/07), exatamente o período que o
+   Gustavo acabara de rodar na tela.
+7. **`BI.RAF.ValorMC` e `BI.RAF.LiquidoAco` (02/08/2026)** — sem elas a rota A
+   entrega faturamento **sem margem**. Detalhe abaixo.
+
+#### Por que a MC não sobrevive à migração do RAF (02/08/2026)
+
+Conferindo a `BI.RAF` contra o gold no trecho sobreposto (01–24/07), **linhas,
+NFs e líquido batem ao centavo**: 4.473 linhas, 1.729 NFs, R$ 11.192.985,64. A
+view é fiel ao dado. Mas tem **116 colunas contra as 133 do export**, e faltam as
+duas que sustentam a MC da casa:
+
+| falta | o que é | papel |
+|---|---|---|
+| `ValorMC` | MC do aço em R$ (= `LiquidoAco − ABCCUS_ACO`) | **numerador** — o motor lê essa coluna já calculada |
+| `LiquidoAco` | parcela do líquido atribuída ao aço | **denominador** do MC% do aço |
+
+`PercentualMC` não substitui: aplicado ao líquido de julho dá R$ 4,11 MM contra
+os R$ 3,17 MM reais. A régua é reconstruível por rota indireta
+(`(liq − ValorCustoTotal − CustodaMP) + Σ(Custo_X − Custo_X_Cob)`, resíduo de
+R$ 48 em R$ 3,73 MM), mas **proxy não é contrato**: por linha já erra, e a origem
+muda sem avisar.
+
+🪤 **`BI.RAF.ValorTottal` não é o bruto da NF — já vem sem IPI.** Equivale ao
+`faturamento_cimp` do gold, não ao `valor_bruto`; a diferença de R$ 298.946,63 em
+julho é, ao centavo, `SUM(ValorIPI)`. Bruto da NF = `ValorTottal + ValorIPI`.
+Documentado em `ARMADILHAS` dentro do `conferir_colunas.py`, que agora também
+cobre `BI.RAF` e avisa sozinho quando a view tem um mês só.
 
 ---
 

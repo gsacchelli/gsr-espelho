@@ -94,6 +94,50 @@ Cruzando **prêmio de preço × margem REAL da família** (RAF H1/26), as famíl
 
 **BLOCO 1 — corrigir preço** (R$ 13,1 MM nossos; MC média 41,9%; prêmio 13-34%): 1045 R F 230-355, 4140/1045/1020/4340/8620 R L 230-355, 4140 R F 230-355, 8640 R L 101-203. Corte médio **11,7%** com piso de margem de 30% por família → MC média cai para 34%. **Custo: R$ 1,54 MM de MC/semestre**; mercado deles nessas famílias: R$ 16,9 MM (1,3× o nosso).
 
-**BLOCO 2 — não é preço, é CUSTO** (R$ 10,7 MM nossos; eles R$ 25,3 MM): forjado ≥355mm, trefilado fino, 20MnCr5 R L. Estamos 12-36% acima **com margem de só 23-30%** — cortar preço aqui destrói margem sem recuperar volume. **Causa estrutural descoberta hoje: a TORRES é forjaria do próprio grupo e responde por 43% do forjado que eles vendem** — são verticalizados onde compramos de terceiros (nossa MC no forjado 29,3% < laminado 32,4%, e ainda assim mais caros). Pauta de SUPRIMENTO (parceria/contrato com forjaria, volume consolidado) ou escolha consciente de nicho — não de tabela.
+**BLOCO 2 — não é preço, é CUSTO** (R$ 10,7 MM nossos; eles R$ 25,3 MM): forjado ≥355mm, trefilado fino, 20MnCr5 R L. Estamos 12-36% acima **com margem de só 23-30%** — cortar preço aqui destrói margem sem recuperar volume. ⚠ **CORREÇÃO do Gustavo (03/08): a TORRES NÃO é forjaria** — é distribuição de aço focada em forjados, com parque de serras e tornos para desbaste. Minha explicação de 'verticalização' estava errada e foi removida do dossiê. O dado revisado é mais duro: a TORRES vende peça desbastada/pré-shape a **18,10 R$/kg** (o produto mais caro do grupo) e por isso *inflava* a média deles; comparando só contra a **barra pura** (T1/T2/T3/SC), nosso prêmio agregado sobe de +4,7% para **+8,7%** e nas famílias do Bloco 2 vai a 14-36%. Conclusão sustentada: vendemos barra mais cara que um concorrente que compra no MESMO mercado e ainda ganhamos menos margem nela → **custo de aquisição do forjado pesado está alto**. Pauta de SUPRIMENTO com pergunta aberta (sem dado nosso p/ responder): escala (eles giram R$ 50 MM/sem em forjado × nossos 22 MM), formato de compra (bitola padrão + ajuste na serra/torno × sob medida), lote e prazo.
 
 Entregues: `Dossie_Preco_Forjado_Wagner_2026-08-03.md` (v3) e `Plano_Recalibracao_Familias.xlsx` (família a família: corte, MC antes/depois, volume p/ empatar). Reconquista dirigida: RENK-ZANINI, CALDEX, SUPERIOR, MARTIN, MULT ENGRENAGENS somam R$ 12,9 MM comprando deles com wallet nosso caído de 28-53% → 6-23%.
+
+## Adendo 7 (03/08) — contexto Villares Metals do Gustavo + medição da redução de preço
+
+**Contexto que o Gustavo trouxe (não estava em dado nenhum):** o Wagner apostou na **Villares Metals** desde o fim de 2025 — garantiu **500 t/mês** e, em troca, a Metals cobraria **10% a mais de qualquer concorrente**, inclusive Trefita/Torres (que também é distribuidor tradicional dela). A Trefita contornou por duas vias: (1) **>508 mm — importou direto**, recebeu em **abril/26**, e por isso não programou com a Metals; (2) **<508 mm — compra da Steel** (forjaria com aciaria), mais barata, qualidade inferior à Metals, mas **atende ~80% do mercado — poucos clientes exigem procedência Metals, preço decide**. Agora a Trefita parece estar voltando a programar com a Metals **com preços reajustados, mas ainda não repassou**.
+
+**O dado confirma a história:** PU deles em forjado >508 mm caiu de ~21 R$/kg (2025) para **18,7-18,8 em abr-jun/26** (−12%) — exatamente a chegada do importado; e o volume dessa faixa **despencou em junho (95,8 t contra 145-190 t nos meses anteriores)** = estoque importado se esgotando. Do nosso lado, a MC mais baixa do forjado está justamente em **355-508 (26,2%) e 508-800 (26,5%)** contra 34,2% em 230-355 — o prêmio Metals num mercado que não paga por ele.
+
+**Medição da redução de preços da semana de 27/07 (Gustavo: "não senti impacto"):** no FUNIL o impacto foi imediato — cotações de forjado (encerradas+pendentes, sem viés) passaram de 424 itens/R$ 7,5 MM/PU 19,03 (semana 20/07) para **545 itens (+29%) / R$ 9,7 MM (+30%) / PU 15,66 (−17,7%)**; pedidos da semana: **61,2 t**, a maior das 9 anteriores (média ~38 t), 5 dias completos, sem pedido atípico — e a **MARTIN voltou (12,1 t)**. A percepção estava certa quanto ao FATURAMENTO (pedido vira NF depois do prazo), errada quanto ao mercado.
+
+⚠ **Mas a redução foi DESIGUAL** (PU cotado antes 29/06-20/07 × depois 27/07+, contra a barra deles abr-jun sem TORRES): no alvo em 4140 R F 558-800 (−3,6% → prêmio 3%), 4140 R F 355-558 (−3,1% → 5%), 8620 R F 355-558 (−6,6% → 4%), 4140 R F 230-355 (−6,0% → 7%), 8620 R F 230-355 (−8,2% → 8%); **passou do ponto** em 1020 R F 230-355 (−16,3% → **−6%**) e 1045 R F 558-800 (−12,5% → **−2%**) — abaixo do concorrente, margem cedida sem ganho; e **SUBIU** em 5 famílias que seguem caras: 1045 R F 355-558 (+0,8% → 15%), 1045 R F 230-355 (+8,5% → 11%), 4340 R F 355-558 (+4,1% → 20%) e **4340 R F 230-355 (+13,4% → 41%)**. Ressalva: PU médio também varia por mix — a lista diz onde conferir a tabela, não prova que a tabela subiu.
+
+**Conclusão estratégica p/ a reunião:** a alavanca de preço FUNCIONA (funil +30% na 1ª semana) mas precisa de pontaria; e a janela é agora — o importado deles acabou, eles vão repassar o reajuste da Metals e ainda não mexeram no preço. Quem se posicionar antes do repasse recupera volume com margem.
+
+## Adendo 8 (03/08) — ERRO DE MÉTODO na medição do corte, pego pelo Gustavo ("41% não parece correto")
+
+**Ele estava certo de novo.** Duas falhas na tabela do adendo 7:
+1. **Peça-com-serviço contamina PU/kg.** O caso: `HYDAC · 4340 Redondo Forjado 355,60 x 35mm · 27 kg · R$ 91.570 · PU R$ 3.354/kg` — disco cortado de barra Ø355, preço de peça usinada e não de aço. Nove linhas desse tipo (entre 1.739) somam R$ 318 mil em 401 kg e dominaram a média. **Guard-rail aplicado: excluir PU > 3× a mediana da família** (mesma lógica do PANEGOSSI).
+2. **Comparei COTAÇÃO nossa × PEDIDO deles** — cotação é preço de tabela, pedido é preço fechado: infla nosso lado sistematicamente. O correto é pedido × pedido.
+
+**Números corrigidos (pedido nosso abr-jul × pedido de barra deles abr-jun):** 4340 R F 230-355 = **+26%** (não 41%, e teve corte de 4,7% — não aumento de 13,4%); 1045 R F 230-355 **+28%**; 4140 R F 355-558 **+25%**; 1020 R F 355-558 **+23%**; 8620 R F 230-355 +20%; 4140 R F 230-355 +18%; **1020 R F 230-355 +16% (NÃO ficamos abaixo deles — alarme falso meu)**; 4340 R F 355-558 +14%; 4140 R F 558-800 +12%; 1045 R F 355-558 +10%; 8620 R F 355-558 +8%; **1045 R F 558-800 +2%** (único a vigiar: corte de 10,1% já cotado pode levar a negativo); 4340 R F 558-800 +1%.
+
+**Lição p/ toda análise de preço:** (a) PU/kg só compara BARRA com BARRA — peça cortada/usinada tem que sair da conta; (b) comparar sempre o mesmo estágio do funil dos dois lados (pedido×pedido, cotação×cotação). As duas viraram regra no método de comparação com concorrente.
+
+## Adendo 9 (03/08) — "não posso correr esse risco": guardas de ANÁLISE
+
+Gustavo, depois do 4º erro que ELE pegou (SEW zerada, TORRES-forjaria, 20MnCr5, 41% do 4340): *"não posso correr esse tipo de risco de análise errada! o que precisamos desenvolver para criar um sistema confiável?"*
+
+**Diagnóstico:** o `make auditar` (02/08) protege o dado NO GOLD. Os quatro erros aconteceram todos na camada seguinte — **análise ad-hoc**: script de sessão, join novo, base externa (Trefita fora do lake por decisão), agregação inédita. Essa camada não tinha teste, auditoria nem reconciliação. O padrão dos erros não era descuido pontual; era **ausência de rede numa camada inteira**.
+
+**Construído:** `MotorAnalitico/analise/guardas.py` — seis guardas, cada uma amarrada ao caso real que a originou (o campo `porque` é obrigatório, mesma regra do `test_auditoria`):
+| Guarda | Pergunta que faz | Caso-âncora |
+|---|---|---|
+| `sensibilidade_razao` | o número sobrevive sem a linha mais influente? | HYDAC (disco 27 kg, R$ 3.354/kg, movia o PU em 16%) |
+| `concentracao` | 1 linha domina o total? | PANEGOSSI |
+| `cobertura` | quanto do universo entrou na conta? | 20MnCr5 em caixa alta (R$ 26,7 MM invisíveis) |
+| `reconciliar` | fecha com uma fonte independente? | SEW (R$ 0 no Radar × R$ 1,38 MM no gold) |
+| `comparavel` | mesmo estágio/base/natureza/janela dos 2 lados? | cotação nossa × pedido deles |
+| `pu_de_barra` | PU/kg comparando barra com barra? | peça-com-serviço contamina R$/kg |
+
+`relatar()` **ergue `AnaliseSuspeita` quando há CRÍTICO — o número não circula.** 18 testes ancorados nos números reais dos erros (memória viva), no `make ci`.
+
+**Prova de eficácia:** re-rodando a análise errada de ontem com as guardas ligadas, ela é **BLOQUEADA com 3 críticos** — inclusive um que nem eu tinha percebido (janelas diferentes: nossa cotação de jul contra pedido deles de abr-jun).
+
+**Regra de trabalho que fica:** todo número que vai para reunião, e-mail ou tela passa pelas guardas e **declara o método** (fonte, janela, filtros, estágio do funil). Número sem método declarado não sai.
