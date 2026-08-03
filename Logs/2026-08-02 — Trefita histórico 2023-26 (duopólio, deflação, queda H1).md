@@ -85,3 +85,15 @@ Aprovação do Gustavo aos 3 instrumentos + filtro de ano: (1) **Prêmio mês a 
 **Efeito nos números:** SEW passa de R$ 0 → **R$ 9,08 MM (wallet 22%)**; MULT ENGRENAGENS de 0 → 3,84 MM; grupo E sobe (4.098) porque quem não tem match por documento deixou de ser inventado. Ligação total do nosso R$: 80,3% (o resto é cliente que não compra da Trefita — correto).
 
 **Lição registrada:** match por similaridade de nome em análise estratégica é dívida escondida — só sobrevive com documento como âncora e auditoria automática que quebre quando o número não fecha.
+
+## Adendo 6 (02/08, noite) — plano quantificado para o Wagner: o problema tem DUAS naturezas
+
+Cruzando **prêmio de preço × margem REAL da família** (RAF H1/26), as famílias caras se separam em dois blocos com decisões opostas — e isso muda a tese da reunião de "baixar preço do forjado" para algo bem mais preciso:
+
+**O que a política fez (forjado, RAF H1):** 2025 R$ 25,9 MM / 1,92 mil t / MC 25,9% = **R$ 6,7 MM de MC** → 2026 R$ 22,0 MM / 1,53 mil t / MC 29,3% = **R$ 6,4 MM**. Subimos a margem 3,4 pp, perdemos 20% do volume, e a **MC em reais caiu 4%**. Preço médio +6,6% (13,49 → 14,38 R$/kg líq). O trade não pagou.
+
+**BLOCO 1 — corrigir preço** (R$ 13,1 MM nossos; MC média 41,9%; prêmio 13-34%): 1045 R F 230-355, 4140/1045/1020/4340/8620 R L 230-355, 4140 R F 230-355, 8640 R L 101-203. Corte médio **11,7%** com piso de margem de 30% por família → MC média cai para 34%. **Custo: R$ 1,54 MM de MC/semestre**; mercado deles nessas famílias: R$ 16,9 MM (1,3× o nosso).
+
+**BLOCO 2 — não é preço, é CUSTO** (R$ 10,7 MM nossos; eles R$ 25,3 MM): forjado ≥355mm, trefilado fino, 20MnCr5 R L. Estamos 12-36% acima **com margem de só 23-30%** — cortar preço aqui destrói margem sem recuperar volume. **Causa estrutural descoberta hoje: a TORRES é forjaria do próprio grupo e responde por 43% do forjado que eles vendem** — são verticalizados onde compramos de terceiros (nossa MC no forjado 29,3% < laminado 32,4%, e ainda assim mais caros). Pauta de SUPRIMENTO (parceria/contrato com forjaria, volume consolidado) ou escolha consciente de nicho — não de tabela.
+
+Entregues: `Dossie_Preco_Forjado_Wagner_2026-08-03.md` (v3) e `Plano_Recalibracao_Familias.xlsx` (família a família: corte, MC antes/depois, volume p/ empatar). Reconquista dirigida: RENK-ZANINI, CALDEX, SUPERIOR, MARTIN, MULT ENGRENAGENS somam R$ 12,9 MM comprando deles com wallet nosso caído de 28-53% → 6-23%.
