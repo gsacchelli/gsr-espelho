@@ -18,6 +18,8 @@ Fechado entre 29 e 30/04. Resumo decisional:
 
 ### Regra de classificação de origem do material PARTIDA
 
+> ⚠️ **DESATUALIZADA desde jun/2026 — corrigida em 03/08/2026.** A tabela abaixo é o registro do que se decidiu em 30/04 e fica preservada como tal. **A regra vigente está em [[07 - Origem do Material (Nacional x Importado)]]**: 4140 (≤ 88,90 mm) e 20MnCr5 (≤ 101,60 mm) laminados passaram a ter dupla fonte e hoje são **Arcelor / nacional**, não Daye/HBIS. Ver adendo no fim desta nota.
+
 Aplicada no enriquecedor RAF (`raf/enriquecer.py::derivar_origem`) e também no aggregator quando processa `EstoquePadrao.xlsx`. Cobre ~99% do estoque/RAF Sacchelli:
 
 | Perfil + Acabamento | Faixa Bitola | Aço | Origem | Fornecedor | Lead Time |
@@ -200,3 +202,23 @@ Próxima sessão deve focar em **validação de produção** dos pacotes UX (dei
 - `03_Ferramentas/Painel_Comercial_RAF.html` — todos os pacotes 6/7/8/9/9b (UI completa)
 
 Backups antigos em `.bak.20260429*` (várias versões intermediárias).
+
+---
+
+## Adendo (03/08/2026) — a regra de origem envelheceu e ninguém viu
+
+O Gustavo apontou, olhando o **Plano 30d do Painel de Estoque**, que materiais de origem nacional apareciam errados: **4140 e 20MnCr5 laminados até a faixa fina podem vir da Arcelor (nacional) ou da Daye/HBIS, e ultimamente a compra é Arcelor — o custo na família de produto é o da Arcelor.**
+
+A tabela deste log classificava **toda** liga laminada como importada Daye/HBIS. Estava certa em 30/04; a política de compra mudou em **jun/2026** e o documento não acompanhou.
+
+**Onde o erro estava:** não no painel, mas na **raiz** — `MotorAnalitico/raf/origem.py::classificar_origem`, que alimenta o RAF enriquecido, o silver, o gold e o portal. O painel só exibia o que a regra devolvia.
+
+**Alcance medido no RAF 2026:** **5.297 linhas / R$ 13,19 MM de líquido** (13,3% das linhas do ano) classificadas como importadas quando são nacionais. Consequência real: material nacional lido como importado ganha uma régua de saúde que tolera **12 meses** de cobertura em vez de 5 — estoque que devia acender alerta aparecia como posição estratégica.
+
+**Segundo erro, encontrado na mesma varredura** (não estava no pedido): o Painel de Estoque inferia a origem **só do estoque regulador**, com o mapa `{8: China, 5: Villares forjado, 3: Nacional laminado}`. Mas **regulador 5 cobre duas origens** — Villares/Metals forjado *e* Arcelor laminado. Todo 4140/20MnCr5 laminado fino aparecia rotulado como **forjado**. Origem agora se resolve por acabamento + aço + bitola.
+
+**Terceiro erro, de cálculo:** o mesmo painel usava `BASE_ORIGEM[reg] || 0` — identidade para 8/5/3/0 e **zero para qualquer outro valor**. Quando o trefilado entrou (jun/2026) com **regulador 4**, os **25 SKUs** passaram a calcular alvo = demanda × 0 = 0 e exibir **'OK' sempre**, com qualquer estoque. Ausente virou zero, em silêncio — a regra-mãe do `make auditar`. O painel agora lê o regulador direto e acompanha valores novos sozinho.
+
+**Lição estrutural:** a regra de negócio vivia num **log datado**. Log é registro do que se decidiu num dia — não tem dono nem revisão. Quando a realidade mudou, não havia documento vivo para atualizar. A regra passou a morar em **[[07 - Origem do Material (Nacional x Importado)]]**, no Sistema Operacional Comercial, com as pendências abertas declaradas.
+
+**Rede de teste:** `MotorAnalitico/raf/test_origem.py` (14 testes) entrou no `make ci` — não existia nenhum teste cobrindo origem.

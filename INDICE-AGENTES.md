@@ -1,6 +1,6 @@
 # Índice do vault GSR (gerado — não editar)
 
-Regenerado pelo backup_gsr.py em 03/08/2026. Uma linha por nota:
+Regenerado pelo backup_gsr.py em 04/08/2026. Uma linha por nota:
 leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 
 - `Biblioteca/00 - Leia-me (Biblioteca).md` — 📚 Biblioteca — leitura que vira decisão · Pasta de livros lidos. A regra é uma só: **destaque bruto e síntese própria são coisas separadas e moram em arquivos diferentes.**
@@ -200,6 +200,7 @@ leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 - `Sistema Operacional Comercial/03 Estoque/04 - Painel de Estoque v2.md` — 04 — Painel de Estoque v2 · **Em uso — padrão canônico para novos dashboards.**
 - `Sistema Operacional Comercial/03 Estoque/05 - Movimentação e Giro.md` — 05 — Movimentação e Giro · Entradas e saídas de estoque em período. Revela **ritmo de rotação** do estoque.
 - `Sistema Operacional Comercial/03 Estoque/06 - Fora de Padrão.md` — 06 — Fora de Padrão · **"Fora de Padrão"** é o bucket onde caem SKUs que **não se encaixam** nas 207 combinações canônicas da Família Canônica (ver [[01 - Família
+- `Sistema Operacional Comercial/03 Estoque/07 - Origem do Material (Nacional x Importado).md` — 07 — Origem do Material (Nacional × Importado) · Classifica a origem do **material de partida** (matéria-prima estocada) → **Nacional** ou **Importado**, com fornecedor e lead time. É o que
 - `Sistema Operacional Comercial/04 RAF/00 - Visão Geral RAF.md` — 00 — Visão Geral RAF · **RAF = Relatório de Acompanhamento de Faturamento** do Softcomp.
 - `Sistema Operacional Comercial/04 RAF/01 - Estrutura das 133 Colunas.md` — 01 — Estrutura das 133 Colunas · O export `DetalhesRAF.xlsx` do Softcomp tem **133 colunas**, todas documentadas.
 - `Sistema Operacional Comercial/04 RAF/02 - Convenção Softcomp (Invertida).md` — 02 — Convenção Softcomp (Invertida) · O Softcomp usa **nomenclatura invertida** nos campos de custo do RAF. Interpretar errado leva a análises completamente erradas — como aconte

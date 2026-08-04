@@ -30,6 +30,8 @@ horizonte: 6 meses operacional / 2 semanas decisão Duferco
 
 ### Critérios de zona crítica (do log Pacote 5)
 
+> ⚠️ **A varredura abaixo foi rodada com a régua de origem de abr/2026, corrigida em 03/08/2026.** Fica como registro do que se mediu naquela data. Desde jun/2026, **4140 (≤ 88,90 mm) e 20MnCr5 (≤ 101,60 mm) laminados são Arcelor / nacional**, não importados Daye/HBIS — no RAF 2026 isso são 5.297 linhas / R$ 13,19 MM. Como material nacional tem régua bem mais apertada (crítico acima de 10 meses, não 18), **a lista de SKUs críticos desta varredura subestima o problema nesses dois aços**. Régua vigente: [[07 - Origem do Material (Nacional x Importado)]].
+
 | Origem | Lead time | Cobertura crítica |
 |---|---:|---:|
 | Importado (Daye / HBIS / outros) | 8 meses | > 18 meses |
