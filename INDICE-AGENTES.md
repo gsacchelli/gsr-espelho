@@ -1,6 +1,6 @@
 # Índice do vault GSR (gerado — não editar)
 
-Regenerado pelo backup_gsr.py em 04/08/2026. Uma linha por nota:
+Regenerado pelo backup_gsr.py em 05/08/2026. Uma linha por nota:
 leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 
 - `Biblioteca/00 - Leia-me (Biblioteca).md` — 📚 Biblioteca — leitura que vira decisão · Pasta de livros lidos. A regra é uma só: **destaque bruto e síntese própria são coisas separadas e moram em arquivos diferentes.**
