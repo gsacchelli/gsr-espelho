@@ -169,6 +169,7 @@ leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 - `Logs/2026-08-02 — Onde parei (custo, margem e calibração).md` — 2026-08-02 — Onde parei (custo, margem e calibração) · Ponto de retomada da sessão de 01-02/08. Tudo commitado, testes verdes.
 - `Logs/2026-08-02 — Trefita histórico 2023-26 (duopólio, deflação, queda H1).md` — Trefita/Torres — série histórica 2023-jun/2026 · **Data:** 02/08/2026
 - `Logs/2026-08-04 — Stalo apagado no Hostinger + kit de restore.md` — Stalo apagado no Hostinger + kit de restore · **Data:** 04/08/2026
+- `Logs/2026-08-05 — Flori founder, alarmes em português, grupo econômico e a rodada de verificação.md` — 2026-08-05 — Flori founder, alarmes em português, grupo econômico e a rodada de verificação · Sessão de execução sobre o plano das três frentes (06_Docs/Plano_Tres_Frentes_2026-08-05.md,
 - `Logs/_Arquivadas/2026-04-17 — Posicionamento MetalM - Servitizador.md` — 2026-04-17 — Posicionamento MetalM - Servitizador · ---
 - `Sistema Operacional Comercial/00 - Visão Geral do Sistema.md` — 00 — Visão Geral do Sistema Operacional Comercial · Documenta o **sistema nervoso analítico** da operação comercial — lógica, normas, dados, ferramentas e cruzamentos. Não é estratégia; é a **
 - `Sistema Operacional Comercial/01 Sistema de Dados/00 - Arquitetura de Dados.md` — 00 — Arquitetura de Dados · **O ERP Softcomp é a fonte de verdade.** Tudo o que é analisado deriva de exports dele. Ferramentas analíticas (simulador, painel, motor) sã
