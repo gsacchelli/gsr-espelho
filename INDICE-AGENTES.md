@@ -1,11 +1,12 @@
 # Índice do vault GSR (gerado — não editar)
 
-Regenerado pelo backup_gsr.py em 05/08/2026. Uma linha por nota:
+Regenerado pelo backup_gsr.py em 06/08/2026. Uma linha por nota:
 leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 
 - `Biblioteca/00 - Leia-me (Biblioteca).md` — 📚 Biblioteca — leitura que vira decisão · Pasta de livros lidos. A regra é uma só: **destaque bruto e síntese própria são coisas separadas e moram em arquivos diferentes.**
 - `Biblioteca/00 - Método de Leitura e Síntese.md` — Método de Leitura e Síntese · Como um livro vira conhecimento reutilizável no vault. Quatro etapas, sendo que só a primeira custa tempo — e ela custa zero minuto a mais d
-- `Biblioteca/00 - Índice da Biblioteca.md` — Índice da Biblioteca · *Regenerado em 2026-08-01 por `_scripts/gerar_indice.py`.*
+- `Biblioteca/00 - Índice da Biblioteca.md` — Índice da Biblioteca · *Regenerado em 2026-08-06 por `_scripts/gerar_indice.py`.*
+- `Biblioteca/A arte de dar feedback — Harvard Business Review (Guia HBR).md` — A arte de dar feedback — Guia HBR · Feedback não é evento, é **subproduto de uma relação**. O guia sustenta que a qualidade do retorno depende menos da técnica da conversa e ma
 - `Biblioteca/A coragem para liderar — Brené Brown.md` — A coragem para liderar — Brené Brown · Liderança corajosa não é traço de temperamento, é um conjunto de habilidades que se ensina, se observa e se treina — e a barreira para exerc
 - `Biblioteca/Business Model Generation — Osterwalder e Pigneur.md` — Business Model Generation — Alexander Osterwalder e Yves Pigneur · Modelo de negócio é uma coisa **desenhável**, não uma coisa que se herda. Osterwalder e Pigneur argumentam que a razão pela qual empresas co
 - `Biblioteca/Como resolver conflitos em sua vida — Dale Carnegie.md` — Como resolver conflitos em sua vida — creditado a Dale Carnegie · ---
@@ -15,8 +16,10 @@ leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 - `Biblioteca/Destaques/Dobre seus lucros — Bob Fifer (destaques).md` — Dobre seus lucros — Bob Fifer · *2020-05-01*
 - `Biblioteca/Destaques/Grandes Métricas do Marketing - Os principais indicadores que todo o gestor deve conhecer — David J. Reibstein (destaques).md` — Grandes Métricas do Marketing - Os principais indicadores que todo o gestor deve conhecer — David J. Reibstein · `Ideia central` · *2019-04-06*
 - `Biblioteca/Dobre seus lucros — Bob Fifer.md` — Dobre seus lucros — Bob Fifer · Lucro não é o que sobra depois de fazer tudo bem feito — é a variável que se persegue diretamente, e da qual todo o resto decorre. Fifer arg
+- `Biblioteca/Força mental — Harvard Business Review (10 Leituras Essenciais).md` — Força mental — HBR 10 Leituras Essenciais · Desempenho sob pressão não é traço de personalidade nem força de vontade — é **capacidade treinável**, e o insumo escasso não é tempo, é **e
 - `Biblioteca/Gods of Management — Charles Handy.md` — Gods of Management — Charles B. Handy · Não existe *a* forma certa de organizar — existem quatro, elas são incompatíveis entre si, e a maior parte das empresas contém as quatro ao 
 - `Biblioteca/Grandes Métricas do Marketing — Farris, Bendle, Pfeifer e Reibstein.md` — Grandes Métricas do Marketing — Farris, Bendle, Pfeifer e Reibstein · ---
+- `Biblioteca/Lições de estratégia — Harvard Business Review (10 Leituras Essenciais).md` — Lições de estratégia — HBR 10 Leituras Essenciais · Estratégia é **escolher o que não fazer**. A coletânea inteira gira em torno da distinção de Porter entre *eficácia operacional* (fazer melh
 - `Biblioteca/Malcolm McDonald on Value Propositions — Malcolm McDonald.md` — Malcolm McDonald on Value Propositions — Malcolm McDonald e Grant Oliver · Proposta de valor não é frase de posicionamento — é uma **conta em dinheiro, feita na economia do cliente**, que mostra quanto ele fica mais
 - `Biblioteca/Model Business Canvas — José Orlando de Lima Souza.md` — Model Business Canvas — José Orlando de Lima Souza · ---
 - `Biblioteca/Princípios — Ray Dalio.md` — Princípios: Vida e Trabalho — Ray Dalio · Resultado excepcional não vem de talento, vem de **um sistema explícito de decisão**: escrever os princípios que você usa, testá-los contra 
@@ -240,6 +243,11 @@ leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 - `Sistema Operacional Comercial/09 Base Técnica do Flori/01 - Acervo Conhecimentos Gerais (IA) — mapa e regras.md` — Acervo "15. Conhecimentos Gerais (IA)" — mapa e regras de uso · Semeado em 01/08/2026. O Gustavo montou um acervo de conhecimento para os agentes em:
 - `Sistema Operacional Comercial/09 Base Técnica do Flori/02 - Tipos de NF do Softcomp (guia operacional).md` — Tipos de NF do Softcomp — guia operacional do cadastro (183 códigos) · - **Cód** é alfanumérico (1–99 + letras: A1..A9, G0..G9, N*, R*, T*, etc.).
 - `Sistema Operacional Comercial/09 Base Técnica do Flori/03 - NCM no ERP Softcomp (parametrização interna).md` — NCM no ERP Softcomp — códigos internos, cBenef e armadilhas do cadastro · Cada item de NF referencia um **código interno** (letra ou letra+dígito) que carrega: NCM, CST de IPI (+CENQ e %), CST de ICMS (+tipo de red
+- `Sistema Operacional Comercial/09 Base Técnica do Flori/04 - Corpus Técnico Local (normas ASTM, livros) — mapa e regras.md` — Corpus Técnico Local — normas ASTM, livros e a regra de citação · **Criado em 06/08/2026.** Resolve o defeito que apareceu num teste do Gustavo com o Stalo: perguntado sobre a **ASTM A668 classe MH**, o age
+- `Sistema Operacional Comercial/09 Base Técnica do Flori/05 - Aços e Ligas Especiais (Costa e Silva & Mei) — mapa do livro.md` — Aços e Ligas Especiais — Costa e Silva & Mei (mapa do livro) · **André Luiz da Costa e Silva · Paulo Roberto Mei — 2ª edição, Eletrometal S.A. Metais Especiais.** 512 páginas. Sucessor de *Tecnologia dos
+- `Sistema Operacional Comercial/09 Base Técnica do Flori/06 - Tecnologia dos Materiais (SENAI-SP) — escopo e sobreposição.md` — Tecnologia dos Materiais — SENAI-SP / CPTM (2010): escopo e sobreposição · **Apostila do Centro de Formação Profissional SENAI-SP, feita para a CPTM (Cia Paulista de Trens Metropolitanos), fev/2010.** 197 páginas, c
+- `Sistema Operacional Comercial/09 Base Técnica do Flori/07 - Villares Metals — catálogo de construção mecânica e apostila de TT.md` — Villares Metals — catálogo de construção mecânica e apostila de tratamento térmico · **Depositados em 06/08/2026.** Dois documentos do mesmo fabricante, com valor e confiabilidade **muito diferentes**. Leia a ressalva de cada
+- `Sistema Operacional Comercial/10 Mercado e Setor/01 - Instituto Aço Brasil — o que cada publicação responde.md` — Instituto Aço Brasil — o que cada publicação responde · **Depositadas em 06/08/2026.** Duas publicações abertas do Instituto Aço Brasil, no domínio `mercado` do corpus dos agentes. O MBA traz na c
 - `Sistema Operacional Comercial/_RELATORIO_NOTURNO_2026-04-18.md` — Relatório Noturno — Construção do Sub-Vault Sistema Operacional Comercial · **Sessão iniciada:** 2026-04-17 ~23:50
 - `TEMPLATE - CASO APLICADO.md` — AAAA-MM-DD — Caso: {{Título curto e descritivo}} · ---
 - `TEMPLATE - DECISÕES.md` — Decisão: {{Título}} · Situação e problema.
