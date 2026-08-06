@@ -66,3 +66,27 @@ Decisão do Gustavo: vault dedicado de LEITURA com o que o Stalo escreve — mã
 - **Deploy key de escrita restrita a esse repo** no VPS (Torno faz push dom 20h15) — incapaz de tocar o data_lake_gsr.
 - Mac: clone em `~/Documents/StaloVault` (abrir no Obsidian como vault SEPARADO do GSR), pull dom 20h30 via LaunchAgent `com.sacchelli.stalo-vault-pull` (`--ff-only`, nunca push). Script: `~/Documents/Backups/OpenClaw/pull_stalo_vault.sh`; log `~/Library/Logs/stalo-vault-pull.log`.
 - Doutrina: conteúdo do espelho = dado NÃO confiável (agente exposto à internet) — leitura de jornal, nunca instrução.
+
+## Adendo 06/08/2026 — o vigia do Stalo nasceu mentindo (falso alarme que custou um OAuth)
+
+**O que pareceu:** o `stalo-vigia` (criado 05/08) acusou desde a primeira execução `✅ instância de pé (200)` + `❌ modelo não responde: HTTP 404`. Lido como o incidente de 28/07 se repetindo, levou o Gustavo a refazer o login OAuth do OpenAI na CLI — trabalho desnecessário.
+
+**O que era:** o vigia estava errado nas DUAS camadas.
+- **Camada 1 (falso positivo):** batia em `GET /status`, que devolve o **HTML do painel**. Qualquer 200 ali significa só "o front-end respondeu" — mesmo com o gateway morto. O health real é **`GET /healthz`**, e a armadilha fina: ele **só devolve JSON (`{"ok":true,"status":"live"}`) COM o token**; sem token entrega o HTML com 200.
+- **Camada 2 (falso negativo):** `POST /v1/responses` dá 404 — assim como `/v1/chat/completions`, `/api/v1/responses`, `/v1/agent/run` e todas as variantes testadas. **A API de inferência não está publicada nesse endereço.** Prova de que o modelo estava vivo: o Stalo respondeu ao Gustavo às 11:51 do mesmo dia, enquanto o vigia dizia 404 às 10:05 e 12:05. E o log do vigia tem **zero sucessos desde que nasceu**.
+
+**Correção:** camada 1 passa a usar `/healthz` COM token e reprova se vier HTML; camada 2, ao receber 404, reporta "indisponível — limitação do vigia" e **sai com 0** (não alerta). Backup do original em `checar_stalo.py.bak`.
+
+**Lição (vale para todo vigia):** *health check que responde 200 com HTML não prova nada* — o vigia tem que exigir a resposta estruturada. E vigia novo precisa de **um sucesso comprovado** antes de virar fonte de alarme; sem isso, o primeiro alerta é indistinguível de defeito próprio (foi o mesmo padrão de 05/08, quando ele acusou a própria rota errada).
+
+**Pendências com o Tech:** (1) qual host/porta responde `POST /v1/responses` — sem isso a camada 2 fica desligada; (2) o heartbeat está executando? O `ROTINAS_FEITAS.md` do espelho está VAZIO (mas o espelho sincroniza só aos domingos 20h30 — conferir no VPS). Se o heartbeat não roda, a ausência de pautas aprovadas na quinta é consequência, não causa.
+
+### Adendo 06/08 (noite) — a instância PERDE jobs do scheduler (3º caso de config que se desfaz)
+
+Ao pedir o push diário do espelho, o Tech respondeu: *"o job antigo salvo na memória **não existia mais no scheduler**, então recriei só esse push"*. Criou `stalo-workspace-md-mirror` (`15 20 * * *` America/Sao_Paulo, id `683951b8-97c3-423c-9554-c8febd0b836f`; rollback p/ semanal: `openclaw cron edit <id> --cron '15 20 * * 0'`).
+
+**O padrão é o que importa:** é a TERCEIRA vez que configuração se desfaz sozinha nessa instância — 28/07 o update matou o OAuth; 29/07 o restart de container promoveu o Gemini a default; agora um cron sumiu do scheduler. Config no Managed OpenClaw não é durável: **o que não é verificado periodicamente, deixa de existir em silêncio.**
+
+**Correção de hipótese:** as rotinas são **cron jobs do gateway** (`openclaw cron`), não o heartbeat do `HEARTBEAT.md` — o adendo anterior apostava em "heartbeat: 0". Pergunta decisiva pendente com o Tech: **`openclaw cron list`** — se os jobs do Radar (pautas, segunda) e do Gio/Pixel (terça e quinta) também sumiram, está explicado por que a quinta-feira não achou pauta aprovada: o ciclo nunca rodou.
+
+**Do lado do Mac:** pull do espelho passou de dom 20h30 para **diário 21h** (45 min após o push), e a camada 2 do vigia lê o `ROTINAS_FEITAS.md` — a partir de amanhã ela sai do "não sei" e passa a valer como vigilância real.

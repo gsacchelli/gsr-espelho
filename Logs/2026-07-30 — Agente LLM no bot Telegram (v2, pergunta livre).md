@@ -75,3 +75,17 @@ Telegram (só chat_id do Gustavo)
 - [ ] Observar consumo do limite Sonnet na prática (se apertar: plano B = Ollama local pro roteamento).
 - [ ] Curadoria periódica do `agente_livre.jsonl` → destilar fatos pra memória do vault.
 - [ ] Herdada: rotacionar senha SQL Softcomp + migrar segredos restantes do `.env` pro Keychain.
+
+## Adendo 06/08/2026 — /aprender à prova de TCC + 1ª curadoria do histórico
+
+**Bug achado pelo Gustavo:** `/aprender` respondia *"Não consegui gravar no vault (PermissionError) — iCloud fora?"* e **o fato ensinado se perdia**. Causa: o bot roda por LaunchAgent e o **TCC do macOS nega escrita em `~/Library/Mobile Documents` ao Python do venv** (leitura passava — por isso ele LIA a memória mas não gravava). Mesma família da memória `tcc-launchd-icloud`.
+
+**Correção (ordem invertida de propósito):** grava primeiro no **espelho local** `~/.afs_agente/memoria_flori.md` (sempre funciona, fora do iCloud), vault vira espelho best-effort, e `_memoria()` **une os dois sem duplicar** — o ensinamento vale no próximo prompt com ou sem iCloud. `sincronizar_memoria()` sobe o pendente de onde houver permissão (sessão do Claude Code/terminal; o serviço não tem). Princípio: *perder o que o Gustavo ensina é pior que perder a sincronia com o Obsidian.* +3 testes no `make ci`.
+
+**1ª curadoria do `agente_livre.jsonl`** (124 interações, 30/07→06/08). Achado que justifica a memória existir: **"vendas = pedido emitido, não faturamento" foi ensinado TRÊS VEZES** (31/07, 04/08, 06/08) — a janela rolante de 6 Q&A esquecia e ele repetia. Regras destiladas e gravadas:
+1. Vendas = pedidos emitidos, NÃO faturamento (RAF/NF).
+2. **Pedido nasce sempre de cotação encerrada como Ganha**; divergência cotação×pedido no dia = pedido represado em análise crítica/crédito, não erro de dado.
+3. **"Conversão do dia" = pedidos emitidos × cotações encerradas** (não o win rate das encerradas do dia); apresentar as duas e explicar o descasamento temporal.
+4. Comportamento: se o Gustavo diz que o número está errado, conferir a MÉTRICA antes de suspeitar de conexão/base (em 04/08 fui checar o SQL e o problema era eu ter dado win rate quando ele queria pedidos).
+
+Memória do Flori agora: **8 fatos**. Curadoria vira rotina — o log é a matéria-prima.
