@@ -54,3 +54,17 @@ Sinal real, não ruído: **TUP R$ 2,16 MM parada há 31d**, **PROK R$ 1,55 MM h�
 ## v2 possível (não escopado)
 
 Bloqueio de pricing novo em cotação grande; queda de MC de referência (agora que `CustoMP` chegou); resumo semanal "o que o Vigia pegou"; alerta de RAF defasado; trajetória de intenção (acima).
+
+
+## Adendo 07/08/2026 — recalibração pelo Gustavo (6 regras) e uma regra desligada
+
+Limiares novos, todos MEDIDOS no gold antes de abrir: cancelado qualquer
+valor · parada ≥50k · sumido top-20/21d/2× (já era) · **EMITIDA >100k**
+(resumida: 5 detalhadas + rodapé com chave POR DIA) · **oportunidade**
+(item >15k, cliente A/B, `status_sugerido=PRIORIZAR`). Nasceu o
+`--rebaseline` (mexeu no yaml → rodar, senão o passivo que o limiar antigo
+escondia vira enxurrada). 🪤 `materiais_monitorados` DESLIGADA: o "nós zero"
+do 17CrNiMo6 era o bug de família já corrigido — vendemos R$ 4,9 MM em 2026.
+**Alvo de vigia derivado de análise precisa ser re-verificado quando a
+análise é corrigida.** Detalhes: CLAUDE.md + `config/vigia.yaml` (cada limiar
+com o porquê e o volume medido ao lado).
