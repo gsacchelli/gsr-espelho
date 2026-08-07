@@ -16,7 +16,29 @@ Template da Hostinger veio bem configurado de fábrica: Telegram DM policy `allo
 
 **O que houve:** update automático do Managed (2026.5.6 → 2026.7.1) renomeou o provedor `openai-codex` → `openai` e descartou a sessão OAuth do ChatGPT. Sintoma: 401 no Telegram enquanto o hPanel exibia "Conectado" (estado stale). Exatamente o risco registrado no log de 25/07 — upgrade desfazendo config em silêncio — agora em infra onde não controlamos o update.
 
-**Receita de correção (vai repetir):** CLI da instância → `openclaw models auth login --provider openai-codex` → abrir URL, autorizar com a conta OpenAI, colar a callback URL no prompt → `openclaw models set openai/gpt-5.5` → `openclaw gateway restart`. Verificar com `openclaw models status` (Runtime auth: usable).
+**Receita de correção (vai repetir):** CLI da instância → `openclaw models auth login --provider openai-codex` → abrir URL, autorizar com a conta OpenAI, colar a callback URL no prompt → **`openclaw models set <MODELO ATUAL>`** → `openclaw gateway restart`. Verificar com `openclaw models status` (Runtime auth: usable).
+
+> 🪤 **CORRIGIDO 07/08/2026 — esta receita tinha `openai/gpt-5.5` escrito no
+> texto, e por isso REBAIXAVA o modelo toda vez que era seguida.**
+> Em 06/08 18h55 a receita foi executada (por causa de um falso alarme do vigia)
+> e o `models set openai/gpt-5.5` derrubou o default de `gpt-5.6-terra` — 16
+> segundos depois do login, os dois no audit log. Ficou 17h no modelo errado até
+> o `healthcheck-modelo` acusar às 9h de 07/08.
+> **Antes de rodar a receita, confira o default atual** (`openclaw models status`,
+> linha `Default`) e reponha ESSE valor, não o do exemplo.
+> **Lição geral: procedimento de recuperação com constante escrita no texto
+> apodrece em silêncio** — ele é executado justamente quando ninguém está
+> conferindo o resto, e devolve o sistema a um estado antigo com cara de conserto.
+
+> 🪤 **`openclaw gateway restart` é NO-OP nesta instância (apurado 07/08/2026).**
+> O comando responde, mas **não controla o processo — o serviço systemd está
+> desabilitado** no Managed. Duas consequências: (1) a 4ª etapa desta receita é
+> teatro; (2) medido no mesmo dia, **o gateway lê `openclaw.json` sem reiniciar**
+> — a reposição do modelo passou a valer sozinha. Então, se um turno reportar
+> modelo diferente do `Default`, a causa provável é **sessão reaproveitada**, não
+> config presa: rode o turno de novo antes de mexer em qualquer coisa. ⚠ Se um
+> dia um restart de verdade for necessário, não existe comando que o faça — é
+> pedido à Hostinger.
 
 ## Time de agentes (metodologia Futuristas, modo personalizado)
 
