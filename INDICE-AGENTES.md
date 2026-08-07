@@ -1,6 +1,6 @@
 # Índice do vault GSR (gerado — não editar)
 
-Regenerado pelo backup_gsr.py em 06/08/2026. Uma linha por nota:
+Regenerado pelo backup_gsr.py em 07/08/2026. Uma linha por nota:
 leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 
 - `Biblioteca/00 - Leia-me (Biblioteca).md` — 📚 Biblioteca — leitura que vira decisão · Pasta de livros lidos. A regra é uma só: **destaque bruto e síntese própria são coisas separadas e moram em arquivos diferentes.**
@@ -173,6 +173,7 @@ leia este arquivo ANTES de grep cego — ache a nota certa e vá direto nela.
 - `Logs/2026-08-02 — Trefita histórico 2023-26 (duopólio, deflação, queda H1).md` — Trefita/Torres — série histórica 2023-jun/2026 · **Data:** 02/08/2026
 - `Logs/2026-08-04 — Stalo apagado no Hostinger + kit de restore.md` — Stalo apagado no Hostinger + kit de restore · **Data:** 04/08/2026
 - `Logs/2026-08-05 — Flori founder, alarmes em português, grupo econômico e a rodada de verificação.md` — 2026-08-05 — Flori founder, alarmes em português, grupo econômico e a rodada de verificação · Sessão de execução sobre o plano das três frentes (06_Docs/Plano_Tres_Frentes_2026-08-05.md,
+- `Logs/2026-08-07 — Auditoria do time Stalo (painel de 5 especialistas).md` — Auditoria do time Stalo — painel de 5 especialistas · **Pedido do Gustavo:** *"quero que o time funcione, atualmente está uma bagunça.
 - `Logs/_Arquivadas/2026-04-17 — Posicionamento MetalM - Servitizador.md` — 2026-04-17 — Posicionamento MetalM - Servitizador · ---
 - `Sistema Operacional Comercial/00 - Visão Geral do Sistema.md` — 00 — Visão Geral do Sistema Operacional Comercial · Documenta o **sistema nervoso analítico** da operação comercial — lógica, normas, dados, ferramentas e cruzamentos. Não é estratégia; é a **
 - `Sistema Operacional Comercial/01 Sistema de Dados/00 - Arquitetura de Dados.md` — 00 — Arquitetura de Dados · **O ERP Softcomp é a fonte de verdade.** Tudo o que é analisado deriva de exports dele. Ferramentas analíticas (simulador, painel, motor) sã
