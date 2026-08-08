@@ -6,6 +6,7 @@ Estados marcados por fato documentado; o restante nasce `vigente` — corrigir a
 
 | Data | Decisão | Domínio | Estado |
 |---|---|---|---|
+| 2026-08-08 | [[Logs/2026-08-08 — Triagem do Inbox sai do Zapier e a matriz de prazos vira código\|Triagem do Inbox sai do Zapier e a matriz de prazos vira código]] | Agentes/IA | vigente |
 | 2026-08-01 | [[Logs/2026-08-01 — Custo na cotação e no pedido (entrega Nelson)\|Custo na cotação e no pedido (entrega Nelson)]] | Finanças/RAF | vigente |
 | 2026-07-31 | [[Logs/2026-07-31 — Vault ConhecimentosGerais (base pública Flori + Stalo)\|Vault ConhecimentosGerais (base pública Flori + Stalo)]] | Agentes/IA | vigente |
 | 2026-07-30 | [[Logs/2026-07-30 — Agente LLM no bot Telegram (v2, pergunta livre)\|Agente LLM no bot Telegram (v2, pergunta livre)]] | Agentes/IA | vigente |
